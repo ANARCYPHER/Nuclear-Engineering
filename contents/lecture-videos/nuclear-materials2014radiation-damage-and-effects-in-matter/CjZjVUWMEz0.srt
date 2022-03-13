@@ -1,0 +1,5662 @@
+1
+00:00:00,950 --> 00:00:03,320
+The following content is
+provided under a Creative
+
+2
+00:00:03,320 --> 00:00:04,710
+Commons license.
+
+3
+00:00:04,710 --> 00:00:06,920
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,920 --> 00:00:11,010
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:11,010 --> 00:00:13,580
+To make a donation, or to
+view additional materials
+
+6
+00:00:13,580 --> 00:00:17,540
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,540 --> 00:00:18,426
+at ocw.mit.edu.
+
+8
+00:00:23,024 --> 00:00:27,420
+PROFESSOR: So I got much
+more than one request
+
+9
+00:00:27,420 --> 00:00:29,460
+to do some stuff on
+nuclear materials,
+
+10
+00:00:29,460 --> 00:00:31,840
+and I think it's just
+about the right time.
+
+11
+00:00:31,840 --> 00:00:34,105
+That you guys know
+enough about radiation
+
+12
+00:00:34,105 --> 00:00:35,730
+interacting with
+matter and everything,
+
+13
+00:00:35,730 --> 00:00:37,435
+and stopping power,
+and processing,
+
+14
+00:00:37,435 --> 00:00:40,300
+to actually make sense of
+nuclear materials and radiation
+
+15
+00:00:40,300 --> 00:00:40,800
+damage.
+
+16
+00:00:40,800 --> 00:00:43,432
+And this is my whole
+theme, so happy
+
+17
+00:00:43,432 --> 00:00:44,890
+to come talk to
+you guys about this
+
+18
+00:00:44,890 --> 00:00:46,640
+and show you why I
+think it's interesting.
+
+19
+00:00:46,640 --> 00:00:48,530
+Because it all goes--
+
+20
+00:00:48,530 --> 00:00:51,160
+this slide kind of gets onto it.
+
+21
+00:00:51,160 --> 00:00:54,180
+It starts off with the
+single-atom atomic defects
+
+22
+00:00:54,180 --> 00:00:57,000
+that make up the basic
+building blocks of damage
+
+23
+00:00:57,000 --> 00:01:00,090
+and ends up with things that
+break in nuclear reactors
+
+24
+00:01:00,090 --> 00:01:01,188
+under radiation.
+
+25
+00:01:01,188 --> 00:01:02,730
+And so to understand
+the whole thing,
+
+26
+00:01:02,730 --> 00:01:05,459
+you've got to know everything
+from the single atoms
+
+27
+00:01:05,459 --> 00:01:07,405
+on the sort of
+femtosecond scale,
+
+28
+00:01:07,405 --> 00:01:09,030
+all the way up to
+the engineering scale
+
+29
+00:01:09,030 --> 00:01:12,930
+where things evolve over
+years or even decades.
+
+30
+00:01:12,930 --> 00:01:13,840
+So we'll be talking--
+
+31
+00:01:13,840 --> 00:01:15,030
+first, probably
+today, we're going
+
+32
+00:01:15,030 --> 00:01:16,690
+to go over a material
+science primer.
+
+33
+00:01:16,690 --> 00:01:20,500
+So who here has had any
+courses in material science?
+
+34
+00:01:20,500 --> 00:01:21,000
+No one.
+
+35
+00:01:21,000 --> 00:01:23,950
+That's good because I'm
+assuming that there is a--
+
+36
+00:01:23,950 --> 00:01:25,355
+see, no one knows anything here.
+
+37
+00:01:25,355 --> 00:01:27,730
+I know there's a couple material
+scientists in the class,
+
+38
+00:01:27,730 --> 00:01:30,430
+and I'll apologize ahead of
+time if it's a bit of a review.
+
+39
+00:01:30,430 --> 00:01:33,250
+But we'll be going mostly
+through what are materials
+
+40
+00:01:33,250 --> 00:01:35,560
+and what are the defects
+that change their material
+
+41
+00:01:35,560 --> 00:01:37,850
+properties, and
+how do they behave.
+
+42
+00:01:37,850 --> 00:01:39,710
+That'll take us
+through about today.
+
+43
+00:01:39,710 --> 00:01:43,150
+So then tomorrow, we can see how
+radiation causes those defects
+
+44
+00:01:43,150 --> 00:01:47,418
+and actually changes
+material properties.
+
+45
+00:01:47,418 --> 00:01:49,460
+So there's a whole laundry
+list of different ways
+
+46
+00:01:49,460 --> 00:01:51,620
+that materials
+fail, and most folks
+
+47
+00:01:51,620 --> 00:01:54,510
+are concerned with
+all of these--
+
+48
+00:01:54,510 --> 00:01:57,380
+everything from simple
+overload, which means you
+
+49
+00:01:57,380 --> 00:01:59,900
+stress something too
+much and it just breaks,
+
+50
+00:01:59,900 --> 00:02:02,000
+to all the different
+forms of corrosion.
+
+51
+00:02:02,000 --> 00:02:03,788
+That's a whole field in itself.
+
+52
+00:02:03,788 --> 00:02:05,330
+And then there's
+the things that just
+
+53
+00:02:05,330 --> 00:02:08,150
+we have to worry about
+because they're only activated
+
+54
+00:02:08,150 --> 00:02:10,100
+with radiation damage.
+
+55
+00:02:10,100 --> 00:02:13,170
+And in this case, this isn't
+quite ionization by radiation,
+
+56
+00:02:13,170 --> 00:02:15,920
+but it's actual radiation
+slamming into nuclei
+
+57
+00:02:15,920 --> 00:02:18,810
+and moving atoms
+out of their place.
+
+58
+00:02:18,810 --> 00:02:20,850
+And we've got one figure
+that we had recently
+
+59
+00:02:20,850 --> 00:02:23,850
+in a paper that sums up the
+entire multi-scale picture
+
+60
+00:02:23,850 --> 00:02:27,810
+of radiation damage, from the
+femtosecond to, let's say,
+
+61
+00:02:27,810 --> 00:02:28,918
+the megasecond scale.
+
+62
+00:02:28,918 --> 00:02:30,210
+Or I think it's more than that.
+
+63
+00:02:30,210 --> 00:02:32,670
+Maybe gigasecond would be
+the right word for that.
+
+64
+00:02:32,670 --> 00:02:35,970
+And all the way down from the
+angstrom to the meter scale.
+
+65
+00:02:35,970 --> 00:02:39,750
+And I want to walk you
+through sort of a lens scale
+
+66
+00:02:39,750 --> 00:02:42,840
+by lens scale depiction
+of radiation damage.
+
+67
+00:02:42,840 --> 00:02:45,875
+It all starts with knocking
+atoms out of place.
+
+68
+00:02:45,875 --> 00:02:47,250
+We've mentioned
+this a little bit
+
+69
+00:02:47,250 --> 00:02:49,620
+when we talked about
+nuclear stopping power,
+
+70
+00:02:49,620 --> 00:02:51,600
+and this is where it
+actually comes into play.
+
+71
+00:02:51,600 --> 00:02:55,170
+Sometimes an incoming
+neutron or photon or ion
+
+72
+00:02:55,170 --> 00:02:58,740
+can displace an atom
+from its original site,
+
+73
+00:02:58,740 --> 00:03:01,830
+and we call that a physical--
+it's a displacement.
+
+74
+00:03:01,830 --> 00:03:03,960
+And then that atom comes
+off with quite a bit
+
+75
+00:03:03,960 --> 00:03:07,590
+of kinetic energy and can
+knock into a whole bunch
+
+76
+00:03:07,590 --> 00:03:09,090
+of other atoms.
+
+77
+00:03:09,090 --> 00:03:12,240
+Now this loss of the solid
+crystalline structure,
+
+78
+00:03:12,240 --> 00:03:15,510
+you can't really tell what the
+original structure looked like,
+
+79
+00:03:15,510 --> 00:03:16,710
+right?
+
+80
+00:03:16,710 --> 00:03:19,590
+It actually comprises a
+very small, localized zone
+
+81
+00:03:19,590 --> 00:03:22,050
+of melting called
+a thermal spike.
+
+82
+00:03:22,050 --> 00:03:23,760
+If you think about,
+all these atoms
+
+83
+00:03:23,760 --> 00:03:26,370
+are vibrating at
+fractions of an eV--
+
+84
+00:03:26,370 --> 00:03:28,320
+at thermal energies,
+like the thermal neutrons
+
+85
+00:03:28,320 --> 00:03:29,970
+we talked about in the reactor.
+
+86
+00:03:29,970 --> 00:03:32,280
+Then you hit them
+with an MeV neutron.
+
+87
+00:03:32,280 --> 00:03:35,160
+They might transfer
+100 keV of energy.
+
+88
+00:03:35,160 --> 00:03:36,660
+And a bunch of these
+atoms will then
+
+89
+00:03:36,660 --> 00:03:40,440
+be moving about at, let's
+say, a few hundred eV.
+
+90
+00:03:40,440 --> 00:03:43,350
+That's way beyond
+liquid temperature.
+
+91
+00:03:43,350 --> 00:03:45,660
+So actually, it's been
+theorized that there's
+
+92
+00:03:45,660 --> 00:03:49,020
+a little pocket of atoms around
+three to five nanometers wide
+
+93
+00:03:49,020 --> 00:03:52,200
+that reaches, like, 10,000
+Kelvin for a very, very
+
+94
+00:03:52,200 --> 00:03:54,270
+short amount of time--
+
+95
+00:03:54,270 --> 00:03:55,830
+less than a picosecond.
+
+96
+00:03:55,830 --> 00:03:57,690
+Because almost
+instantly, those atoms
+
+97
+00:03:57,690 --> 00:04:00,090
+knock into the ones
+around them, and this
+
+98
+00:04:00,090 --> 00:04:02,940
+is how the process of
+heat transfer occurs.
+
+99
+00:04:02,940 --> 00:04:04,440
+And so, very quickly,
+you get what's
+
+100
+00:04:04,440 --> 00:04:07,050
+called the quench, where
+most of those atoms
+
+101
+00:04:07,050 --> 00:04:08,730
+very quickly knock
+into other ones,
+
+102
+00:04:08,730 --> 00:04:12,180
+slowing down, finding their
+equilibrium positions again,
+
+103
+00:04:12,180 --> 00:04:14,250
+but not every one.
+
+104
+00:04:14,250 --> 00:04:17,310
+You can see there's a few
+places where the atoms are still
+
+105
+00:04:17,310 --> 00:04:19,079
+out of their original location.
+
+106
+00:04:19,079 --> 00:04:21,450
+And it's those residual
+defects that actually
+
+107
+00:04:21,450 --> 00:04:24,090
+comprise radiation damage.
+
+108
+00:04:24,090 --> 00:04:27,860
+And as those defects build
+up, they start to move.
+
+109
+00:04:27,860 --> 00:04:29,240
+They can diffuse.
+
+110
+00:04:29,240 --> 00:04:31,040
+They can be transported
+ballistically
+
+111
+00:04:31,040 --> 00:04:32,977
+by more radiation damage.
+
+112
+00:04:32,977 --> 00:04:35,060
+They can move by all sorts
+of different mechanisms
+
+113
+00:04:35,060 --> 00:04:39,008
+and eventually find each other,
+forming what's called clusters.
+
+114
+00:04:39,008 --> 00:04:41,300
+So a bunch of those missing
+atoms could find each other
+
+115
+00:04:41,300 --> 00:04:43,490
+and make a hole,
+which we call a void.
+
+116
+00:04:43,490 --> 00:04:45,320
+A bunch of the extra
+atoms shoved in
+
+117
+00:04:45,320 --> 00:04:47,870
+between the other
+ones can form things
+
+118
+00:04:47,870 --> 00:04:49,970
+called interstitial clusters.
+
+119
+00:04:49,970 --> 00:04:52,160
+We say interstitial because
+it's like in the space
+
+120
+00:04:52,160 --> 00:04:56,090
+in between where you'd
+normally find some atoms.
+
+121
+00:04:56,090 --> 00:04:59,270
+So let's say you had a whole
+bunch of those missing atoms
+
+122
+00:04:59,270 --> 00:05:01,520
+come together, forming a void.
+
+123
+00:05:01,520 --> 00:05:04,060
+This is an actual Transmission
+Electron Microscope,
+
+124
+00:05:04,060 --> 00:05:06,380
+or TEM, image of a void--
+
+125
+00:05:06,380 --> 00:05:09,380
+pockets of vacuum in materials.
+
+126
+00:05:09,380 --> 00:05:12,263
+Notice anything interesting
+about its shape?
+
+127
+00:05:12,263 --> 00:05:14,110
+AUDIENCE: It's, like, rounded.
+
+128
+00:05:14,110 --> 00:05:17,350
+PROFESSOR: It's rounded, but
+what's most striking to me
+
+129
+00:05:17,350 --> 00:05:19,850
+is it isn't actually round.
+
+130
+00:05:19,850 --> 00:05:23,160
+So you would expect a void or a
+bubble to be kind of spherical,
+
+131
+00:05:23,160 --> 00:05:23,660
+right?
+
+132
+00:05:23,660 --> 00:05:27,740
+That's the minimum energy
+configuration of most things.
+
+133
+00:05:27,740 --> 00:05:30,600
+Not so when you have a
+little pocket of vacuum.
+
+134
+00:05:30,600 --> 00:05:33,370
+It's where crystallinity
+comes into play.
+
+135
+00:05:33,370 --> 00:05:36,350
+And these voids can end up
+forming superstructures.
+
+136
+00:05:36,350 --> 00:05:38,570
+What curious thing
+do you notice here?
+
+137
+00:05:41,380 --> 00:05:42,775
+For this whole
+ensemble of voids.
+
+138
+00:05:45,760 --> 00:05:46,260
+Yeah?
+
+139
+00:05:46,260 --> 00:05:48,220
+AUDIENCE: It seems like
+they're all in line.
+
+140
+00:05:48,220 --> 00:05:50,827
+PROFESSOR: They are all
+in the same direction.
+
+141
+00:05:50,827 --> 00:05:51,410
+Kind of funny.
+
+142
+00:05:51,410 --> 00:05:53,182
+That's definitely not
+an accident, right?
+
+143
+00:05:53,182 --> 00:05:54,890
+That's not like they're
+randomly aligned.
+
+144
+00:05:54,890 --> 00:05:56,432
+There's a reason
+for this, that we'll
+
+145
+00:05:56,432 --> 00:05:57,630
+go into in a couple slides.
+
+146
+00:05:57,630 --> 00:05:58,130
+Yeah?
+
+147
+00:05:58,130 --> 00:05:59,980
+AUDIENCE: What's
+the size scale here?
+
+148
+00:05:59,980 --> 00:06:01,780
+PROFESSOR: The size scale?
+
+149
+00:06:01,780 --> 00:06:05,218
+I think these are on the
+order of 20 nanometers or so.
+
+150
+00:06:05,218 --> 00:06:07,510
+Yeah, I cropped these images
+just to get points across.
+
+151
+00:06:07,510 --> 00:06:09,610
+Let's see if it says
+in the older one.
+
+152
+00:06:09,610 --> 00:06:10,450
+Not quite.
+
+153
+00:06:10,450 --> 00:06:14,110
+Yeah, but these voids can get
+upwards of tens of nanometers.
+
+154
+00:06:14,110 --> 00:06:15,300
+As small as single atoms.
+
+155
+00:06:15,300 --> 00:06:15,800
+Yeah?
+
+156
+00:06:15,800 --> 00:06:18,250
+AUDIENCE: Sorry, what is this?
+
+157
+00:06:18,250 --> 00:06:20,080
+PROFESSOR: This is
+the accumulation
+
+158
+00:06:20,080 --> 00:06:23,960
+of radiation defects
+into what's called voids.
+
+159
+00:06:23,960 --> 00:06:24,460
+Yeah.
+
+160
+00:06:24,460 --> 00:06:28,390
+Don't worry, we'll go over
+it in more detail again.
+
+161
+00:06:28,390 --> 00:06:31,140
+And if you get little pockets
+of vacuum in your material,
+
+162
+00:06:31,140 --> 00:06:32,890
+you're not creating
+or destroying mass.
+
+163
+00:06:32,890 --> 00:06:34,330
+You're just moving it.
+
+164
+00:06:34,330 --> 00:06:37,990
+So those voids, where that mass
+was has to go somewhere else,
+
+165
+00:06:37,990 --> 00:06:39,730
+and you actually get
+things that swell
+
+166
+00:06:39,730 --> 00:06:41,480
+in the reactor on their own.
+
+167
+00:06:41,480 --> 00:06:43,780
+They don't change mass
+but they change volume.
+
+168
+00:06:43,780 --> 00:06:46,810
+They just kind of puff up
+like Swiss cheese, sometimes
+
+169
+00:06:46,810 --> 00:06:50,470
+upwards of 20% or 30% changes
+in diameter and length
+
+170
+00:06:50,470 --> 00:06:51,640
+for some tubing.
+
+171
+00:06:51,640 --> 00:06:53,950
+Now if you're depending
+on these fuel rods
+
+172
+00:06:53,950 --> 00:06:56,740
+being a certain space
+apart in a reactor
+
+173
+00:06:56,740 --> 00:06:59,920
+and they start to swell,
+squeezing out the coolant,
+
+174
+00:06:59,920 --> 00:07:01,995
+you lose the ability
+to cool the reactor.
+
+175
+00:07:01,995 --> 00:07:04,120
+Because then how can you
+get water around something
+
+176
+00:07:04,120 --> 00:07:06,248
+where the tubes have
+then swelled together?
+
+177
+00:07:06,248 --> 00:07:08,290
+There's lots of other bad
+things that can happen,
+
+178
+00:07:08,290 --> 00:07:10,290
+which we'll get into.
+
+179
+00:07:10,290 --> 00:07:12,390
+And so then that's the
+origin of void swelling.
+
+180
+00:07:12,390 --> 00:07:15,045
+From single missing
+atoms called vacancies,
+
+181
+00:07:15,045 --> 00:07:17,880
+they can cluster
+into voids which
+
+182
+00:07:17,880 --> 00:07:21,120
+then cause physical dimensional
+changes of materials
+
+183
+00:07:21,120 --> 00:07:23,650
+on the scale of
+centimeters to meters.
+
+184
+00:07:23,650 --> 00:07:26,610
+And that's why we say it's
+this full multi-scale picture
+
+185
+00:07:26,610 --> 00:07:28,550
+of radiation damage.
+
+186
+00:07:28,550 --> 00:07:30,230
+But to understand,
+what is damage,
+
+187
+00:07:30,230 --> 00:07:32,420
+you have to know what is
+an undamaged structure
+
+188
+00:07:32,420 --> 00:07:33,508
+to begin with.
+
+189
+00:07:33,508 --> 00:07:36,050
+So it doesn't make sense to say,
+how does a structure change,
+
+190
+00:07:36,050 --> 00:07:38,580
+if you don't know
+how it behaves.
+
+191
+00:07:38,580 --> 00:07:42,350
+So I want to give a very quick
+primer to material science.
+
+192
+00:07:42,350 --> 00:07:44,660
+And apologies to any material
+scientists in the room
+
+193
+00:07:44,660 --> 00:07:46,910
+because this is going
+to seem really basic,
+
+194
+00:07:46,910 --> 00:07:50,060
+but this is a very quick
+intro to this whole field.
+
+195
+00:07:50,060 --> 00:07:53,220
+I want to go over quickly,
+what is a crystalline solid?
+
+196
+00:07:53,220 --> 00:07:55,520
+A perfectly undamaged
+material would
+
+197
+00:07:55,520 --> 00:07:59,510
+be a set of atoms lined up
+in a very regular lattice
+
+198
+00:07:59,510 --> 00:08:02,750
+and of regular array, where you
+move over a certain distance
+
+199
+00:08:02,750 --> 00:08:04,280
+and you find another atom.
+
+200
+00:08:04,280 --> 00:08:06,770
+And this extends forever
+and ever and ever,
+
+201
+00:08:06,770 --> 00:08:09,417
+all the way out to when
+you reach the free surface.
+
+202
+00:08:09,417 --> 00:08:11,750
+And so this is what we would
+call an undamaged material.
+
+203
+00:08:11,750 --> 00:08:15,320
+A pristine, perfect,
+single crystal.
+
+204
+00:08:15,320 --> 00:08:17,510
+By crystal, I mean
+an arrangement
+
+205
+00:08:17,510 --> 00:08:19,830
+of atoms in a certain direction.
+
+206
+00:08:19,830 --> 00:08:23,090
+So notice here, all of the atoms
+are lined up in, let's say,
+
+207
+00:08:23,090 --> 00:08:25,730
+some cubic xyz way.
+
+208
+00:08:25,730 --> 00:08:28,970
+That's what we would call
+one crystal or one grain.
+
+209
+00:08:28,970 --> 00:08:31,550
+You'll hear both of those.
+
+210
+00:08:31,550 --> 00:08:34,640
+And you'll notice also that
+the arrangement of the atoms
+
+211
+00:08:34,640 --> 00:08:38,600
+tends to determine what the
+physical objects look like.
+
+212
+00:08:38,600 --> 00:08:42,169
+Or we like to say
+that form follows
+
+213
+00:08:42,169 --> 00:08:44,780
+structure in material science.
+
+214
+00:08:44,780 --> 00:08:47,540
+So for materials
+like pyrite, which
+
+215
+00:08:47,540 --> 00:08:50,510
+follows a simple cubic
+structure, that's the crystals
+
+216
+00:08:50,510 --> 00:08:51,980
+you pull out of the ground.
+
+217
+00:08:51,980 --> 00:08:53,960
+They mimic their
+atomic configurations
+
+218
+00:08:53,960 --> 00:08:57,030
+in physical
+centimeter-sized space.
+
+219
+00:08:57,030 --> 00:09:00,570
+For gold atoms, they adopt a
+slightly different structure.
+
+220
+00:09:00,570 --> 00:09:02,730
+It's still cubic
+but there is atoms
+
+221
+00:09:02,730 --> 00:09:04,710
+shoved into the cube faces.
+
+222
+00:09:04,710 --> 00:09:07,650
+It's what we call
+Face-Centered Cubic, or FCC.
+
+223
+00:09:07,650 --> 00:09:10,170
+And you start to see
+cube-looking structures
+
+224
+00:09:10,170 --> 00:09:13,400
+all over single
+crystals of gold.
+
+225
+00:09:13,400 --> 00:09:14,780
+Another one, gypsum.
+
+226
+00:09:14,780 --> 00:09:17,660
+It's got a very different type
+of structure called monoclinic,
+
+227
+00:09:17,660 --> 00:09:21,170
+where none of the sides of
+this parallelogram are the same
+
+228
+00:09:21,170 --> 00:09:22,602
+and there are some funny angles.
+
+229
+00:09:22,602 --> 00:09:24,560
+But if you look at the
+arrangement of the atoms
+
+230
+00:09:24,560 --> 00:09:27,760
+and the actual crystals
+of gypsum that grow,
+
+231
+00:09:27,760 --> 00:09:31,772
+you see a striking similarity,
+which I find pretty neat.
+
+232
+00:09:31,772 --> 00:09:35,240
+I also want to mention, what
+is the absence of structure
+
+233
+00:09:35,240 --> 00:09:36,110
+in material science?
+
+234
+00:09:36,110 --> 00:09:38,360
+We call that something
+that's amorphous.
+
+235
+00:09:38,360 --> 00:09:40,430
+Amorphous means without form.
+
+236
+00:09:40,430 --> 00:09:44,057
+So for example, crystalline
+indium phosphide
+
+237
+00:09:44,057 --> 00:09:45,890
+would have this regular
+structure like this.
+
+238
+00:09:45,890 --> 00:09:47,270
+You move over a
+certain distance,
+
+239
+00:09:47,270 --> 00:09:50,790
+you see another green atom,
+and so on and so on and so on.
+
+240
+00:09:50,790 --> 00:09:53,150
+In an amorphous material,
+it can still be a solid,
+
+241
+00:09:53,150 --> 00:09:56,840
+but there is no fixed distance
+between any certain types
+
+242
+00:09:56,840 --> 00:09:58,010
+of atoms.
+
+243
+00:09:58,010 --> 00:10:01,220
+And radiation can cause a
+lot of this amorphization
+
+244
+00:10:01,220 --> 00:10:03,320
+by knocking the atoms about
+and having them freeze
+
+245
+00:10:03,320 --> 00:10:05,300
+in random configurations.
+
+246
+00:10:05,300 --> 00:10:08,170
+This is one of the ways
+that radiation damage can
+
+247
+00:10:08,170 --> 00:10:10,660
+embrittle materials because--
+
+248
+00:10:10,660 --> 00:10:12,720
+well, we'll get into that.
+
+249
+00:10:12,720 --> 00:10:15,050
+So now let's talk
+about the defects
+
+250
+00:10:15,050 --> 00:10:17,742
+that can be created
+in a perfect crystal.
+
+251
+00:10:17,742 --> 00:10:19,450
+The simplest ones, we
+call point defects.
+
+252
+00:10:19,450 --> 00:10:21,770
+They're zero-dimensional
+because they're just
+
+253
+00:10:21,770 --> 00:10:23,990
+single atoms out of place.
+
+254
+00:10:23,990 --> 00:10:26,490
+You can have what's called
+a vacancy, where if you had,
+
+255
+00:10:26,490 --> 00:10:29,780
+let's say, a face-centered
+cubic lattice of atoms,
+
+256
+00:10:29,780 --> 00:10:32,942
+where you have atoms on every
+cube corner and every face,
+
+257
+00:10:32,942 --> 00:10:34,400
+if you just pull
+one out somewhere,
+
+258
+00:10:34,400 --> 00:10:36,940
+we refer to that as a vacancy.
+
+259
+00:10:36,940 --> 00:10:38,212
+A missing atom.
+
+260
+00:10:38,212 --> 00:10:39,920
+It had to go somewhere,
+though, and we'll
+
+261
+00:10:39,920 --> 00:10:42,280
+get to where it is
+in just a second.
+
+262
+00:10:42,280 --> 00:10:44,680
+So it might be kind of hard
+to conceptualize, how do we
+
+263
+00:10:44,680 --> 00:10:48,520
+know that there are missing
+atoms in all these little cubes
+
+264
+00:10:48,520 --> 00:10:49,960
+or lattices?
+
+265
+00:10:49,960 --> 00:10:52,980
+We do have direct evidence.
+
+266
+00:10:52,980 --> 00:10:54,650
+They're what's called
+quenching studies,
+
+267
+00:10:54,650 --> 00:10:58,010
+where you can measure the
+resistance or resistivity
+
+268
+00:10:58,010 --> 00:11:00,020
+of a piece of material
+after heating it
+
+269
+00:11:00,020 --> 00:11:01,590
+to a certain temperature.
+
+270
+00:11:01,590 --> 00:11:04,040
+Because it turns out that the
+hotter you make something,
+
+271
+00:11:04,040 --> 00:11:07,310
+the more of those vacancies
+just naturally occur.
+
+272
+00:11:07,310 --> 00:11:10,610
+You won't actually ever
+find an absolutely perfect
+
+273
+00:11:10,610 --> 00:11:13,460
+single crystal
+anywhere in nature,
+
+274
+00:11:13,460 --> 00:11:15,890
+unless you go to zero
+Kelvin for infinite time,
+
+275
+00:11:15,890 --> 00:11:18,320
+then the atoms arrange
+themselves thusly.
+
+276
+00:11:18,320 --> 00:11:21,770
+There's always some amount
+of atomic vibration going on.
+
+277
+00:11:21,770 --> 00:11:26,120
+And there's actually some
+thermodynamic energy gain
+
+278
+00:11:26,120 --> 00:11:28,910
+to having a few defects
+in your structure.
+
+279
+00:11:28,910 --> 00:11:32,120
+And that number of
+defects increases
+
+280
+00:11:32,120 --> 00:11:33,730
+with increasing temperature.
+
+281
+00:11:33,730 --> 00:11:35,730
+Once you get to the melting
+point of a material,
+
+282
+00:11:35,730 --> 00:11:38,750
+or like right before something
+melts, you can have up to 1
+
+283
+00:11:38,750 --> 00:11:41,000
+in 10,000 atoms just missing.
+
+284
+00:11:41,000 --> 00:11:42,590
+Moved somewhere else.
+
+285
+00:11:42,590 --> 00:11:44,360
+We call that the
+thermal equilibrium
+
+286
+00:11:44,360 --> 00:11:45,940
+vacancy concentration.
+
+287
+00:11:45,940 --> 00:11:49,420
+And we can measure that using
+these resistivity measurements,
+
+288
+00:11:49,420 --> 00:11:52,640
+where you heat materials up to
+higher and higher temperatures,
+
+289
+00:11:52,640 --> 00:11:54,920
+cool them down suddenly
+in, like, liquid nitrogen
+
+290
+00:11:54,920 --> 00:11:58,820
+or liquid helium, and measure
+the change in resistivity.
+
+291
+00:11:58,820 --> 00:12:01,500
+The more defects there are,
+the harder it is for electrons
+
+292
+00:12:01,500 --> 00:12:02,275
+to flow through.
+
+293
+00:12:02,275 --> 00:12:04,650
+And the only thing that could
+really be responsible there
+
+294
+00:12:04,650 --> 00:12:09,030
+in a single element
+would be vacancies.
+
+295
+00:12:09,030 --> 00:12:12,170
+So we do know that
+these really exist.
+
+296
+00:12:12,170 --> 00:12:14,030
+They can also cluster up.
+
+297
+00:12:14,030 --> 00:12:15,710
+It turns out that
+every time you have
+
+298
+00:12:15,710 --> 00:12:17,810
+a vacancy in a material,
+the other atoms
+
+299
+00:12:17,810 --> 00:12:21,170
+move in a little bit towards
+it, relaxing the pressure they
+
+300
+00:12:21,170 --> 00:12:23,270
+feel from the atoms nearby.
+
+301
+00:12:23,270 --> 00:12:25,340
+And one way for a whole
+bunch of vacancies
+
+302
+00:12:25,340 --> 00:12:28,700
+to lower the stress of the
+whole atomic configuration
+
+303
+00:12:28,700 --> 00:12:30,720
+is to cluster together.
+
+304
+00:12:30,720 --> 00:12:32,870
+So if you have a whole
+bunch of vacancies,
+
+305
+00:12:32,870 --> 00:12:36,380
+they may not allow as
+much stress accommodation
+
+306
+00:12:36,380 --> 00:12:40,370
+as if they were separate,
+when they're together.
+
+307
+00:12:40,370 --> 00:12:44,257
+Now you might ask, what
+happened to the original atoms?
+
+308
+00:12:44,257 --> 00:12:46,340
+You can't just take atoms
+away and then go nowhere
+
+309
+00:12:46,340 --> 00:12:48,458
+because you can't just
+destroy matter, right?
+
+310
+00:12:48,458 --> 00:12:50,000
+Unless you turn it
+into energy, which
+
+311
+00:12:50,000 --> 00:12:52,070
+is what we do in
+nuclear engineering.
+
+312
+00:12:52,070 --> 00:12:55,010
+So in the material
+science world,
+
+313
+00:12:55,010 --> 00:12:57,410
+they end up as what's
+called interstitials,
+
+314
+00:12:57,410 --> 00:13:00,350
+where you kind of have a
+vacancy created from somewhere
+
+315
+00:13:00,350 --> 00:13:02,210
+that knocks that
+atom out, and it
+
+316
+00:13:02,210 --> 00:13:07,040
+gets stuck in the next biggest
+space between some other atoms.
+
+317
+00:13:07,040 --> 00:13:08,750
+And we refer to those
+as interstitials.
+
+318
+00:13:08,750 --> 00:13:13,610
+And those can cluster up, too,
+to reduce their total stress
+
+319
+00:13:13,610 --> 00:13:15,250
+in the lattice.
+
+320
+00:13:15,250 --> 00:13:17,740
+They can cluster up into
+what's called split dumbbell
+
+321
+00:13:17,740 --> 00:13:18,940
+interstitials.
+
+322
+00:13:18,940 --> 00:13:21,820
+Instead of having one
+extra atom shoved in here,
+
+323
+00:13:21,820 --> 00:13:23,470
+you might rearrange
+a couple so there's
+
+324
+00:13:23,470 --> 00:13:26,260
+two atoms in the center
+of a cube instead of one.
+
+325
+00:13:26,260 --> 00:13:29,320
+And that tends to be a lower
+energy or a more stable
+
+326
+00:13:29,320 --> 00:13:32,322
+configuration.
+
+327
+00:13:32,322 --> 00:13:34,780
+So let's look a little bit at
+the energetics of these point
+
+328
+00:13:34,780 --> 00:13:36,880
+defects because
+understanding how they move
+
+329
+00:13:36,880 --> 00:13:40,803
+and why will tell us a lot about
+how radiation damage happens.
+
+330
+00:13:40,803 --> 00:13:42,220
+So it turns out
+that interstitials
+
+331
+00:13:42,220 --> 00:13:43,990
+are very hard to make.
+
+332
+00:13:43,990 --> 00:13:45,670
+It's really hard
+to shove an atom
+
+333
+00:13:45,670 --> 00:13:47,300
+where it doesn't want to be.
+
+334
+00:13:47,300 --> 00:13:52,350
+But once you get it there,
+it moves very easily.
+
+335
+00:13:52,350 --> 00:13:55,480
+Let's draw a quick,
+simple cubic lattice
+
+336
+00:13:55,480 --> 00:13:57,460
+to do a little
+thought experiment
+
+337
+00:13:57,460 --> 00:13:58,930
+and explore why that might be.
+
+338
+00:14:01,630 --> 00:14:05,590
+Let's say I want to shove
+an interstitial atom in here
+
+339
+00:14:05,590 --> 00:14:07,330
+between these other atoms.
+
+340
+00:14:07,330 --> 00:14:10,120
+Well their electron
+clouds are going to repel,
+
+341
+00:14:10,120 --> 00:14:12,340
+and it's going to push
+all the nearby atoms away
+
+342
+00:14:12,340 --> 00:14:13,690
+by just a little bit.
+
+343
+00:14:13,690 --> 00:14:16,600
+And these ones might
+push the other atoms away
+
+344
+00:14:16,600 --> 00:14:21,660
+by just a little bit,
+stretching out the lattice,
+
+345
+00:14:21,660 --> 00:14:23,280
+or adding some
+compressive stress
+
+346
+00:14:23,280 --> 00:14:25,830
+wherever that interstitial is.
+
+347
+00:14:25,830 --> 00:14:28,255
+But then how would it move?
+
+348
+00:14:28,255 --> 00:14:29,630
+What's the biggest
+barrier it has
+
+349
+00:14:29,630 --> 00:14:32,660
+to overcome to get to the
+next adjacent location?
+
+350
+00:14:38,753 --> 00:14:40,170
+Well, which direction
+would it go?
+
+351
+00:14:40,170 --> 00:14:42,458
+Would it go this way?
+
+352
+00:14:42,458 --> 00:14:43,000
+Probably not.
+
+353
+00:14:43,000 --> 00:14:44,710
+There's an atom in the way.
+
+354
+00:14:44,710 --> 00:14:48,150
+So it's going to find the
+path of least resistance
+
+355
+00:14:48,150 --> 00:14:51,690
+to try to get over here,
+because like we've talked about
+
+356
+00:14:51,690 --> 00:14:54,120
+before, all atoms
+are always in motion.
+
+357
+00:14:54,120 --> 00:14:55,158
+Vibrating.
+
+358
+00:14:55,158 --> 00:14:56,700
+Some of them will
+be energetic enough
+
+359
+00:14:56,700 --> 00:14:59,140
+to squeeze through
+these two atoms
+
+360
+00:14:59,140 --> 00:15:00,390
+and get over to the next site.
+
+361
+00:15:00,390 --> 00:15:03,390
+And that turns out to be
+a pretty easy process.
+
+362
+00:15:03,390 --> 00:15:06,840
+We can look at the energy
+required for an interstitial
+
+363
+00:15:06,840 --> 00:15:07,800
+to move.
+
+364
+00:15:07,800 --> 00:15:11,520
+We notice it's really small
+fractions of an electron volt,
+
+365
+00:15:11,520 --> 00:15:14,310
+whereas creating them takes
+two or three electron volts.
+
+366
+00:15:14,310 --> 00:15:18,510
+In atomic land, that's a
+very high energy penalty.
+
+367
+00:15:18,510 --> 00:15:19,730
+Now let's look at vacancies.
+
+368
+00:15:19,730 --> 00:15:21,640
+They're quite the opposite.
+
+369
+00:15:21,640 --> 00:15:23,850
+They're rather easy
+to make but they're
+
+370
+00:15:23,850 --> 00:15:27,360
+very hard to move,
+compared to interstitials.
+
+371
+00:15:27,360 --> 00:15:28,890
+Notice that the
+energy of movement
+
+372
+00:15:28,890 --> 00:15:32,070
+is about the same as the energy
+of formation for vacancies.
+
+373
+00:15:32,070 --> 00:15:33,930
+To take an atom out
+or to pluck it out,
+
+374
+00:15:33,930 --> 00:15:37,860
+you have to break every
+bond between nearby atoms.
+
+375
+00:15:37,860 --> 00:15:43,310
+So you actually have to put
+energy in to break those bonds
+
+376
+00:15:43,310 --> 00:15:46,550
+and then remove the
+atoms somewhere else.
+
+377
+00:15:46,550 --> 00:15:49,320
+Now these things are
+usually made in pairs,
+
+378
+00:15:49,320 --> 00:15:51,740
+so if you think about
+how much energy would it
+
+379
+00:15:51,740 --> 00:15:55,310
+take to cause a single radiation
+damage event where you have
+
+380
+00:15:55,310 --> 00:15:58,870
+one vacancy, which let's say
+would have been right here,
+
+381
+00:15:58,870 --> 00:16:03,110
+and one interstitial, it takes
+the sum of these two energies--
+
+382
+00:16:03,110 --> 00:16:05,480
+usually about four
+electron volts.
+
+383
+00:16:05,480 --> 00:16:07,880
+That's not something
+that tends to happen
+
+384
+00:16:07,880 --> 00:16:11,360
+chemically or from stress
+or from something like that.
+
+385
+00:16:11,360 --> 00:16:14,330
+But radiation coming
+in with hundreds of keV
+
+386
+00:16:14,330 --> 00:16:17,750
+or even MeV neutrons,
+anything's on the table
+
+387
+00:16:17,750 --> 00:16:20,870
+because it's high enough energy.
+
+388
+00:16:20,870 --> 00:16:21,490
+Yeah?
+
+389
+00:16:21,490 --> 00:16:23,660
+AUDIENCE: What would take
+about three or four eV?
+
+390
+00:16:23,660 --> 00:16:25,618
+PROFESSOR: So it would
+take about three or four
+
+391
+00:16:25,618 --> 00:16:28,720
+eV to make a pair of a
+vacancy and an interstitial.
+
+392
+00:16:28,720 --> 00:16:30,220
+If you just add these two up.
+
+393
+00:16:30,220 --> 00:16:34,110
+It comes usually to about three
+or four eV, or electron volts.
+
+394
+00:16:34,110 --> 00:16:35,590
+And that's a very
+difficult thing
+
+395
+00:16:35,590 --> 00:16:40,000
+to do in sort of chemical world,
+where reactions might proceed
+
+396
+00:16:40,000 --> 00:16:42,070
+with fractions of
+an electron volt.
+
+397
+00:16:42,070 --> 00:16:45,010
+But when you have MeV
+neutrons coming in,
+
+398
+00:16:45,010 --> 00:16:47,110
+they do whatever they want.
+
+399
+00:16:47,110 --> 00:16:48,955
+They'll do whatever they will.
+
+400
+00:16:48,955 --> 00:16:50,580
+So someone actually
+asked me yesterday,
+
+401
+00:16:50,580 --> 00:16:54,180
+what sort of materials can
+you put in the way of neutrons
+
+402
+00:16:54,180 --> 00:16:56,370
+to stop them from doing damage?
+
+403
+00:16:56,370 --> 00:16:59,470
+And the answer is,
+pretty much nothing.
+
+404
+00:16:59,470 --> 00:17:03,210
+Fast neutrons tend to travel
+about 10 centimeters, even
+
+405
+00:17:03,210 --> 00:17:05,910
+in things like steel
+or water, and they're
+
+406
+00:17:05,910 --> 00:17:07,630
+going to hit what
+they're going to hit.
+
+407
+00:17:07,630 --> 00:17:10,980
+There's not much you can do
+but put more things in the way.
+
+408
+00:17:10,980 --> 00:17:13,619
+And we can only get to a certain
+density with regular matter.
+
+409
+00:17:13,619 --> 00:17:17,190
+And I think osmium has
+upwards of, like, 22 grams
+
+410
+00:17:17,190 --> 00:17:18,960
+per cubic centimeter density.
+
+411
+00:17:18,960 --> 00:17:21,060
+That's not enough
+to stop neutrons,
+
+412
+00:17:21,060 --> 00:17:23,190
+even over a
+considerable distance.
+
+413
+00:17:23,190 --> 00:17:25,470
+Unless you had, like,
+liquid neutron star,
+
+414
+00:17:25,470 --> 00:17:28,807
+that you could pack nuclei in
+at a way higher number density,
+
+415
+00:17:28,807 --> 00:17:29,640
+not much you can do.
+
+416
+00:17:32,300 --> 00:17:34,850
+So moving up in the
+dimensions, there's
+
+417
+00:17:34,850 --> 00:17:38,030
+another type of defect
+called a dislocation, where
+
+418
+00:17:38,030 --> 00:17:40,940
+it's actually energetically
+favorable to slide
+
+419
+00:17:40,940 --> 00:17:45,920
+an extra half-plane of atoms
+in between two sets in here
+
+420
+00:17:45,920 --> 00:17:49,220
+in the crystal lattice, creating
+a sort of bulged-out structure
+
+421
+00:17:49,220 --> 00:17:51,010
+like you see right here.
+
+422
+00:17:51,010 --> 00:17:53,930
+And dislocations are one of
+the most important defects
+
+423
+00:17:53,930 --> 00:17:56,210
+in material science
+and radiation damage.
+
+424
+00:17:56,210 --> 00:17:59,120
+They're what I like to call
+the agents of plasticity.
+
+425
+00:17:59,120 --> 00:18:02,150
+If you deform a material
+enough that it doesn't just
+
+426
+00:18:02,150 --> 00:18:07,610
+spring back, then most likely,
+you were creating and moving
+
+427
+00:18:07,610 --> 00:18:09,430
+dislocations in the material.
+
+428
+00:18:09,430 --> 00:18:11,720
+If you think about a
+couple of different ways
+
+429
+00:18:11,720 --> 00:18:13,850
+to cause deformation--
+
+430
+00:18:13,850 --> 00:18:15,410
+let's bring our
+perfect lattice back
+
+431
+00:18:15,410 --> 00:18:20,280
+without all these
+extra notations.
+
+432
+00:18:20,280 --> 00:18:25,350
+If you want to slide or shear
+two planes of atoms across,
+
+433
+00:18:25,350 --> 00:18:33,203
+and they're all
+bonded to each other,
+
+434
+00:18:33,203 --> 00:18:34,620
+what do you
+physically have to do?
+
+435
+00:18:40,028 --> 00:18:42,320
+How can you get these atoms
+to slide across each other?
+
+436
+00:18:42,320 --> 00:18:44,870
+What sort of energy do
+you have to put into it?
+
+437
+00:18:47,940 --> 00:18:48,517
+Yeah?
+
+438
+00:18:48,517 --> 00:18:49,740
+AUDIENCE: [INAUDIBLE] energy.
+
+439
+00:18:49,740 --> 00:18:50,670
+PROFESSOR: Yep.
+
+440
+00:18:50,670 --> 00:18:52,890
+Because all these atoms
+are bonded to each other,
+
+441
+00:18:52,890 --> 00:18:54,780
+if you want them
+to move, you have
+
+442
+00:18:54,780 --> 00:18:58,080
+to break every
+bond on that plane.
+
+443
+00:18:58,080 --> 00:19:00,600
+That's a lot of
+atomic bonds to break
+
+444
+00:19:00,600 --> 00:19:03,180
+and it's extremely unlikely
+that that would happen.
+
+445
+00:19:03,180 --> 00:19:06,600
+In fact, if you broke
+an entire plane of bonds
+
+446
+00:19:06,600 --> 00:19:11,164
+in some material like this, what
+would you physically do to it?
+
+447
+00:19:11,164 --> 00:19:13,860
+You'd snap it in half.
+
+448
+00:19:13,860 --> 00:19:15,590
+That would be fracture.
+
+449
+00:19:15,590 --> 00:19:18,720
+So if you broke every
+bond down this plane,
+
+450
+00:19:18,720 --> 00:19:21,480
+you would then have two
+pieces of this fuel rod.
+
+451
+00:19:21,480 --> 00:19:24,270
+That's usually a pretty
+high-energy thing to try to do.
+
+452
+00:19:24,270 --> 00:19:29,980
+So instead, if you
+shove an extra half
+
+453
+00:19:29,980 --> 00:19:34,850
+plane of atoms in
+there, and the bonds
+
+454
+00:19:34,850 --> 00:19:40,550
+are kind of funny like so,
+right at that extra half-plane
+
+455
+00:19:40,550 --> 00:19:46,930
+location, then what you can
+actually do is break one.
+
+456
+00:19:46,930 --> 00:19:49,030
+Let's say you break this
+one, form the next one,
+
+457
+00:19:49,030 --> 00:19:51,880
+then break this one
+and form the next one.
+
+458
+00:19:51,880 --> 00:19:54,190
+And for a few
+atoms to move over,
+
+459
+00:19:54,190 --> 00:19:57,970
+you only have to break a
+line of bonds, not a plane.
+
+460
+00:19:57,970 --> 00:20:01,450
+So it's much less
+energy-intensive to get
+
+461
+00:20:01,450 --> 00:20:05,800
+a dislocation to move than to
+just break something in half.
+
+462
+00:20:05,800 --> 00:20:08,810
+Now you might ask, well, then
+why do things actually break?
+
+463
+00:20:08,810 --> 00:20:10,670
+Whether or not things
+deform or break
+
+464
+00:20:10,670 --> 00:20:16,180
+is a balance between this
+process, which we call slip,
+
+465
+00:20:16,180 --> 00:20:21,300
+and breaking an entire plane of
+atoms, which we call fracture.
+
+466
+00:20:21,300 --> 00:20:22,470
+So this one's called slip.
+
+467
+00:20:25,750 --> 00:20:28,640
+The other mode is fracture.
+
+468
+00:20:28,640 --> 00:20:32,600
+We would rather materials to
+form in systems like reactors
+
+469
+00:20:32,600 --> 00:20:34,280
+by slip, just
+moving a little bit,
+
+470
+00:20:34,280 --> 00:20:36,200
+then just breaking altogether.
+
+471
+00:20:36,200 --> 00:20:39,200
+Unfortunately, when enough
+radiation hits materials,
+
+472
+00:20:39,200 --> 00:20:41,390
+you can fracture things
+in a brutal manner,
+
+473
+00:20:41,390 --> 00:20:43,920
+and we'll see what happens then.
+
+474
+00:20:43,920 --> 00:20:46,950
+There's a couple
+kinds of dislocations.
+
+475
+00:20:46,950 --> 00:20:49,480
+One of them is called
+a screw dislocation.
+
+476
+00:20:49,480 --> 00:20:52,080
+So imagine you had a whole
+bunch of sheets of atoms,
+
+477
+00:20:52,080 --> 00:20:54,630
+and you made a cut
+halfway through that sheet
+
+478
+00:20:54,630 --> 00:20:58,080
+and then moved every
+plane up by one position.
+
+479
+00:20:58,080 --> 00:21:00,150
+You then got what's called
+a screw dislocation--
+
+480
+00:21:00,150 --> 00:21:04,080
+kind of a spiral parking
+garage of atoms surrounding
+
+481
+00:21:04,080 --> 00:21:05,993
+that core right there.
+
+482
+00:21:05,993 --> 00:21:08,410
+You can also have what's called
+an edge dislocation, which
+
+483
+00:21:08,410 --> 00:21:11,110
+is like the one I've
+got here on the board
+
+484
+00:21:11,110 --> 00:21:14,170
+right here, where you just have
+an extra half plane of atoms
+
+485
+00:21:14,170 --> 00:21:16,420
+shoved in right there.
+
+486
+00:21:16,420 --> 00:21:20,120
+So there's two types, and they
+move in two different ways.
+
+487
+00:21:20,120 --> 00:21:24,100
+The edge dislocation behaves
+like you may physically expect.
+
+488
+00:21:24,100 --> 00:21:28,270
+If you kind of push like
+this on two planes of atoms,
+
+489
+00:21:28,270 --> 00:21:30,710
+it moves in the
+direction you push it.
+
+490
+00:21:30,710 --> 00:21:33,170
+Screw dislocations
+are kind of screwy.
+
+491
+00:21:33,170 --> 00:21:38,225
+If you push like this,
+it moves perpendicular.
+
+492
+00:21:38,225 --> 00:21:40,100
+Not going to get into
+why, but just remember,
+
+493
+00:21:40,100 --> 00:21:42,200
+screw dislocations are
+fairly screwy in the way
+
+494
+00:21:42,200 --> 00:21:44,060
+that they behave.
+
+495
+00:21:44,060 --> 00:21:45,740
+Not quite intuitive.
+
+496
+00:21:45,740 --> 00:21:46,410
+But that's OK.
+
+497
+00:21:46,410 --> 00:21:49,540
+We don't have to
+worry about those.
+
+498
+00:21:49,540 --> 00:21:51,400
+And the way that
+they actually move,
+
+499
+00:21:51,400 --> 00:21:54,550
+like we showed right here, is
+by what's called glide, or slip,
+
+500
+00:21:54,550 --> 00:21:59,680
+where dislocations can slide
+just by one plane of atoms
+
+501
+00:21:59,680 --> 00:22:02,920
+or one atomic position
+in a mechanism that
+
+502
+00:22:02,920 --> 00:22:04,880
+looks something like this.
+
+503
+00:22:04,880 --> 00:22:06,970
+Where, as that
+dislocation moves,
+
+504
+00:22:06,970 --> 00:22:08,890
+you only have to
+break a line of bonds
+
+505
+00:22:08,890 --> 00:22:10,810
+and then reform a
+line of bonds, which
+
+506
+00:22:10,810 --> 00:22:12,460
+is a much easier
+process than breaking
+
+507
+00:22:12,460 --> 00:22:14,458
+an entire plane at once.
+
+508
+00:22:14,458 --> 00:22:16,250
+It's like you have to
+break the square root
+
+509
+00:22:16,250 --> 00:22:17,417
+of the same number of bonds.
+
+510
+00:22:20,545 --> 00:22:22,420
+I'm going to skip ahead
+through some of that.
+
+511
+00:22:22,420 --> 00:22:24,820
+There's one other mechanism
+of dislocation movement
+
+512
+00:22:24,820 --> 00:22:27,340
+that's important to
+us in radiation damage
+
+513
+00:22:27,340 --> 00:22:28,847
+and that's called climb.
+
+514
+00:22:28,847 --> 00:22:30,430
+This is when you
+start to think about,
+
+515
+00:22:30,430 --> 00:22:33,910
+what happens if you have
+a dislocation, which we'll
+
+516
+00:22:33,910 --> 00:22:40,300
+give this symbol right here,
+and you also have a vacancy,
+
+517
+00:22:40,300 --> 00:22:42,910
+let's say created
+by radiation damage.
+
+518
+00:22:42,910 --> 00:22:44,590
+If that vacancy can
+move, it's going
+
+519
+00:22:44,590 --> 00:22:47,650
+to find the most stressed-out
+part of this lattice.
+
+520
+00:22:47,650 --> 00:22:51,710
+Most likely, the
+vacancy will move here.
+
+521
+00:22:51,710 --> 00:22:56,550
+In other words, the atom
+will move over there,
+
+522
+00:22:56,550 --> 00:22:59,472
+leaving this vacancy over there.
+
+523
+00:22:59,472 --> 00:23:01,430
+It's kind of funny to
+think, like, what does it
+
+524
+00:23:01,430 --> 00:23:03,168
+mean that a vacancy moves?
+
+525
+00:23:03,168 --> 00:23:05,210
+Has anyone ever done
+anything with semiconductors
+
+526
+00:23:05,210 --> 00:23:08,280
+and talked about electron
+and hole movement?
+
+527
+00:23:08,280 --> 00:23:08,790
+OK, yeah.
+
+528
+00:23:08,790 --> 00:23:12,060
+So what does it really mean
+for a hole to move, right?
+
+529
+00:23:12,060 --> 00:23:13,240
+A hole's not a thing.
+
+530
+00:23:13,240 --> 00:23:14,590
+A vacancy's also not a thing.
+
+531
+00:23:14,590 --> 00:23:16,660
+It's an absence of an atom.
+
+532
+00:23:16,660 --> 00:23:18,690
+But here, we can say
+that the vacancy moves
+
+533
+00:23:18,690 --> 00:23:21,660
+in this direction when the
+corresponding atom moves
+
+534
+00:23:21,660 --> 00:23:23,760
+in the exact opposite direction.
+
+535
+00:23:23,760 --> 00:23:25,650
+And then what
+you've actually done
+
+536
+00:23:25,650 --> 00:23:29,240
+is moved your dislocation up.
+
+537
+00:23:29,240 --> 00:23:31,790
+Instead of moving in
+the slip direction,
+
+538
+00:23:31,790 --> 00:23:36,040
+you've now moved it in a
+perpendicular direction.
+
+539
+00:23:36,040 --> 00:23:38,980
+This is usually not
+possible without things
+
+540
+00:23:38,980 --> 00:23:41,518
+like radiation damage or
+very high temperature.
+
+541
+00:23:43,907 --> 00:23:45,490
+And then, to make
+things even crazier,
+
+542
+00:23:45,490 --> 00:23:47,060
+you can also have
+what's called loops
+
+543
+00:23:47,060 --> 00:23:49,143
+of dislocation, some videos
+of which I'll actually
+
+544
+00:23:49,143 --> 00:23:50,360
+get to show you.
+
+545
+00:23:50,360 --> 00:23:53,690
+You can have a dislocation that
+has part edge character, part
+
+546
+00:23:53,690 --> 00:23:54,732
+screw character.
+
+547
+00:23:54,732 --> 00:23:56,690
+If you look at how the
+atoms are arranged here,
+
+548
+00:23:56,690 --> 00:23:59,037
+you're looking from
+sort of the top-down.
+
+549
+00:23:59,037 --> 00:24:00,620
+You can see that
+there's an extra half
+
+550
+00:24:00,620 --> 00:24:04,040
+plane of these white atoms
+shoved in in the black ones,
+
+551
+00:24:04,040 --> 00:24:08,210
+and this right here would be
+a completely edge dislocation.
+
+552
+00:24:08,210 --> 00:24:09,950
+You can have a
+gradual transition,
+
+553
+00:24:09,950 --> 00:24:13,640
+where about 90 degrees
+later, it looks like a spiral
+
+554
+00:24:13,640 --> 00:24:15,840
+and that's a screw dislocation.
+
+555
+00:24:15,840 --> 00:24:17,840
+And the net effect
+of that is when
+
+556
+00:24:17,840 --> 00:24:20,600
+you push in this direction
+on an edge dislocation,
+
+557
+00:24:20,600 --> 00:24:22,370
+it moves that way.
+
+558
+00:24:22,370 --> 00:24:24,750
+When you push this direction
+on a screw dislocation,
+
+559
+00:24:24,750 --> 00:24:27,520
+it moves that way.
+
+560
+00:24:27,520 --> 00:24:29,780
+So when you stress out
+a dislocation loop,
+
+561
+00:24:29,780 --> 00:24:31,600
+it just grows.
+
+562
+00:24:31,600 --> 00:24:34,240
+You're not actually creating
+or destroying matter,
+
+563
+00:24:34,240 --> 00:24:38,170
+but what you're doing is causing
+this small loop of extra half
+
+564
+00:24:38,170 --> 00:24:40,840
+plane of atoms to grow further
+and further until it actually
+
+565
+00:24:40,840 --> 00:24:46,000
+reaches some obstacle or
+the outside of a crystal.
+
+566
+00:24:46,000 --> 00:24:48,400
+And these dislocations
+can actually
+
+567
+00:24:48,400 --> 00:24:50,800
+feel the force from each other.
+
+568
+00:24:50,800 --> 00:24:54,220
+If I draw a clean one because I
+think it'll be easier to see--
+
+569
+00:24:56,770 --> 00:24:58,580
+if I draw a small
+lattice of atoms
+
+570
+00:24:58,580 --> 00:25:07,540
+here and then a dislocation
+core right there.
+
+571
+00:25:07,540 --> 00:25:09,630
+So that's our dislocation core.
+
+572
+00:25:09,630 --> 00:25:15,350
+This region of space right
+here is compressively stressed.
+
+573
+00:25:15,350 --> 00:25:18,270
+There's more atoms in that
+space than there want to be
+
+574
+00:25:18,270 --> 00:25:20,060
+and so it's kind of
+crammed in there.
+
+575
+00:25:20,060 --> 00:25:24,250
+While this region
+right here is in what's
+
+576
+00:25:24,250 --> 00:25:26,080
+called tensile stress.
+
+577
+00:25:26,080 --> 00:25:29,230
+There's almost some space,
+like right here, where
+
+578
+00:25:29,230 --> 00:25:33,220
+there's too few atoms and they
+kind of want there to be more.
+
+579
+00:25:33,220 --> 00:25:37,180
+And these dislocations can
+feel neighboring stress fields.
+
+580
+00:25:37,180 --> 00:25:39,820
+Let's say there was
+another one right over here
+
+581
+00:25:39,820 --> 00:25:43,500
+that had its own
+compressive stress field.
+
+582
+00:25:43,500 --> 00:25:46,300
+They'll actually
+repel each other
+
+583
+00:25:46,300 --> 00:25:49,120
+because you don't want to add
+even more compressive stress
+
+584
+00:25:49,120 --> 00:25:51,160
+to anywhere in this
+group of atoms.
+
+585
+00:25:51,160 --> 00:25:53,447
+So they'll actually repel
+each other to the point
+
+586
+00:25:53,447 --> 00:25:55,030
+where, if you get
+two dislocations too
+
+587
+00:25:55,030 --> 00:25:59,630
+close to each other, they'll
+what's called pile-up,
+
+588
+00:25:59,630 --> 00:26:02,113
+or they'll refuse to move a bit.
+
+589
+00:26:02,113 --> 00:26:03,530
+So I want to show
+you some videos.
+
+590
+00:26:03,530 --> 00:26:05,540
+We can actually see
+these dislocations.
+
+591
+00:26:05,540 --> 00:26:09,200
+In this one, you see that faint
+line right there originating
+
+592
+00:26:09,200 --> 00:26:10,940
+from this area?
+
+593
+00:26:10,940 --> 00:26:14,270
+That's actually a
+dislocation loop under stress
+
+594
+00:26:14,270 --> 00:26:15,600
+and that's actually growing.
+
+595
+00:26:15,600 --> 00:26:17,930
+So what you're seeing
+here is an image
+
+596
+00:26:17,930 --> 00:26:20,450
+of electrons passing
+through material
+
+597
+00:26:20,450 --> 00:26:22,940
+and looking at regions
+of different contrast.
+
+598
+00:26:22,940 --> 00:26:25,010
+So wherever there is more
+atoms or fewer atoms,
+
+599
+00:26:25,010 --> 00:26:28,190
+it looks darker or lighter,
+and that can tell you
+
+600
+00:26:28,190 --> 00:26:29,510
+what sort of defects there are.
+
+601
+00:26:29,510 --> 00:26:32,152
+You guys all see that
+faint line right there?
+
+602
+00:26:32,152 --> 00:26:33,610
+Notice how the
+loop's just growing.
+
+603
+00:26:33,610 --> 00:26:35,068
+It's not like you're
+moving a line,
+
+604
+00:26:35,068 --> 00:26:36,730
+but you're literally
+growing a line out
+
+605
+00:26:36,730 --> 00:26:37,855
+of what looks like nothing.
+
+606
+00:26:41,320 --> 00:26:44,110
+There's another one we
+call a Frank-Read source.
+
+607
+00:26:44,110 --> 00:26:46,510
+It's a source of
+dislocation loop.
+
+608
+00:26:46,510 --> 00:26:49,030
+So what you're seeing
+here, each of these lines
+
+609
+00:26:49,030 --> 00:26:50,290
+is a single dislocation.
+
+610
+00:26:50,290 --> 00:26:54,520
+And then right there, you
+see that loop suddenly form?
+
+611
+00:26:54,520 --> 00:26:56,110
+Let's show you that one again.
+
+612
+00:26:56,110 --> 00:26:58,987
+I'll point on where to look.
+
+613
+00:26:58,987 --> 00:27:00,820
+By stressing out
+materials, you can actually
+
+614
+00:27:00,820 --> 00:27:05,161
+create additional dislocation
+loops, right around here.
+
+615
+00:27:05,161 --> 00:27:07,000
+And there it is.
+
+616
+00:27:07,000 --> 00:27:08,410
+You guys see that one?
+
+617
+00:27:08,410 --> 00:27:08,923
+Yeah.
+
+618
+00:27:08,923 --> 00:27:10,840
+Out of what looks like
+nothing but is actually
+
+619
+00:27:10,840 --> 00:27:12,970
+just a couple of
+atomic defects, you
+
+620
+00:27:12,970 --> 00:27:15,910
+can create a dislocation
+loop and allow more plastic
+
+621
+00:27:15,910 --> 00:27:21,355
+deformation to take place,
+which I think is awesome.
+
+622
+00:27:21,355 --> 00:27:22,150
+Look at this one.
+
+623
+00:27:22,150 --> 00:27:24,160
+Another dislocation
+source in germanium.
+
+624
+00:27:24,160 --> 00:27:26,140
+It's a little
+easier to see, also
+
+625
+00:27:26,140 --> 00:27:29,800
+because it's making this sort
+of spiral set of dislocations
+
+626
+00:27:29,800 --> 00:27:31,330
+a little slower.
+
+627
+00:27:31,330 --> 00:27:34,500
+So you can track its
+motion a little easier.
+
+628
+00:27:34,500 --> 00:27:38,330
+Notice how they all kind of line
+up on certain atomic planes.
+
+629
+00:27:38,330 --> 00:27:38,830
+Yeah?
+
+630
+00:27:38,830 --> 00:27:41,163
+AUDIENCE: Does the topology
+of these things ever change,
+
+631
+00:27:41,163 --> 00:27:44,150
+or is it always just
+a slow [INAUDIBLE]
+
+632
+00:27:44,150 --> 00:27:45,877
+PROFESSOR: The
+topology will change.
+
+633
+00:27:45,877 --> 00:27:47,460
+Let's say, if it
+hits another obstacle
+
+634
+00:27:47,460 --> 00:27:48,877
+or another
+dislocation, yeah, they
+
+635
+00:27:48,877 --> 00:27:51,510
+can slam into each other
+and change topology.
+
+636
+00:27:51,510 --> 00:27:54,390
+AUDIENCE: Breaking
+too [INAUDIBLE]
+
+637
+00:27:54,390 --> 00:27:56,447
+PROFESSOR: All sorts
+of things, yeah.
+
+638
+00:27:56,447 --> 00:27:58,530
+That's a subject for a
+whole other class, I'd say.
+
+639
+00:28:01,230 --> 00:28:03,570
+I want to skip
+ahead to the pile-up
+
+640
+00:28:03,570 --> 00:28:07,140
+because I think this kind
+of gets the point across.
+
+641
+00:28:07,140 --> 00:28:09,330
+But actually, we can
+see direct evidence
+
+642
+00:28:09,330 --> 00:28:11,970
+that dislocations feel
+each other's stress fields.
+
+643
+00:28:11,970 --> 00:28:15,000
+When you get enough of them
+lined up, they won't overlap.
+
+644
+00:28:15,000 --> 00:28:18,180
+They actually push each other
+in a kind of dislocation traffic
+
+645
+00:28:18,180 --> 00:28:20,280
+jam.
+
+646
+00:28:20,280 --> 00:28:22,740
+Because what's happening
+on the atomic level is,
+
+647
+00:28:22,740 --> 00:28:24,300
+they feel each
+other's stress fields.
+
+648
+00:28:24,300 --> 00:28:26,945
+There might be a source of
+dislocations further away,
+
+649
+00:28:26,945 --> 00:28:28,950
+but when they get too
+close to each other,
+
+650
+00:28:28,950 --> 00:28:31,500
+it literally is a
+dislocation traffic jam.
+
+651
+00:28:31,500 --> 00:28:33,660
+I mean, if you try and hit
+the car in front of you,
+
+652
+00:28:33,660 --> 00:28:36,900
+the repulsion of the electrons
+between your and their bumper
+
+653
+00:28:36,900 --> 00:28:39,900
+will prevent the cars from
+getting a certain distance
+
+654
+00:28:39,900 --> 00:28:41,370
+closer to each other.
+
+655
+00:28:41,370 --> 00:28:42,390
+Same kind of thing here.
+
+656
+00:28:45,890 --> 00:28:49,100
+Moving onto grain boundaries,
+a two-dimensional defect.
+
+657
+00:28:49,100 --> 00:28:51,950
+Any time you have
+a perfect crystal
+
+658
+00:28:51,950 --> 00:28:54,980
+of atoms that meets
+another perfect crystal
+
+659
+00:28:54,980 --> 00:28:57,110
+at a different orientation,
+or where the atoms
+
+660
+00:28:57,110 --> 00:28:58,880
+are arranged in a
+different direction,
+
+661
+00:28:58,880 --> 00:29:00,920
+you end up with a
+boundary between them
+
+662
+00:29:00,920 --> 00:29:03,990
+that we refer to as
+a grain boundary.
+
+663
+00:29:03,990 --> 00:29:06,950
+So you can actually see, this
+is a direct physical image
+
+664
+00:29:06,950 --> 00:29:10,280
+of atoms of two different
+crystals meaning at the grain
+
+665
+00:29:10,280 --> 00:29:11,120
+boundary.
+
+666
+00:29:11,120 --> 00:29:13,430
+Again, taken in the transmission
+electron microscope.
+
+667
+00:29:13,430 --> 00:29:14,847
+So for those who
+didn't know, yes,
+
+668
+00:29:14,847 --> 00:29:19,085
+we can see individual atoms
+and the defects between them.
+
+669
+00:29:19,085 --> 00:29:20,960
+I definitely didn't know
+that in high school.
+
+670
+00:29:20,960 --> 00:29:22,668
+They didn't even
+mention that whatsoever.
+
+671
+00:29:22,668 --> 00:29:25,360
+Did you guys ever
+see images like this?
+
+672
+00:29:25,360 --> 00:29:25,990
+Anyone?
+
+673
+00:29:25,990 --> 00:29:26,490
+Yes?
+
+674
+00:29:26,490 --> 00:29:27,760
+Raise your hand.
+
+675
+00:29:27,760 --> 00:29:29,140
+Just one, OK.
+
+676
+00:29:29,140 --> 00:29:29,830
+So yeah.
+
+677
+00:29:29,830 --> 00:29:31,060
+It's important for
+you guys to know
+
+678
+00:29:31,060 --> 00:29:33,643
+that we can have direct evidence
+for all this blackboard stuff
+
+679
+00:29:33,643 --> 00:29:36,460
+because you can see atoms
+in the transmission electron
+
+680
+00:29:36,460 --> 00:29:39,880
+microscope and see what happens
+when the two of them meet.
+
+681
+00:29:39,880 --> 00:29:43,240
+You see this kind of regular
+structure of empty space
+
+682
+00:29:43,240 --> 00:29:46,280
+where this grain
+boundary meets, right?
+
+683
+00:29:46,280 --> 00:29:49,830
+You can actually model it as
+a line of 1-D dislocations,
+
+684
+00:29:49,830 --> 00:29:52,640
+because if you take
+a line of 1-D lines,
+
+685
+00:29:52,640 --> 00:29:54,830
+you end up with a
+2-D boundary, which
+
+686
+00:29:54,830 --> 00:29:56,130
+you can see very clearly here.
+
+687
+00:29:56,130 --> 00:29:58,505
+It's almost like there's an
+extra half plane right there.
+
+688
+00:29:58,505 --> 00:30:02,420
+Another one there, another one
+there, and another one there.
+
+689
+00:30:02,420 --> 00:30:05,190
+And we call that a
+tilt grain boundary.
+
+690
+00:30:05,190 --> 00:30:08,010
+Grain boundaries are nice in
+that they can accommodate lots
+
+691
+00:30:08,010 --> 00:30:10,860
+of these little
+zero-dimensional defects,
+
+692
+00:30:10,860 --> 00:30:13,890
+moving to them without
+getting destroyed.
+
+693
+00:30:13,890 --> 00:30:15,630
+So grain boundaries
+are one of those ways
+
+694
+00:30:15,630 --> 00:30:19,140
+that radiation damage
+can be removed.
+
+695
+00:30:19,140 --> 00:30:21,780
+And that's one of the reasons
+why most small-grain materials
+
+696
+00:30:21,780 --> 00:30:22,560
+are really--
+
+697
+00:30:22,560 --> 00:30:25,980
+nano-grain materials are more
+resistant to radiation damage
+
+698
+00:30:25,980 --> 00:30:28,020
+than large-grain
+ones because they
+
+699
+00:30:28,020 --> 00:30:33,390
+act as what's called sinks or
+destroyers of radiation damage.
+
+700
+00:30:33,390 --> 00:30:37,860
+There's another kind of 2-D
+defect called a twin, where
+
+701
+00:30:37,860 --> 00:30:41,700
+you can actually get a little
+chunk of atoms sort of switch
+
+702
+00:30:41,700 --> 00:30:42,630
+orientation.
+
+703
+00:30:42,630 --> 00:30:45,900
+And you can see these very
+clearly in, again, TEM
+
+704
+00:30:45,900 --> 00:30:50,760
+micrographs, and the evidence
+actually that the twin actually
+
+705
+00:30:50,760 --> 00:30:52,680
+is a different physical
+arrangement of atoms,
+
+706
+00:30:52,680 --> 00:30:56,430
+even though you can't see
+the atoms in this little band
+
+707
+00:30:56,430 --> 00:30:57,780
+right there.
+
+708
+00:30:57,780 --> 00:31:00,540
+Look at the way the
+dislocations line up.
+
+709
+00:31:00,540 --> 00:31:02,190
+Those dislocations
+tend to line up
+
+710
+00:31:02,190 --> 00:31:05,190
+in energetically-favorable
+directions, and in this grain,
+
+711
+00:31:05,190 --> 00:31:08,280
+they're all this
+way, and in the twin,
+
+712
+00:31:08,280 --> 00:31:13,013
+they're all lined up like that.
+
+713
+00:31:13,013 --> 00:31:15,180
+And then finally, there's
+the most intuitive defect,
+
+714
+00:31:15,180 --> 00:31:16,380
+inclusions.
+
+715
+00:31:16,380 --> 00:31:19,740
+A 3-D piece of some other
+material inside what
+
+716
+00:31:19,740 --> 00:31:21,880
+would otherwise be
+a pure material.
+
+717
+00:31:21,880 --> 00:31:25,530
+This one, I actually pulled
+out of the rotor that powers
+
+718
+00:31:25,530 --> 00:31:27,240
+the Alcator fusion reactor.
+
+719
+00:31:27,240 --> 00:31:29,790
+I was asked to do some
+analysis to find out,
+
+720
+00:31:29,790 --> 00:31:32,670
+is the structure of
+that rotor changing,
+
+721
+00:31:32,670 --> 00:31:36,622
+because General Electric who
+was insuring this rotor said,
+
+722
+00:31:36,622 --> 00:31:38,080
+we don't want to
+insure it anymore.
+
+723
+00:31:38,080 --> 00:31:41,400
+Thanks for the premiums, but
+we're not insuring it anymore.
+
+724
+00:31:41,400 --> 00:31:42,400
+And we said, why?
+
+725
+00:31:42,400 --> 00:31:44,400
+And they said, oh, it's
+structurally unsound.
+
+726
+00:31:44,400 --> 00:31:45,840
+So we said, oh yeah?
+
+727
+00:31:45,840 --> 00:31:48,150
+We'll be back in a year
+and we'll talk about it.
+
+728
+00:31:48,150 --> 00:31:50,315
+And we did a lot of
+this work to find out
+
+729
+00:31:50,315 --> 00:31:52,440
+that, actually, the structure
+hadn't really changed
+
+730
+00:31:52,440 --> 00:31:55,020
+since 1954 when it was made.
+
+731
+00:31:55,020 --> 00:31:57,600
+But what we did also
+see is we could pop out
+
+732
+00:31:57,600 --> 00:32:01,320
+little precipitates
+of manganese sulfide.
+
+733
+00:32:01,320 --> 00:32:03,750
+So there's always
+sulfur in iron,
+
+734
+00:32:03,750 --> 00:32:05,550
+and sulfur tends to
+be a bad actor when it
+
+735
+00:32:05,550 --> 00:32:07,590
+comes to material properties.
+
+736
+00:32:07,590 --> 00:32:10,170
+You throw manganese
+into iron to scoop up
+
+737
+00:32:10,170 --> 00:32:13,050
+that sulfur in the form of
+these little precipitates
+
+738
+00:32:13,050 --> 00:32:16,170
+or inclusions, which we
+were able to see perfectly
+
+739
+00:32:16,170 --> 00:32:18,150
+when we did an x-ray
+map, just like the one we
+
+740
+00:32:18,150 --> 00:32:20,400
+did after the first exam.
+
+741
+00:32:20,400 --> 00:32:23,910
+It's like we were looking at
+Chris' copper silver alloy,
+
+742
+00:32:23,910 --> 00:32:25,947
+mapping out where is
+the copper and silver.
+
+743
+00:32:25,947 --> 00:32:27,780
+I made this image the
+same way, mapping out,
+
+744
+00:32:27,780 --> 00:32:29,682
+where is there iron,
+manganese and sulfur.
+
+745
+00:32:29,682 --> 00:32:31,140
+That's how you can
+tell what it is.
+
+746
+00:32:34,430 --> 00:32:37,160
+And so dislocations and
+defects can actually interact.
+
+747
+00:32:37,160 --> 00:32:38,540
+Let's say this is
+the interaction
+
+748
+00:32:38,540 --> 00:32:45,200
+of a 1-D defect, a dislocation,
+with a 3-D defect, a void.
+
+749
+00:32:45,200 --> 00:32:47,840
+If you have a material
+that's deforming plastically,
+
+750
+00:32:47,840 --> 00:32:50,330
+very smoothly, and isn't
+going to undergo fracture,
+
+751
+00:32:50,330 --> 00:32:52,910
+you want the dislocations
+to be able to move.
+
+752
+00:32:52,910 --> 00:32:56,990
+If you put anything in their
+way, they tend to get stuck.
+
+753
+00:32:56,990 --> 00:32:58,850
+It's not easy for
+that dislocation
+
+754
+00:32:58,850 --> 00:33:01,260
+to shear through a whole
+bunch of extra atoms.
+
+755
+00:33:01,260 --> 00:33:06,230
+And in some cases, you can
+stop that motion and favor
+
+756
+00:33:06,230 --> 00:33:09,940
+fracture over slip.
+
+757
+00:33:09,940 --> 00:33:12,370
+So any time you
+make slip harder,
+
+758
+00:33:12,370 --> 00:33:14,668
+it means that you're making
+fracture more likely.
+
+759
+00:33:14,668 --> 00:33:16,210
+I didn't say you're
+making it easier,
+
+760
+00:33:16,210 --> 00:33:18,070
+but you're making
+it more likely.
+
+761
+00:33:18,070 --> 00:33:19,570
+And you would
+prefer for materials
+
+762
+00:33:19,570 --> 00:33:25,940
+to deform a little bit by a slip
+than just break by fracture.
+
+763
+00:33:25,940 --> 00:33:29,320
+So I think now is a good point
+to go over a few key material
+
+764
+00:33:29,320 --> 00:33:31,110
+properties.
+
+765
+00:33:31,110 --> 00:33:35,040
+All of these are sometimes
+used to describe the same thing
+
+766
+00:33:35,040 --> 00:33:36,750
+in colloquial speech.
+
+767
+00:33:36,750 --> 00:33:39,253
+That is wrong.
+
+768
+00:33:39,253 --> 00:33:40,920
+Has anyone here thought
+that, let's say,
+
+769
+00:33:40,920 --> 00:33:45,600
+stiffness or toughness or
+strength meant the same thing?
+
+770
+00:33:45,600 --> 00:33:46,100
+No.
+
+771
+00:33:46,100 --> 00:33:46,930
+OK.
+
+772
+00:33:46,930 --> 00:33:47,570
+A few people.
+
+773
+00:33:47,570 --> 00:33:48,500
+It's OK.
+
+774
+00:33:48,500 --> 00:33:52,010
+Because it's used wrong all
+the time in colloquial speech.
+
+775
+00:33:52,010 --> 00:33:54,470
+These actually refer to
+different material properties
+
+776
+00:33:54,470 --> 00:33:55,568
+with different units.
+
+777
+00:33:55,568 --> 00:33:57,860
+And we're going to go into
+a little bit about what they
+
+778
+00:33:57,860 --> 00:34:00,680
+are and then show
+you a few videos
+
+779
+00:34:00,680 --> 00:34:04,610
+to test your intuition about
+the differences between them.
+
+780
+00:34:04,610 --> 00:34:07,690
+So first, I want to mention
+what you're seeing right here.
+
+781
+00:34:07,690 --> 00:34:10,239
+It's called a
+stress-strain curve.
+
+782
+00:34:10,239 --> 00:34:11,739
+Stress is simple.
+
+783
+00:34:11,739 --> 00:34:13,960
+Stress is just a force
+divided by an area.
+
+784
+00:34:17,920 --> 00:34:19,690
+And usually, the
+criterion for will
+
+785
+00:34:19,690 --> 00:34:22,030
+a material deform
+or will it break
+
+786
+00:34:22,030 --> 00:34:24,340
+is does it reach
+a certain stress.
+
+787
+00:34:24,340 --> 00:34:26,630
+It doesn't matter just how
+much force you put on it,
+
+788
+00:34:26,630 --> 00:34:28,480
+but it's like, how
+much force per atom
+
+789
+00:34:28,480 --> 00:34:31,300
+or how much force per area
+determines whether bonds
+
+790
+00:34:31,300 --> 00:34:32,860
+are going to break.
+
+791
+00:34:32,860 --> 00:34:34,449
+And so on the y-axis is stress.
+
+792
+00:34:34,449 --> 00:34:38,530
+Let's say the amount of force
+per area we're putting in.
+
+793
+00:34:38,530 --> 00:34:43,449
+And strain is the
+amount of deformation.
+
+794
+00:34:43,449 --> 00:34:44,420
+So that's stress.
+
+795
+00:34:44,420 --> 00:34:49,100
+And strain is, let's
+say, the change in length
+
+796
+00:34:49,100 --> 00:34:52,460
+over the original length
+of some material in what's
+
+797
+00:34:52,460 --> 00:34:55,449
+called the engineering
+or simplified notation.
+
+798
+00:34:55,449 --> 00:34:57,740
+And so something
+that is stiff means
+
+799
+00:34:57,740 --> 00:35:00,360
+you can put a lot
+of force into it
+
+800
+00:35:00,360 --> 00:35:01,760
+but it won't deform very much.
+
+801
+00:35:01,760 --> 00:35:04,295
+That's kind of the easiest
+property to understand.
+
+802
+00:35:04,295 --> 00:35:06,680
+Is something that's
+very stiff will
+
+803
+00:35:06,680 --> 00:35:08,540
+have what's called a
+high Young's modulus,
+
+804
+00:35:08,540 --> 00:35:11,480
+or a high slope right here.
+
+805
+00:35:11,480 --> 00:35:13,940
+Something that's super
+stiff, like a ceramic,
+
+806
+00:35:13,940 --> 00:35:17,070
+you could really push
+on it quite a bit,
+
+807
+00:35:17,070 --> 00:35:20,660
+but you won't get it to deform
+like you would this metal.
+
+808
+00:35:20,660 --> 00:35:23,720
+So the opposite of stiff,
+I would call compliant.
+
+809
+00:35:23,720 --> 00:35:25,160
+Not soft.
+
+810
+00:35:25,160 --> 00:35:27,140
+This is one of those
+tricky things right there.
+
+811
+00:35:27,140 --> 00:35:30,410
+Something that's stiff, you try
+and flex it and it won't flex.
+
+812
+00:35:30,410 --> 00:35:33,020
+Something that's compliant,
+you put a little bit of force
+
+813
+00:35:33,020 --> 00:35:37,840
+into it and it undergoes
+some amount of strain.
+
+814
+00:35:37,840 --> 00:35:40,430
+And that slope right
+there between the stress
+
+815
+00:35:40,430 --> 00:35:44,300
+and the strain, we call
+the Young's modulus.
+
+816
+00:35:44,300 --> 00:35:46,340
+We also note that
+this part right here
+
+817
+00:35:46,340 --> 00:35:49,790
+is what's called the elastic
+region of deformation.
+
+818
+00:35:49,790 --> 00:35:53,050
+By elastic, we mean reversible,
+or it snaps right back.
+
+819
+00:35:53,050 --> 00:35:57,290
+So right here, when I bend this
+bar and it snaps right back,
+
+820
+00:35:57,290 --> 00:35:59,030
+that's called
+elastic deformation.
+
+821
+00:35:59,030 --> 00:36:02,090
+And it's reversible,
+because you can bend one way
+
+822
+00:36:02,090 --> 00:36:03,650
+and it snaps right back.
+
+823
+00:36:03,650 --> 00:36:05,720
+If I bent it more,
+which I don't want
+
+824
+00:36:05,720 --> 00:36:09,290
+to do because this is a nice
+zirconium fuel cladding rod,
+
+825
+00:36:09,290 --> 00:36:10,880
+you would deform
+it irreversibly.
+
+826
+00:36:10,880 --> 00:36:12,950
+You'd bend it permanently.
+
+827
+00:36:12,950 --> 00:36:16,250
+And to undergo what's called
+plastic deformation, when
+
+828
+00:36:16,250 --> 00:36:19,790
+you deviate from the slope, and
+then a little bit more stress
+
+829
+00:36:19,790 --> 00:36:21,880
+can cause a lot
+more deformation.
+
+830
+00:36:21,880 --> 00:36:24,170
+Have any of you guys ever
+tried pulling copper wire
+
+831
+00:36:24,170 --> 00:36:24,830
+apart before?
+
+832
+00:36:27,312 --> 00:36:29,520
+That's something I'd recommend
+you try, for thin wire
+
+833
+00:36:29,520 --> 00:36:31,250
+so you don't cut your hands.
+
+834
+00:36:31,250 --> 00:36:34,220
+What you may notice is that
+it's awfully hard to get
+
+835
+00:36:34,220 --> 00:36:36,740
+the copper deforming
+in the first place,
+
+836
+00:36:36,740 --> 00:36:40,165
+but as soon as it starts to
+stretch, it gets really easy.
+
+837
+00:36:40,165 --> 00:36:41,540
+So this is something
+I recommend.
+
+838
+00:36:41,540 --> 00:36:43,460
+Go to the electronics
+shop or wherever
+
+839
+00:36:43,460 --> 00:36:45,960
+and try it out on some
+really thin copper wire.
+
+840
+00:36:45,960 --> 00:36:47,960
+If it's thick, you'll
+slice through your fingers
+
+841
+00:36:47,960 --> 00:36:50,350
+and you don't want to do that.
+
+842
+00:36:50,350 --> 00:36:54,090
+Strength, however, that's
+a different metric.
+
+843
+00:36:54,090 --> 00:36:57,070
+Whereas stiffness
+describes the slope here,
+
+844
+00:36:57,070 --> 00:37:01,450
+strength describes the height,
+or the stress at which you
+
+845
+00:37:01,450 --> 00:37:03,130
+start to plastically deform.
+
+846
+00:37:03,130 --> 00:37:05,420
+They're in different units.
+
+847
+00:37:05,420 --> 00:37:08,540
+Stiffness is in
+stress over strain,
+
+848
+00:37:08,540 --> 00:37:12,870
+whereas strength is
+given as a stress.
+
+849
+00:37:12,870 --> 00:37:14,610
+So when you hear
+things like the yield
+
+850
+00:37:14,610 --> 00:37:16,440
+stress or the ultimate
+tensile strength,
+
+851
+00:37:16,440 --> 00:37:18,810
+that's referring to how
+strong something is,
+
+852
+00:37:18,810 --> 00:37:22,010
+which may have nothing to
+do with how stiff it is.
+
+853
+00:37:22,010 --> 00:37:24,560
+Toughness is another property.
+
+854
+00:37:24,560 --> 00:37:28,760
+Toughness is actually kind of
+like the area under this curve,
+
+855
+00:37:28,760 --> 00:37:32,720
+because if you do a force
+and apply it over a distance,
+
+856
+00:37:32,720 --> 00:37:35,000
+that's like putting
+work into the material
+
+857
+00:37:35,000 --> 00:37:37,720
+and it ends up being
+a unit of energy.
+
+858
+00:37:37,720 --> 00:37:39,630
+So toughness will tell
+you how much energy
+
+859
+00:37:39,630 --> 00:37:42,210
+you have to put into
+something before creating
+
+860
+00:37:42,210 --> 00:37:45,930
+a new free surface,
+otherwise known as fracture.
+
+861
+00:37:45,930 --> 00:37:49,940
+And ductility is how much can
+you deform it before it breaks.
+
+862
+00:37:49,940 --> 00:37:54,800
+So it would be like this point
+right here on the strain axis.
+
+863
+00:37:54,800 --> 00:37:56,480
+So I'll give a little
+bit more examples
+
+864
+00:37:56,480 --> 00:37:59,820
+of what this is all about.
+
+865
+00:37:59,820 --> 00:38:02,160
+Toughness, again,
+is actually measured
+
+866
+00:38:02,160 --> 00:38:06,150
+as an energy required
+to form a free surface,
+
+867
+00:38:06,150 --> 00:38:08,970
+or propagate a crack, let's say.
+
+868
+00:38:08,970 --> 00:38:10,877
+Whereas something
+that's ductile,
+
+869
+00:38:10,877 --> 00:38:12,710
+it doesn't necessarily
+mean that it's tough.
+
+870
+00:38:12,710 --> 00:38:15,350
+Like, if you have a piece
+of chewed chewing gum,
+
+871
+00:38:15,350 --> 00:38:18,410
+you can stretch it quite a
+lot with very little energy.
+
+872
+00:38:18,410 --> 00:38:21,110
+And then you can say it's
+extremely ductile but not
+
+873
+00:38:21,110 --> 00:38:22,650
+very strong.
+
+874
+00:38:22,650 --> 00:38:24,830
+A piece of copper
+wire, you can also
+
+875
+00:38:24,830 --> 00:38:27,320
+stretch it an
+extremely far distance,
+
+876
+00:38:27,320 --> 00:38:29,360
+but it takes more
+energy to do so.
+
+877
+00:38:29,360 --> 00:38:32,660
+So that's both
+ductile and strong.
+
+878
+00:38:32,660 --> 00:38:35,150
+And then if you apply that
+force over a certain distance,
+
+879
+00:38:35,150 --> 00:38:37,400
+stretching out the
+wire, you can also
+
+880
+00:38:37,400 --> 00:38:39,590
+reveal some of its toughness
+and how much energy
+
+881
+00:38:39,590 --> 00:38:44,170
+it takes to stretch that
+wire before it breaks.
+
+882
+00:38:44,170 --> 00:38:46,820
+Hardness is the last material
+property I want to mention,
+
+883
+00:38:46,820 --> 00:38:50,200
+which is not any of
+the ones that I showed
+
+884
+00:38:50,200 --> 00:38:52,380
+on the stress-strain curve.
+
+885
+00:38:52,380 --> 00:38:54,240
+Hardness is the
+resistance to a little bit
+
+886
+00:38:54,240 --> 00:38:56,160
+of plastic deformation.
+
+887
+00:38:56,160 --> 00:38:59,010
+So assuming that
+you're already here,
+
+888
+00:38:59,010 --> 00:39:00,810
+how much more energy
+do you have to put in
+
+889
+00:39:00,810 --> 00:39:02,455
+to get the material
+to deform plastic?
+
+890
+00:39:05,460 --> 00:39:07,050
+So very different
+material properties.
+
+891
+00:39:07,050 --> 00:39:11,320
+I'll try and mention
+all what they are.
+
+892
+00:39:11,320 --> 00:39:16,660
+So if we have a
+stress-strain curve like so,
+
+893
+00:39:16,660 --> 00:39:19,150
+and it follows
+the elastic region
+
+894
+00:39:19,150 --> 00:39:22,480
+and then deforms
+plastically, this point
+
+895
+00:39:22,480 --> 00:39:24,730
+here is what we call
+the yield strength.
+
+896
+00:39:31,300 --> 00:39:35,200
+Whatever that point
+on the stress axis is.
+
+897
+00:39:35,200 --> 00:39:39,340
+This point right here,
+our strain to failure,
+
+898
+00:39:39,340 --> 00:39:43,940
+we can use as a
+measure of ductility.
+
+899
+00:39:43,940 --> 00:39:50,470
+This slope right here
+refers to the stiffness.
+
+900
+00:39:50,470 --> 00:39:54,910
+And finally, this
+energy right here
+
+901
+00:39:54,910 --> 00:39:56,490
+is something like the toughness.
+
+902
+00:39:59,160 --> 00:40:02,270
+And the hardness isn't
+quite on this plot.
+
+903
+00:40:02,270 --> 00:40:04,940
+So I want to see if
+you guys intuitively
+
+904
+00:40:04,940 --> 00:40:06,880
+understand this, because
+the next lecture,
+
+905
+00:40:06,880 --> 00:40:09,830
+I'm going to be throwing around
+the words like stiffness,
+
+906
+00:40:09,830 --> 00:40:12,440
+toughness, ductility,
+hardness, compliance,
+
+907
+00:40:12,440 --> 00:40:14,690
+hard, soft, whatever,
+and I want to make sure
+
+908
+00:40:14,690 --> 00:40:17,360
+that you just at least
+intuitively understand.
+
+909
+00:40:17,360 --> 00:40:19,310
+There's a few videos you
+may have seen before.
+
+910
+00:40:19,310 --> 00:40:22,260
+Anyone here watch the
+hydraulic press channel?
+
+911
+00:40:22,260 --> 00:40:22,860
+There we go.
+
+912
+00:40:22,860 --> 00:40:25,150
+Finally, something that
+half the class does.
+
+913
+00:40:25,150 --> 00:40:26,820
+We're going to
+predict what's going
+
+914
+00:40:26,820 --> 00:40:30,210
+to happen in each of these
+cases based on these material
+
+915
+00:40:30,210 --> 00:40:31,350
+properties.
+
+916
+00:40:31,350 --> 00:40:35,370
+So in this case, this is a
+pressurized cylinder of CO2.
+
+917
+00:40:35,370 --> 00:40:39,460
+It's made of aluminum, which
+is a very ductile material.
+
+918
+00:40:39,460 --> 00:40:41,685
+It's also a very tough material.
+
+919
+00:40:41,685 --> 00:40:43,560
+How do you think it will
+deform when smashed?
+
+920
+00:40:50,672 --> 00:40:51,630
+Anyone ever tried this?
+
+921
+00:40:51,630 --> 00:40:52,990
+Squishing aluminum stuff.
+
+922
+00:40:52,990 --> 00:40:54,074
+What happens?
+
+923
+00:40:54,074 --> 00:40:56,035
+AUDIENCE: You compress it.
+
+924
+00:40:56,035 --> 00:40:57,160
+PROFESSOR: You compress it.
+
+925
+00:40:57,160 --> 00:40:58,077
+And then what happens?
+
+926
+00:41:00,772 --> 00:41:02,600
+AUDIENCE: Fracture?
+
+927
+00:41:02,600 --> 00:41:03,882
+PROFESSOR: Will it fracture?
+
+928
+00:41:03,882 --> 00:41:05,022
+AUDIENCE: After a while.
+
+929
+00:41:05,022 --> 00:41:06,230
+PROFESSOR: After a while, OK.
+
+930
+00:41:06,230 --> 00:41:08,570
+If you put a lot of energy
+into it, eventually,
+
+931
+00:41:08,570 --> 00:41:11,780
+when you reach this strain to
+failure, it should fracture.
+
+932
+00:41:11,780 --> 00:41:14,360
+But in your personal
+hands-on experience,
+
+933
+00:41:14,360 --> 00:41:17,017
+does aluminum tend to fracture
+when you bend it a little bit?
+
+934
+00:41:17,017 --> 00:41:18,510
+AUDIENCE: No.
+
+935
+00:41:18,510 --> 00:41:23,310
+PROFESSOR: So then what words
+would you use to describe it?
+
+936
+00:41:23,310 --> 00:41:25,410
+Based on this curve right here.
+
+937
+00:41:28,480 --> 00:41:28,980
+Yep?
+
+938
+00:41:28,980 --> 00:41:29,790
+AUDIENCE: Ductile.
+
+939
+00:41:29,790 --> 00:41:30,582
+PROFESSOR: Ductile.
+
+940
+00:41:30,582 --> 00:41:32,600
+I would say ductile
+and not brittle
+
+941
+00:41:32,600 --> 00:41:35,810
+because you can bend it quite
+a bit or stretch it quite a bit
+
+942
+00:41:35,810 --> 00:41:37,480
+before it fractures.
+
+943
+00:41:37,480 --> 00:41:38,540
+How about stiffness?
+
+944
+00:41:38,540 --> 00:41:41,000
+Is it really hard or really
+easy to get aluminum bending?
+
+945
+00:41:43,690 --> 00:41:44,815
+AUDIENCE: It's pretty easy.
+
+946
+00:41:44,815 --> 00:41:45,982
+PROFESSOR: It's fairly easy.
+
+947
+00:41:45,982 --> 00:41:47,740
+So would you call that
+stiff or compliant?
+
+948
+00:41:47,740 --> 00:41:48,573
+AUDIENCE: Compliant.
+
+949
+00:41:48,573 --> 00:41:49,448
+PROFESSOR: Compliant.
+
+950
+00:41:49,448 --> 00:41:50,080
+OK.
+
+951
+00:41:50,080 --> 00:41:51,430
+What about strength?
+
+952
+00:41:51,430 --> 00:41:53,830
+How hard is it to start
+deforming aluminum
+
+953
+00:41:53,830 --> 00:41:56,800
+irreversibly, compared
+to something like steel?
+
+954
+00:41:56,800 --> 00:41:58,060
+AUDIENCE: Not very.
+
+955
+00:41:58,060 --> 00:41:59,080
+PROFESSOR: Not very.
+
+956
+00:41:59,080 --> 00:42:00,130
+Especially pure aluminum.
+
+957
+00:42:00,130 --> 00:42:02,320
+You can chew through it.
+
+958
+00:42:02,320 --> 00:42:04,990
+If you guys ever got a
+one yen coin from Japan,
+
+959
+00:42:04,990 --> 00:42:07,480
+you can chew through it.
+
+960
+00:42:07,480 --> 00:42:09,160
+Not very strong.
+
+961
+00:42:09,160 --> 00:42:12,292
+Then again, your bite force
+is also incredibly strong.
+
+962
+00:42:12,292 --> 00:42:13,750
+But anyway, let's
+see what actually
+
+963
+00:42:13,750 --> 00:42:18,550
+happens when you compress a
+rather ductile, compliant,
+
+964
+00:42:18,550 --> 00:42:21,475
+and not that strong
+aluminum canister.
+
+965
+00:42:24,364 --> 00:42:25,800
+Is it actually going?
+
+966
+00:42:25,800 --> 00:42:28,770
+Oh, it actually skipped ahead.
+
+967
+00:42:28,770 --> 00:42:30,750
+That's what I wanted,
+was their sound.
+
+968
+00:42:37,920 --> 00:42:39,685
+It was also
+pressurized with CO2.
+
+969
+00:42:42,460 --> 00:42:44,170
+But notice what's left.
+
+970
+00:42:44,170 --> 00:42:45,460
+So actually watch in slow-mo.
+
+971
+00:42:45,460 --> 00:42:49,210
+Look how much you can compress
+that, even after the explosion.
+
+972
+00:42:49,210 --> 00:42:51,858
+No fracture.
+
+973
+00:42:51,858 --> 00:42:54,150
+If you had done that with,
+let's say, a glass canister,
+
+974
+00:42:54,150 --> 00:42:55,230
+what do you guys think
+would have happened?
+
+975
+00:42:55,230 --> 00:42:56,140
+AUDIENCE: It would
+have shattered.
+
+976
+00:42:56,140 --> 00:42:57,340
+PROFESSOR: It would
+have shattered.
+
+977
+00:42:57,340 --> 00:42:59,280
+Yeah, we'll see that in
+a bit with a material
+
+978
+00:42:59,280 --> 00:43:01,140
+that may surprise you.
+
+979
+00:43:01,140 --> 00:43:04,615
+AUDIENCE: So it basically
+doesn't fracture, right?
+
+980
+00:43:04,615 --> 00:43:06,240
+PROFESSOR: It will
+fracture eventually,
+
+981
+00:43:06,240 --> 00:43:09,720
+but the hydraulic press can't
+get it that far in compression.
+
+982
+00:43:09,720 --> 00:43:12,480
+So that would be something
+that's extremely ductile, not
+
+983
+00:43:12,480 --> 00:43:13,270
+that strong--
+
+984
+00:43:13,270 --> 00:43:15,030
+so it wasn't that
+hard to deform.
+
+985
+00:43:15,030 --> 00:43:18,210
+Certainly we know it wasn't
+stronger than the steel base
+
+986
+00:43:18,210 --> 00:43:21,090
+plate that they used
+to do the smashing.
+
+987
+00:43:21,090 --> 00:43:22,680
+Because whatever's
+the softer material
+
+988
+00:43:22,680 --> 00:43:23,972
+is going to deform more.
+
+989
+00:43:23,972 --> 00:43:26,430
+So here he's going to have--
+well I'll let him describe it,
+
+990
+00:43:26,430 --> 00:43:29,232
+and then I'll let you guess
+what's going to happen.
+
+991
+00:43:52,200 --> 00:43:53,950
+What do you guys think
+is going to happen?
+
+992
+00:43:56,550 --> 00:43:58,930
+You've got what looks like
+brass and copper coins
+
+993
+00:43:58,930 --> 00:44:01,470
+on a steel base plate.
+
+994
+00:44:01,470 --> 00:44:04,170
+Anyone have any idea?
+
+995
+00:44:04,170 --> 00:44:05,376
+AUDIENCE: [INAUDIBLE]
+
+996
+00:44:05,376 --> 00:44:06,670
+PROFESSOR: Yeah.
+
+997
+00:44:06,670 --> 00:44:08,170
+Everyone's making
+this motion, which
+
+998
+00:44:08,170 --> 00:44:11,620
+means everything's going
+to flatten out, right?
+
+999
+00:44:11,620 --> 00:44:12,610
+Let's find out.
+
+1000
+00:44:24,423 --> 00:44:26,340
+Not nearly as much as
+you might have expected.
+
+1001
+00:44:45,970 --> 00:44:49,060
+Is anyone surprised by this?
+
+1002
+00:44:49,060 --> 00:44:51,540
+What happened there?
+
+1003
+00:44:51,540 --> 00:44:55,320
+What actually happened there
+was already described up here.
+
+1004
+00:44:55,320 --> 00:44:58,290
+When you get enough dislocations
+piling up against each other
+
+1005
+00:44:58,290 --> 00:45:01,410
+during plastic deformation,
+you can undergo a process
+
+1006
+00:45:01,410 --> 00:45:03,011
+called work hardening.
+
+1007
+00:45:08,420 --> 00:45:10,280
+That process can be
+physically described
+
+1008
+00:45:10,280 --> 00:45:12,830
+by a lot of those dislocations
+piling up and making
+
+1009
+00:45:12,830 --> 00:45:16,717
+it more and more difficult
+to continue that deformation.
+
+1010
+00:45:16,717 --> 00:45:18,800
+So what happened here is
+the brass and the copper,
+
+1011
+00:45:18,800 --> 00:45:23,150
+which started out quite soft,
+not that hard, quite ductile,
+
+1012
+00:45:23,150 --> 00:45:28,400
+as you can see, and not that
+strong actually got stronger
+
+1013
+00:45:28,400 --> 00:45:30,820
+as they were deformed.
+
+1014
+00:45:30,820 --> 00:45:32,050
+Interesting, huh?
+
+1015
+00:45:32,050 --> 00:45:34,700
+Did anyone expect
+this to happen?
+
+1016
+00:45:34,700 --> 00:45:36,060
+OK.
+
+1017
+00:45:36,060 --> 00:45:38,310
+Let's go to one that I think
+everyone can guess what's
+
+1018
+00:45:38,310 --> 00:45:41,330
+going to happen, a lead ball.
+
+1019
+00:45:41,330 --> 00:45:44,400
+So has anyone ever tried
+playing with lead before?
+
+1020
+00:45:44,400 --> 00:45:46,340
+Hopefully not.
+
+1021
+00:45:46,340 --> 00:45:47,020
+I have quite a--
+
+1022
+00:45:47,020 --> 00:45:48,793
+OK good, I'm not alone.
+
+1023
+00:45:48,793 --> 00:45:50,960
+How would you describe lead
+in terms of the material
+
+1024
+00:45:50,960 --> 00:45:51,710
+properties here?
+
+1025
+00:45:55,702 --> 00:45:57,700
+AUDIENCE: [INAUDIBLE]
+
+1026
+00:45:57,700 --> 00:45:58,440
+PROFESSOR: Yep.
+
+1027
+00:45:58,440 --> 00:45:59,450
+It's not very stiff.
+
+1028
+00:45:59,450 --> 00:46:01,710
+It doesn't take much energy
+to start deforming it.
+
+1029
+00:46:01,710 --> 00:46:02,310
+How else?
+
+1030
+00:46:05,710 --> 00:46:07,150
+Was it hard or soft?
+
+1031
+00:46:07,150 --> 00:46:08,090
+AUDIENCE: Soft.
+
+1032
+00:46:08,090 --> 00:46:08,720
+PROFESSOR: OK.
+
+1033
+00:46:08,720 --> 00:46:12,320
+Do you think it's
+ductile or brittle?
+
+1034
+00:46:12,320 --> 00:46:12,872
+Yeah?
+
+1035
+00:46:12,872 --> 00:46:13,830
+AUDIENCE: It's brittle.
+
+1036
+00:46:13,830 --> 00:46:15,400
+PROFESSOR: You
+think it's brittle.
+
+1037
+00:46:15,400 --> 00:46:18,460
+So by that, you mean it's just
+going to break apart, right?
+
+1038
+00:46:18,460 --> 00:46:21,550
+If you deform it?
+
+1039
+00:46:21,550 --> 00:46:22,800
+OK, cool.
+
+1040
+00:46:22,800 --> 00:46:25,280
+And would you say it
+is tough or not tough?
+
+1041
+00:46:28,470 --> 00:46:30,870
+Not a lot of folks have
+hands-on experience with lead.
+
+1042
+00:46:30,870 --> 00:46:33,000
+It's probably good
+for your brains.
+
+1043
+00:46:33,000 --> 00:46:33,690
+Let's find out.
+
+1044
+00:46:57,900 --> 00:46:58,950
+Lead pancake.
+
+1045
+00:46:58,950 --> 00:47:02,703
+So what words would you use to
+describe what just happened?
+
+1046
+00:47:02,703 --> 00:47:03,670
+AUDIENCE: It's ductile.
+
+1047
+00:47:03,670 --> 00:47:05,233
+PROFESSOR: Ductile indeed.
+
+1048
+00:47:05,233 --> 00:47:06,900
+I don't know what
+sort of brittle lead--
+
+1049
+00:47:06,900 --> 00:47:09,341
+was it an alloy that you had
+been playing with, maybe?
+
+1050
+00:47:09,341 --> 00:47:10,883
+AUDIENCE: It was
+like a little sheet.
+
+1051
+00:47:10,883 --> 00:47:12,110
+It was just easy to snap.
+
+1052
+00:47:12,110 --> 00:47:13,290
+PROFESSOR: Aha, OK.
+
+1053
+00:47:13,290 --> 00:47:15,870
+So it was a sheet of lead
+that was easy to snap.
+
+1054
+00:47:15,870 --> 00:47:18,660
+So I would not call lead
+as a very tough material
+
+1055
+00:47:18,660 --> 00:47:21,450
+because you didn't have to
+put a lot of energy into it,
+
+1056
+00:47:21,450 --> 00:47:24,420
+but did it deform quite a bit
+before you snapped it or did
+
+1057
+00:47:24,420 --> 00:47:25,957
+it just crumble apart?
+
+1058
+00:47:25,957 --> 00:47:27,420
+AUDIENCE: Oh, it deformed.
+
+1059
+00:47:27,420 --> 00:47:28,290
+PROFESSOR: OK.
+
+1060
+00:47:28,290 --> 00:47:31,740
+So in that case, I would call
+it ductile because it deformed
+
+1061
+00:47:31,740 --> 00:47:34,620
+a lot before breaking,
+but I would not
+
+1062
+00:47:34,620 --> 00:47:37,680
+call it tough because it took
+very little energy to get it
+
+1063
+00:47:37,680 --> 00:47:39,540
+to that breaking point.
+
+1064
+00:47:39,540 --> 00:47:42,310
+And it wasn't that stiff because
+it was quite easy to get it--
+
+1065
+00:47:42,310 --> 00:47:45,360
+let's say it's the
+amount of stress
+
+1066
+00:47:45,360 --> 00:47:47,000
+you put in versus the strain.
+
+1067
+00:47:47,000 --> 00:47:48,800
+It could be quite low.
+
+1068
+00:47:48,800 --> 00:47:50,550
+And it would not be
+very strong because it
+
+1069
+00:47:50,550 --> 00:47:54,690
+didn't take a lot of energy
+or stress to get it moving.
+
+1070
+00:47:54,690 --> 00:47:56,340
+Let's look at another ball.
+
+1071
+00:47:56,340 --> 00:48:00,210
+In this case, a
+steel ball bearing.
+
+1072
+00:48:00,210 --> 00:48:02,262
+What do you guys think
+is going to happen here?
+
+1073
+00:48:02,262 --> 00:48:03,990
+AUDIENCE: It's going to shatter.
+
+1074
+00:48:03,990 --> 00:48:05,365
+PROFESSOR: It's
+going to shatter.
+
+1075
+00:48:05,365 --> 00:48:09,010
+So you're guessing that the
+steel is brittle, right?
+
+1076
+00:48:09,010 --> 00:48:09,550
+What else?
+
+1077
+00:48:16,538 --> 00:48:18,330
+AUDIENCE: Probably
+pretty stiff and strong.
+
+1078
+00:48:18,330 --> 00:48:21,220
+PROFESSOR: Probably quite
+stiff and strong, yeah.
+
+1079
+00:48:21,220 --> 00:48:22,970
+I think so, too, but
+I don't think the guy
+
+1080
+00:48:22,970 --> 00:48:24,789
+that did this expected that.
+
+1081
+00:48:48,025 --> 00:48:50,918
+[INTERPOSING VOICES]
+
+1082
+00:48:50,918 --> 00:48:51,585
+PROFESSOR: Yeah.
+
+1083
+00:48:51,585 --> 00:48:53,498
+Did that surprise anybody?
+
+1084
+00:49:23,770 --> 00:49:24,270
+Yeah.
+
+1085
+00:49:24,270 --> 00:49:25,800
+Quite a surprise, right?
+
+1086
+00:49:25,800 --> 00:49:28,290
+So in this case, materials
+like hardened steel
+
+1087
+00:49:28,290 --> 00:49:30,000
+aren't necessarily that brittle.
+
+1088
+00:49:30,000 --> 00:49:33,480
+In fact, you wouldn't want a
+ball bearing to be brittle.
+
+1089
+00:49:33,480 --> 00:49:37,380
+If you get some small chip in it
+or a little bit of grit or sand
+
+1090
+00:49:37,380 --> 00:49:39,780
+in the bearings, you would
+shatter the ball bearing
+
+1091
+00:49:39,780 --> 00:49:43,020
+and cause instantaneous failure
+of the rotating component.
+
+1092
+00:49:43,020 --> 00:49:46,140
+So what you actually want out
+of a high-strength ball bearing
+
+1093
+00:49:46,140 --> 00:49:47,700
+is something that's
+extremely hard.
+
+1094
+00:49:47,700 --> 00:49:50,730
+Resists deformation
+so it doesn't undergo,
+
+1095
+00:49:50,730 --> 00:49:53,100
+let's say, change of shape
+that would prevent it
+
+1096
+00:49:53,100 --> 00:49:56,032
+from rolling without friction
+or with very little friction.
+
+1097
+00:49:56,032 --> 00:49:57,990
+You want it to be quite
+stiff because you don't
+
+1098
+00:49:57,990 --> 00:50:01,230
+want the load of whatever you're
+loading onto it to deform it,
+
+1099
+00:50:01,230 --> 00:50:03,780
+but you also don't
+want it to be brittle.
+
+1100
+00:50:03,780 --> 00:50:06,960
+So it's got to be somewhat
+tough and ductile to prevent
+
+1101
+00:50:06,960 --> 00:50:08,160
+sudden failure.
+
+1102
+00:50:08,160 --> 00:50:12,320
+You'd rather it compress a tiny
+bit than just cracking in half.
+
+1103
+00:50:12,320 --> 00:50:15,550
+So you can make things like
+ceramic ball bearings, which
+
+1104
+00:50:15,550 --> 00:50:20,530
+are very brittle, very stiff,
+not that tough, but also very
+
+1105
+00:50:20,530 --> 00:50:22,930
+strong, and you just
+have to make sure
+
+1106
+00:50:22,930 --> 00:50:24,400
+that whatever part
+you make is not
+
+1107
+00:50:24,400 --> 00:50:29,620
+going to reach any sort of yield
+strength criterion or crack
+
+1108
+00:50:29,620 --> 00:50:31,410
+or anything.
+
+1109
+00:50:31,410 --> 00:50:34,890
+Now the last one that's
+probably the most surprising.
+
+1110
+00:50:34,890 --> 00:50:38,130
+They bought a $4,000 diamond.
+
+1111
+00:50:38,130 --> 00:50:40,270
+It's a diamond like that big.
+
+1112
+00:50:40,270 --> 00:50:42,610
+What do you know about
+diamonds as a material in terms
+
+1113
+00:50:42,610 --> 00:50:43,690
+of these properties?
+
+1114
+00:50:43,690 --> 00:50:45,650
+AUDIENCE: They're hard.
+
+1115
+00:50:45,650 --> 00:50:46,900
+PROFESSOR: Yep, both is right.
+
+1116
+00:50:46,900 --> 00:50:48,610
+They're extremely stiff.
+
+1117
+00:50:48,610 --> 00:50:51,460
+It's the hardest material
+that we know of, almost.
+
+1118
+00:50:51,460 --> 00:50:53,815
+We've made slightly
+harder ones artificially.
+
+1119
+00:50:53,815 --> 00:50:55,690
+It's the hardest natural
+material we know of.
+
+1120
+00:50:55,690 --> 00:50:57,070
+What else?
+
+1121
+00:50:57,070 --> 00:50:59,756
+Do you know whether
+they're strong or tough?
+
+1122
+00:50:59,756 --> 00:51:01,040
+AUDIENCE: They're not tough.
+
+1123
+00:51:01,040 --> 00:51:02,248
+PROFESSOR: They're not tough.
+
+1124
+00:51:02,248 --> 00:51:03,352
+Why do you say that?
+
+1125
+00:51:03,352 --> 00:51:05,420
+AUDIENCE: Because
+it will shatter.
+
+1126
+00:51:05,420 --> 00:51:06,200
+PROFESSOR: Have
+you seen the video?
+
+1127
+00:51:06,200 --> 00:51:06,980
+AUDIENCE: [INAUDIBLE]
+
+1128
+00:51:06,980 --> 00:51:07,810
+PROFESSOR: Oh wow.
+
+1129
+00:51:07,810 --> 00:51:09,260
+OK.
+
+1130
+00:51:09,260 --> 00:51:10,160
+What else do we have?
+
+1131
+00:51:10,160 --> 00:51:11,000
+Yeah.
+
+1132
+00:51:11,000 --> 00:51:12,597
+So you're saying it's not tough.
+
+1133
+00:51:12,597 --> 00:51:14,180
+AUDIENCE: You can
+cut diamonds, right?
+
+1134
+00:51:14,180 --> 00:51:17,000
+PROFESSOR: You can cut
+diamonds with other diamonds.
+
+1135
+00:51:17,000 --> 00:51:18,800
+So the cutting action
+usually depends
+
+1136
+00:51:18,800 --> 00:51:21,810
+on the relative hardness
+of the material.
+
+1137
+00:51:21,810 --> 00:51:24,680
+So if you want to polish or
+cut something abrasively,
+
+1138
+00:51:24,680 --> 00:51:26,210
+you need to use
+a harder material
+
+1139
+00:51:26,210 --> 00:51:29,180
+because then the grit
+itself won't wear away
+
+1140
+00:51:29,180 --> 00:51:31,420
+before the material
+it's trying to cut.
+
+1141
+00:51:31,420 --> 00:51:34,700
+But what's going to happen here
+is we're going to put a diamond
+
+1142
+00:51:34,700 --> 00:51:36,687
+and try compressing
+it, and we'll
+
+1143
+00:51:36,687 --> 00:51:38,520
+see what its stress-strain
+curve looks like.
+
+1144
+00:51:38,520 --> 00:51:40,460
+So votes on what's
+going to happen.
+
+1145
+00:51:40,460 --> 00:51:43,541
+Who says, like Monica,
+it's going to shatter?
+
+1146
+00:51:43,541 --> 00:51:47,340
+Who thinks it's going
+to break the tools?
+
+1147
+00:51:47,340 --> 00:51:49,804
+Who thinks it's going
+to deform plastically?
+
+1148
+00:51:49,804 --> 00:51:52,765
+Yeah, I've never seen a
+diamond deform plastically.
+
+1149
+00:52:45,133 --> 00:52:47,300
+AUDIENCE: They still have
+pretty big chunks, though.
+
+1150
+00:52:47,300 --> 00:52:50,040
+PROFESSOR: Oh yeah, they could
+probably still sell those.
+
+1151
+00:52:50,040 --> 00:52:53,250
+Absolutely no deformation.
+
+1152
+00:52:53,250 --> 00:52:56,410
+It just rotates and explodes.
+
+1153
+00:52:56,410 --> 00:52:56,910
+Yeah.
+
+1154
+00:52:56,910 --> 00:52:58,620
+This would be a
+material that we would
+
+1155
+00:52:58,620 --> 00:53:02,220
+say has almost zero ductility.
+
+1156
+00:53:02,220 --> 00:53:04,320
+Despite being
+extremely hard, I don't
+
+1157
+00:53:04,320 --> 00:53:05,820
+know if there would
+even been enough
+
+1158
+00:53:05,820 --> 00:53:08,918
+deformation to have a slight
+dent in the tool itself.
+
+1159
+00:53:08,918 --> 00:53:11,460
+There's probably a little hole
+where the point of the diamond
+
+1160
+00:53:11,460 --> 00:53:15,030
+poked in, but once there was
+enough stress on that diamond,
+
+1161
+00:53:15,030 --> 00:53:19,280
+its stress-strain curve would
+look something like that.
+
+1162
+00:53:19,280 --> 00:53:21,480
+Maybe like that.
+
+1163
+00:53:21,480 --> 00:53:22,910
+Yeah.
+
+1164
+00:53:22,910 --> 00:53:24,530
+So it's important
+that you intuitively
+
+1165
+00:53:24,530 --> 00:53:27,920
+understand the differences
+between strength, ductility,
+
+1166
+00:53:27,920 --> 00:53:31,490
+hardness, toughness, and
+stiffness, because then
+
+1167
+00:53:31,490 --> 00:53:35,870
+next class, we can explain
+how radiation changes them.
+
+1168
+00:53:35,870 --> 00:53:38,570
+So any questions on the
+materials and properties
+
+1169
+00:53:38,570 --> 00:53:39,110
+from today?
+
+1170
+00:53:43,620 --> 00:53:44,720
+Yeah?
+
+1171
+00:53:44,720 --> 00:53:47,790
+AUDIENCE: Can you clarify why
+something is, for example,
+
+1172
+00:53:47,790 --> 00:53:49,705
+ductile versus brittle?
+
+1173
+00:53:49,705 --> 00:53:50,330
+PROFESSOR: Mhm.
+
+1174
+00:53:50,330 --> 00:53:51,997
+So the reason something
+would be ductile
+
+1175
+00:53:51,997 --> 00:53:55,442
+versus brittle is whether or not
+you can plastically deform it,
+
+1176
+00:53:55,442 --> 00:53:57,650
+and that means whether or
+not it's more energetically
+
+1177
+00:53:57,650 --> 00:54:00,200
+favorable for dislocations
+to keep moving
+
+1178
+00:54:00,200 --> 00:54:03,890
+versus just breaking a plane
+of atoms in any irregular
+
+1179
+00:54:03,890 --> 00:54:06,110
+direction and causing fracture.
+
+1180
+00:54:06,110 --> 00:54:08,480
+So again, ductility
+versus embrittlement
+
+1181
+00:54:08,480 --> 00:54:13,670
+is the interplay between
+slip and fracture.
+
+1182
+00:54:13,670 --> 00:54:16,670
+Slip is normally done
+by dislocation movement.
+
+1183
+00:54:16,670 --> 00:54:20,120
+Any defects created by anything,
+especially radiation damage,
+
+1184
+00:54:20,120 --> 00:54:23,690
+will make slip harder so that
+any continued energy you put in
+
+1185
+00:54:23,690 --> 00:54:26,628
+will not move dislocations
+but move towards fracture.
+
+1186
+00:54:29,496 --> 00:54:32,020
+If there's no other
+questions, we'll
+
+1187
+00:54:32,020 --> 00:54:34,420
+look at the
+stress-strain curves of
+
+1188
+00:54:34,420 --> 00:54:36,743
+some other familiar materials.
+
+1189
+00:54:36,743 --> 00:54:39,160
+It is 10:00, in case you guys
+have to go to other classes.
+
+1190
+00:54:43,380 --> 00:54:45,880
+AUDIENCE: Are you taking any
+nuclear activation stuff today?
+
+1191
+00:54:45,880 --> 00:54:46,505
+PROFESSOR: Yes.
+
+1192
+00:54:46,505 --> 00:54:48,940
+If you guys have things for a
+nuclear activation analysis,
+
+1193
+00:54:48,940 --> 00:54:50,720
+hand it in.
+
+1194
+00:54:50,720 --> 00:54:53,663
+You guys bring stuff in?
+
+1195
+00:54:53,663 --> 00:54:55,580
+We're running out of
+opportunities to do this.
+
+1196
+00:54:58,260 --> 00:54:58,760
+All right.
+
+1197
+00:54:58,760 --> 00:55:03,260
+In that case, the
+entry fee for the quiz
+
+1198
+00:55:03,260 --> 00:55:06,790
+will be your nuclear
+activation analysis sample.

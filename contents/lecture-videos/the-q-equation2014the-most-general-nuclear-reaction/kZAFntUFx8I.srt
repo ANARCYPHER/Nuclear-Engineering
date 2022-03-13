@@ -1,0 +1,4825 @@
+1
+00:00:01,000 --> 00:00:03,340
+The following content is
+provided under a Creative
+
+2
+00:00:03,340 --> 00:00:04,760
+Commons license.
+
+3
+00:00:04,760 --> 00:00:06,970
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,970 --> 00:00:11,060
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:11,060 --> 00:00:13,600
+To make a donation or to
+view additional materials
+
+6
+00:00:13,600 --> 00:00:17,560
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,560 --> 00:00:18,920
+at ocw.mit.edu.
+
+8
+00:00:21,967 --> 00:00:22,800
+PROFESSOR: OK, guys.
+
+9
+00:00:22,800 --> 00:00:23,428
+Welcome back.
+
+10
+00:00:23,428 --> 00:00:25,470
+As you can see, we're not
+using the screen today.
+
+11
+00:00:25,470 --> 00:00:27,845
+This is going to be one of
+those fill-the-board lectures.
+
+12
+00:00:27,845 --> 00:00:30,373
+But I am going to work you
+through every single step.
+
+13
+00:00:30,373 --> 00:00:32,040
+We're going to go
+through the Q equation
+
+14
+00:00:32,040 --> 00:00:34,673
+and derive its most
+general form together,
+
+15
+00:00:34,673 --> 00:00:36,090
+which, for the
+rest of this class,
+
+16
+00:00:36,090 --> 00:00:37,950
+we'll be using
+simplified or reduced
+
+17
+00:00:37,950 --> 00:00:40,440
+forms to explain
+a lot of the ion
+
+18
+00:00:40,440 --> 00:00:43,050
+or electron-nuclear
+interactions as well
+
+19
+00:00:43,050 --> 00:00:44,902
+as things like
+neutron scattering
+
+20
+00:00:44,902 --> 00:00:46,110
+and all sorts of other stuff.
+
+21
+00:00:46,110 --> 00:00:47,280
+We'll do one example.
+
+22
+00:00:47,280 --> 00:00:50,610
+For any of you that have
+looked at neutrons slowing down
+
+23
+00:00:50,610 --> 00:00:52,410
+before, how much
+energy can a neutron
+
+24
+00:00:52,410 --> 00:00:54,072
+lose when it hits something?
+
+25
+00:00:54,072 --> 00:00:56,280
+We'll be answering that
+question today in a generally
+
+26
+00:00:56,280 --> 00:00:57,270
+mathematical form.
+
+27
+00:00:57,270 --> 00:00:59,320
+And then a few
+lectures later, we'll
+
+28
+00:00:59,320 --> 00:01:01,320
+be going over some of the
+more intuitive aspects
+
+29
+00:01:01,320 --> 00:01:03,130
+to help explain
+it for everybody.
+
+30
+00:01:03,130 --> 00:01:06,060
+So I'm going to show you the
+same situation that we've
+
+31
+00:01:06,060 --> 00:01:09,480
+been describing sort
+of intuitively so far,
+
+32
+00:01:09,480 --> 00:01:11,910
+but we're going to hit
+it mathematically today.
+
+33
+00:01:11,910 --> 00:01:13,410
+Let's say there's
+a small nucleus,
+
+34
+00:01:13,410 --> 00:01:20,250
+1, that's firing at a large
+nucleus, 2, and afterwards,
+
+35
+00:01:20,250 --> 00:01:24,870
+a different small nucleus, 3,
+and a different large nucleus,
+
+36
+00:01:24,870 --> 00:01:26,940
+4, come flying out.
+
+37
+00:01:26,940 --> 00:01:30,340
+And so we're going to keep
+this as general as possible.
+
+38
+00:01:30,340 --> 00:01:34,410
+So let's say if we draw angles
+from their original paths,
+
+39
+00:01:34,410 --> 00:01:36,840
+particle 3 went
+off at angle theta
+
+40
+00:01:36,840 --> 00:01:39,570
+and particle 4 went
+off at angle phi.
+
+41
+00:01:39,570 --> 00:01:43,780
+So hopefully those are
+differentiable enough.
+
+42
+00:01:43,780 --> 00:01:47,640
+And if we were to write the
+overall Q equation showing
+
+43
+00:01:47,640 --> 00:01:51,560
+the balance between
+mass and energy here,
+
+44
+00:01:51,560 --> 00:01:56,280
+we would simply have
+the mass 1 c squared
+
+45
+00:01:56,280 --> 00:01:58,043
+plus kinetic energy of 1.
+
+46
+00:01:58,043 --> 00:01:59,460
+So in this case,
+we're just saying
+
+47
+00:01:59,460 --> 00:02:01,230
+that the mass and
+the kinetic energy
+
+48
+00:02:01,230 --> 00:02:03,810
+of all particles on the
+left side and the right side
+
+49
+00:02:03,810 --> 00:02:05,790
+has to be conserved.
+
+50
+00:02:05,790 --> 00:02:12,750
+So let's add mass 2 c squared
+plus T2 has to equal mass 3 c
+
+51
+00:02:12,750 --> 00:02:21,570
+squared plus T3 plus mass
+4 c squared plus T4, where,
+
+52
+00:02:21,570 --> 00:02:25,800
+just for symbols,
+M refers to a mass,
+
+53
+00:02:25,800 --> 00:02:27,630
+T refers to a kinetic energy.
+
+54
+00:02:33,700 --> 00:02:36,790
+And so this conservation of
+total mass or total energy
+
+55
+00:02:36,790 --> 00:02:37,860
+has got to be conserved.
+
+56
+00:02:37,860 --> 00:02:38,820
+And we'll use it again.
+
+57
+00:02:38,820 --> 00:02:43,220
+Because, again, we can describe
+the Q, or the energy consumed
+
+58
+00:02:43,220 --> 00:02:47,180
+or released by the reaction,
+as either the change in masses
+
+59
+00:02:47,180 --> 00:02:48,972
+or the change in energies.
+
+60
+00:02:48,972 --> 00:02:50,555
+So in this case, we
+can write that Q--
+
+61
+00:02:53,680 --> 00:02:55,870
+let's just group all of
+the c squareds together
+
+62
+00:02:55,870 --> 00:02:57,910
+for easier writing.
+
+63
+00:02:57,910 --> 00:03:07,560
+If we take the initial masses
+minus the final masses,
+
+64
+00:03:07,560 --> 00:03:09,870
+then we get a picture of
+how much mass was converted
+
+65
+00:03:09,870 --> 00:03:11,910
+to energy, therefore,
+how much energy
+
+66
+00:03:11,910 --> 00:03:14,190
+is available for
+the reaction, or Q,
+
+67
+00:03:14,190 --> 00:03:16,000
+to turn it into kinetic energy.
+
+68
+00:03:16,000 --> 00:03:18,150
+So in this case, we can
+put the kinetic energy
+
+69
+00:03:18,150 --> 00:03:23,480
+of the final products minus
+the kinetic energies--
+
+70
+00:03:23,480 --> 00:03:25,770
+I'm going to keep with 1--
+
+71
+00:03:25,770 --> 00:03:27,770
+of the initial products.
+
+72
+00:03:27,770 --> 00:03:30,480
+And so we'll use this
+a little later on.
+
+73
+00:03:30,480 --> 00:03:32,340
+One simplification
+that we'll make now
+
+74
+00:03:32,340 --> 00:03:35,670
+is we'll assume that if we're
+firing particles at anything,
+
+75
+00:03:35,670 --> 00:03:38,070
+that anything
+starts off at rest.
+
+76
+00:03:38,070 --> 00:03:41,880
+So we can start by
+saying there's no T2.
+
+77
+00:03:41,880 --> 00:03:45,940
+That's just a simplification
+that we'll make right now.
+
+78
+00:03:45,940 --> 00:03:47,880
+And so then the
+question is, what
+
+79
+00:03:47,880 --> 00:03:51,480
+quantities of this situation
+are we likely to know,
+
+80
+00:03:51,480 --> 00:03:53,070
+which ones are we
+not likely to know,
+
+81
+00:03:53,070 --> 00:03:55,470
+and which ones are left
+to relate together?
+
+82
+00:03:55,470 --> 00:03:57,630
+So let's just go
+through one by one.
+
+83
+00:03:57,630 --> 00:04:00,930
+Would we typically know the mass
+of the initial particle coming
+
+84
+00:04:00,930 --> 00:04:03,012
+in?
+
+85
+00:04:03,012 --> 00:04:05,220
+We probably know what we're
+shooting at stuff, right?
+
+86
+00:04:05,220 --> 00:04:07,140
+So we'd know M1.
+
+87
+00:04:07,140 --> 00:04:10,960
+What about T1, the
+initial kinetic energy?
+
+88
+00:04:10,960 --> 00:04:11,460
+Sure.
+
+89
+00:04:11,460 --> 00:04:14,100
+Let's say we have a reactor
+whose energy we know,
+
+90
+00:04:14,100 --> 00:04:15,990
+or an accelerator, or
+something that we're
+
+91
+00:04:15,990 --> 00:04:18,540
+controlling the energy,
+like in problem set one.
+
+92
+00:04:18,540 --> 00:04:20,339
+We'd probably know that.
+
+93
+00:04:20,339 --> 00:04:24,130
+We'd probably know what
+things we're firing at.
+
+94
+00:04:24,130 --> 00:04:27,510
+And we would probably
+know what the masses
+
+95
+00:04:27,510 --> 00:04:29,880
+of the final products are,
+because you guys have been
+
+96
+00:04:29,880 --> 00:04:33,780
+doing nuclear reaction
+analysis and calculating
+
+97
+00:04:33,780 --> 00:04:36,990
+binding energies and everything
+for the last couple of weeks.
+
+98
+00:04:36,990 --> 00:04:42,030
+But we might not know
+the kinetic energies
+
+99
+00:04:42,030 --> 00:04:42,940
+of what's coming out.
+
+100
+00:04:42,940 --> 00:04:45,270
+Let's say we didn't actually
+even know the masses yet.
+
+101
+00:04:45,270 --> 00:04:48,040
+We'd have to figure out a way to
+get both the kinetic energies.
+
+102
+00:04:48,040 --> 00:04:51,210
+And what about
+these angles here?
+
+103
+00:04:51,210 --> 00:04:53,730
+This is the new variable
+that we're introducing,
+
+104
+00:04:53,730 --> 00:04:56,310
+is the kinetic energy
+of particles 3 and 4
+
+105
+00:04:56,310 --> 00:04:59,160
+is going to depend on what
+angles they fire off at.
+
+106
+00:04:59,160 --> 00:05:01,010
+Let me give you a limiting case.
+
+107
+00:05:01,010 --> 00:05:05,110
+Let's say theta was 0.
+
+108
+00:05:05,110 --> 00:05:07,550
+What would that
+mean, physically?
+
+109
+00:05:10,370 --> 00:05:12,770
+What would be happening
+to particles 1, 2, 3,
+
+110
+00:05:12,770 --> 00:05:16,220
+and 4 if theta and phi were
+0, if they kept on moving
+
+111
+00:05:16,220 --> 00:05:19,293
+in the exact same path?
+
+112
+00:05:19,293 --> 00:05:19,793
+Yeah?
+
+113
+00:05:19,793 --> 00:05:22,150
+AUDIENCE: Is it a fusion
+event, or [INAUDIBLE]
+
+114
+00:05:22,150 --> 00:05:23,192
+PROFESSOR: We don't know.
+
+115
+00:05:23,192 --> 00:05:23,950
+Well, let's see.
+
+116
+00:05:23,950 --> 00:05:24,450
+Yeah.
+
+117
+00:05:24,450 --> 00:05:27,490
+If it was a fusion event-- let's
+say there was one here and one
+
+118
+00:05:27,490 --> 00:05:28,668
+standing still--
+
+119
+00:05:28,668 --> 00:05:30,460
+then the whole center
+of mass of the system
+
+120
+00:05:30,460 --> 00:05:31,627
+would have to move that way.
+
+121
+00:05:31,627 --> 00:05:33,820
+So one example could
+be a fusion event.
+
+122
+00:05:33,820 --> 00:05:36,800
+A second example could
+be absolutely nothing.
+
+123
+00:05:36,800 --> 00:05:40,220
+It's perfectly valid to say if,
+let's say, particle 1 scatters
+
+124
+00:05:40,220 --> 00:05:43,130
+off particle 2 at an
+angle of 0 degrees,
+
+125
+00:05:43,130 --> 00:05:54,200
+that's what's known as
+forward scattering, which
+
+126
+00:05:54,200 --> 00:05:56,120
+is to say that theta equals 0.
+
+127
+00:05:58,790 --> 00:06:01,190
+So this is another quantity
+that we might not know.
+
+128
+00:06:01,190 --> 00:06:04,910
+We might not know what
+theta and phi are.
+
+129
+00:06:04,910 --> 00:06:07,160
+And the problem here is we've
+got, like, three or four
+
+130
+00:06:07,160 --> 00:06:09,980
+unknowns and only one
+equation to relate them.
+
+131
+00:06:09,980 --> 00:06:10,990
+So what other-- yeah?
+
+132
+00:06:10,990 --> 00:06:11,515
+Question?
+
+133
+00:06:11,515 --> 00:06:12,890
+AUDIENCE: For
+forward scattering,
+
+134
+00:06:12,890 --> 00:06:16,280
+when you say theta equals 0, do
+you mean they just sort of move
+
+135
+00:06:16,280 --> 00:06:19,260
+together forward, kind of
+like an inelastic collision,
+
+136
+00:06:19,260 --> 00:06:21,260
+and they just keep moving
+in the same direction?
+
+137
+00:06:21,260 --> 00:06:23,218
+PROFESSOR: An inelastic
+collision would be one.
+
+138
+00:06:23,218 --> 00:06:26,240
+And since we haven't gone
+through what inelastic means,
+
+139
+00:06:26,240 --> 00:06:29,300
+that would mean some
+sort of collision where--
+
+140
+00:06:29,300 --> 00:06:30,020
+let's see.
+
+141
+00:06:30,020 --> 00:06:31,776
+How would I explain this?
+
+142
+00:06:31,776 --> 00:06:34,040
+I'd say an inelastic
+collision would be like
+
+143
+00:06:34,040 --> 00:06:38,300
+if particles 1 and 2 were to
+fuse, like a capture event,
+
+144
+00:06:38,300 --> 00:06:41,570
+for example, or a capture and
+then a re-emission, let's say,
+
+145
+00:06:41,570 --> 00:06:42,390
+of a neutron.
+
+146
+00:06:42,390 --> 00:06:42,890
+Yeah.
+
+147
+00:06:42,890 --> 00:06:44,660
+If it was re-emitted in
+the forward direction,
+
+148
+00:06:44,660 --> 00:06:46,743
+then that could be an
+inelastic scattering event--
+
+149
+00:06:46,743 --> 00:06:47,490
+AUDIENCE: Oh, OK.
+
+150
+00:06:47,490 --> 00:06:49,365
+PROFESSOR: --but still
+in the same direction.
+
+151
+00:06:49,365 --> 00:06:51,740
+Or an elastic scatter
+at an angle of theta
+
+152
+00:06:51,740 --> 00:06:55,010
+equals 0 could be like there
+wasn't any scattering at all.
+
+153
+00:06:55,010 --> 00:06:57,650
+Because really in
+the end, can matter--
+
+154
+00:06:57,650 --> 00:07:01,100
+let's say if you have a
+neutron firing at a nucleus,
+
+155
+00:07:01,100 --> 00:07:02,930
+depends on what angle
+it bounces off of,
+
+156
+00:07:02,930 --> 00:07:05,240
+in the billiard ball sense.
+
+157
+00:07:05,240 --> 00:07:08,210
+If it bounces off at an angle
+of 0, that means it missed.
+
+158
+00:07:08,210 --> 00:07:10,490
+We would consider
+that theta equals 0.
+
+159
+00:07:10,490 --> 00:07:12,110
+But the point here
+is that we now
+
+160
+00:07:12,110 --> 00:07:14,120
+have more quantities
+unknown than we
+
+161
+00:07:14,120 --> 00:07:16,460
+have equations to define them.
+
+162
+00:07:16,460 --> 00:07:18,200
+So how else can
+we start relating
+
+163
+00:07:18,200 --> 00:07:19,280
+some of these quantities?
+
+164
+00:07:19,280 --> 00:07:21,500
+What else can we
+conserve, since we've
+
+165
+00:07:21,500 --> 00:07:24,420
+already got mass and energy?
+
+166
+00:07:24,420 --> 00:07:26,410
+What's that third quantity
+I always yell out?
+
+167
+00:07:26,410 --> 00:07:27,210
+AUDIENCE: Momentum.
+
+168
+00:07:27,210 --> 00:07:28,140
+PROFESSOR: Momentum.
+
+169
+00:07:28,140 --> 00:07:28,750
+Right.
+
+170
+00:07:28,750 --> 00:07:31,980
+So let's start writing some
+of the momentum conservation
+
+171
+00:07:31,980 --> 00:07:35,730
+equations so we can try
+and nail these things down.
+
+172
+00:07:35,730 --> 00:07:37,860
+So I'm going to write
+each step one at a time.
+
+173
+00:07:37,860 --> 00:07:39,510
+We'll start by
+conserving momentum.
+
+174
+00:07:42,700 --> 00:07:44,680
+That's what we'll do right here.
+
+175
+00:07:44,680 --> 00:07:47,650
+And we can write the x and
+the y equations separately.
+
+176
+00:07:47,650 --> 00:07:50,590
+So what's the momentum
+of particle 1?
+
+177
+00:07:50,590 --> 00:07:53,590
+How do we express that?
+
+178
+00:07:53,590 --> 00:07:54,840
+AUDIENCE: Mass times velocity.
+
+179
+00:07:54,840 --> 00:07:55,480
+PROFESSOR: Yep.
+
+180
+00:07:55,480 --> 00:07:58,290
+So it would be like M1 V1.
+
+181
+00:07:58,290 --> 00:08:02,490
+So we'll have a little box
+right here for momentum.
+
+182
+00:08:02,490 --> 00:08:04,920
+We could say mass
+times velocity--
+
+183
+00:08:04,920 --> 00:08:07,290
+or, how do we express that
+in terms of the variables
+
+184
+00:08:07,290 --> 00:08:09,540
+that we have here,
+like we did last week?
+
+185
+00:08:15,083 --> 00:08:16,750
+What about in terms
+of kinetic energies?
+
+186
+00:08:20,620 --> 00:08:22,620
+Well, another way of
+writing mass times velocity
+
+187
+00:08:22,620 --> 00:08:26,610
+would be root 2MT.
+
+188
+00:08:26,610 --> 00:08:32,669
+Because in this case, we
+would have root 2 times
+
+189
+00:08:32,669 --> 00:08:39,000
+M1 times 1/2 M1 V1 squared.
+
+190
+00:08:39,000 --> 00:08:41,100
+The 2s here cancel.
+
+191
+00:08:41,100 --> 00:08:42,175
+Let's see.
+
+192
+00:08:42,175 --> 00:08:43,500
+You have M1 squared.
+
+193
+00:08:43,500 --> 00:08:45,120
+You have a V squared.
+
+194
+00:08:45,120 --> 00:08:51,370
+And the square root of M
+squared V squared is just MV.
+
+195
+00:08:51,370 --> 00:08:54,330
+So this is an equivalent
+way of writing the momentum
+
+196
+00:08:54,330 --> 00:08:56,543
+in the variables that
+we're working in already.
+
+197
+00:08:56,543 --> 00:08:58,710
+And so since that doesn't
+introduce another variable
+
+198
+00:08:58,710 --> 00:09:00,540
+like velocity--
+which we do know,
+
+199
+00:09:00,540 --> 00:09:02,790
+but it's kind of confusing
+to add more symbols-- let's
+
+200
+00:09:02,790 --> 00:09:04,560
+keep as few as possible.
+
+201
+00:09:04,560 --> 00:09:06,900
+So what's the x
+momentum of particle 1?
+
+202
+00:09:10,640 --> 00:09:13,510
+Just what I've got up there.
+
+203
+00:09:13,510 --> 00:09:16,360
+2 M1 T1.
+
+204
+00:09:16,360 --> 00:09:20,680
+What's the x momentum in
+this frame of particle 2?
+
+205
+00:09:20,680 --> 00:09:21,440
+0.
+
+206
+00:09:21,440 --> 00:09:24,340
+We're assuming
+that it's at rest.
+
+207
+00:09:24,340 --> 00:09:27,140
+And now, what's the x
+momentum of particle 3?
+
+208
+00:09:31,044 --> 00:09:33,447
+AUDIENCE: [INAUDIBLE]
+
+209
+00:09:33,447 --> 00:09:35,030
+PROFESSOR: I heard
+a couple of things.
+
+210
+00:09:35,030 --> 00:09:36,080
+Can you say them louder?
+
+211
+00:09:36,080 --> 00:09:38,635
+AUDIENCE: Square
+root of 2 M3 T3?
+
+212
+00:09:38,635 --> 00:09:39,260
+PROFESSOR: Yep.
+
+213
+00:09:39,260 --> 00:09:43,340
+Root 2 M3 T3.
+
+214
+00:09:43,340 --> 00:09:45,560
+But in this case,
+if we're defining,
+
+215
+00:09:45,560 --> 00:09:49,100
+let's say, our
+x-axis here, it also
+
+216
+00:09:49,100 --> 00:09:50,820
+matters what this angle is.
+
+217
+00:09:50,820 --> 00:09:56,780
+So you've got to multiply by
+cosine theta in this case.
+
+218
+00:09:56,780 --> 00:09:59,200
+And that's the x
+momentum of particle 3.
+
+219
+00:09:59,200 --> 00:10:02,050
+And we've also got to
+account for particle 4.
+
+220
+00:10:02,050 --> 00:10:10,410
+So we'll say add 2 cosine phi.
+
+221
+00:10:10,410 --> 00:10:13,170
+Now let's do the same
+thing for the y momentum.
+
+222
+00:10:13,170 --> 00:10:17,990
+What's the y momentum
+of particles 1 and 2?
+
+223
+00:10:17,990 --> 00:10:20,000
+0.
+
+224
+00:10:20,000 --> 00:10:24,220
+They're not moving in
+the y direction to start.
+
+225
+00:10:24,220 --> 00:10:25,480
+And how about particle 3?
+
+226
+00:10:30,590 --> 00:10:32,760
+I hear whispers, but
+nothing vocalized.
+
+227
+00:10:32,760 --> 00:10:33,495
+AUDIENCE: Sine?
+
+228
+00:10:33,495 --> 00:10:34,120
+PROFESSOR: Yep.
+
+229
+00:10:34,120 --> 00:10:42,190
+Same thing, but root
+2 M3 T3 sine theta.
+
+230
+00:10:42,190 --> 00:10:45,310
+And M4-- I almost
+wrote the wrong sign
+
+231
+00:10:45,310 --> 00:10:47,470
+there-- has got to be a minus.
+
+232
+00:10:47,470 --> 00:10:50,380
+If the momentum of the initial
+particle system in the y
+
+233
+00:10:50,380 --> 00:10:54,550
+direction is 0, so
+must the final momentum
+
+234
+00:10:54,550 --> 00:10:56,440
+in the y direction.
+
+235
+00:10:56,440 --> 00:10:59,300
+So these two momenta have
+to be equal and opposite.
+
+236
+00:11:03,440 --> 00:11:06,600
+And that's times sine phi.
+
+237
+00:11:06,600 --> 00:11:09,690
+So now we actually have sets
+of equations that relate
+
+238
+00:11:09,690 --> 00:11:11,970
+all of our unknown quantities.
+
+239
+00:11:11,970 --> 00:11:14,400
+We have the mass
+conservation equation,
+
+240
+00:11:14,400 --> 00:11:17,150
+we have the Q equation,
+we have the x momentum,
+
+241
+00:11:17,150 --> 00:11:18,780
+and we have the y momentum.
+
+242
+00:11:18,780 --> 00:11:20,970
+And from this point on,
+it's a matter of algebra
+
+243
+00:11:20,970 --> 00:11:23,490
+to express some of
+these quantities
+
+244
+00:11:23,490 --> 00:11:27,240
+in terms of some of the others.
+
+245
+00:11:27,240 --> 00:11:29,780
+So let's get started with that.
+
+246
+00:11:29,780 --> 00:11:32,150
+Because angles
+are kind of messy,
+
+247
+00:11:32,150 --> 00:11:36,320
+and theta should
+uniquely define phi,
+
+248
+00:11:36,320 --> 00:11:39,360
+let's try and get things
+in terms of just one angle.
+
+249
+00:11:39,360 --> 00:11:41,900
+So I'm going to
+start by separating
+
+250
+00:11:41,900 --> 00:11:45,740
+the thetas and the phis on
+either side of the equals sign,
+
+251
+00:11:45,740 --> 00:11:48,470
+so that hopefully later
+on we can eliminate one
+
+252
+00:11:48,470 --> 00:11:50,240
+in a system of equations.
+
+253
+00:11:50,240 --> 00:11:53,090
+So all I'm going to do is
+I'm going to subtract or add
+
+254
+00:11:53,090 --> 00:11:56,060
+the theta terms to the
+other side of the equation.
+
+255
+00:11:56,060 --> 00:11:57,585
+So let's say we'll
+separate angles.
+
+256
+00:12:03,660 --> 00:12:14,850
+So we'll have root 2 M1 T1
+and minus root 2 M3 T3 cosine
+
+257
+00:12:14,850 --> 00:12:15,930
+theta.
+
+258
+00:12:15,930 --> 00:12:18,335
+I'll be depending on you
+guys to check for sign errors
+
+259
+00:12:18,335 --> 00:12:19,710
+here because those
+will be messy.
+
+260
+00:12:19,710 --> 00:12:21,450
+I do have notes in
+case, but I'm hoping
+
+261
+00:12:21,450 --> 00:12:23,190
+I won't have to look at them.
+
+262
+00:12:23,190 --> 00:12:24,780
+And all we have
+left on this side
+
+263
+00:12:24,780 --> 00:12:33,390
+is root 2 M4 T4 cosine phi.
+
+264
+00:12:33,390 --> 00:12:35,280
+So that's the x
+momentum equation.
+
+265
+00:12:35,280 --> 00:12:38,970
+Let's do the same thing with
+the y momentum equation.
+
+266
+00:12:38,970 --> 00:12:42,360
+So all we'll do is
+take the theta term
+
+267
+00:12:42,360 --> 00:12:44,820
+and stick it to the
+left of the equals sign.
+
+268
+00:12:44,820 --> 00:12:54,960
+So that would give us minus
+root 2 M3 T3 sine theta equals
+
+269
+00:12:54,960 --> 00:13:02,540
+minus root 2 M4 T4 sine phi.
+
+270
+00:13:02,540 --> 00:13:06,020
+Right away, we can see that
+the minus signs can cancel out,
+
+271
+00:13:06,020 --> 00:13:08,120
+just for simplicity.
+
+272
+00:13:08,120 --> 00:13:12,810
+And what else is common to
+these that we can get rid of?
+
+273
+00:13:12,810 --> 00:13:13,310
+Yep?
+
+274
+00:13:13,310 --> 00:13:14,435
+AUDIENCE: Square root of 2.
+
+275
+00:13:14,435 --> 00:13:17,410
+PROFESSOR: Everything here
+has a square root of 2.
+
+276
+00:13:17,410 --> 00:13:21,140
+So we'll just get rid of
+all of the square root of 2s
+
+277
+00:13:21,140 --> 00:13:23,920
+to simplify as much as possible.
+
+278
+00:13:23,920 --> 00:13:27,060
+And now we look a little stuck.
+
+279
+00:13:27,060 --> 00:13:29,930
+But now is the time to remember
+those trigonometric identities
+
+280
+00:13:29,930 --> 00:13:31,680
+back from high school
+that I don't think--
+
+281
+00:13:31,680 --> 00:13:34,310
+has anyone used these since?
+
+282
+00:13:34,310 --> 00:13:37,820
+In 1801 or 1802, anyone
+used a trig identity?
+
+283
+00:13:37,820 --> 00:13:38,620
+A little bit?
+
+284
+00:13:38,620 --> 00:13:39,590
+OK.
+
+285
+00:13:39,590 --> 00:13:41,390
+I would hope so.
+
+286
+00:13:41,390 --> 00:13:43,798
+But I don't know what other
+people are teaching nowadays.
+
+287
+00:13:43,798 --> 00:13:46,340
+At least this way I'll make sure
+you remember the high school
+
+288
+00:13:46,340 --> 00:13:47,390
+stuff.
+
+289
+00:13:47,390 --> 00:13:50,020
+We're going to rely on
+the fact that we already
+
+290
+00:13:50,020 --> 00:13:52,070
+have got a cosine and a sine.
+
+291
+00:13:52,070 --> 00:13:54,260
+We have a set of
+simultaneous equations.
+
+292
+00:13:54,260 --> 00:13:57,440
+If we can add them together
+and destroy the angles somehow,
+
+293
+00:13:57,440 --> 00:13:59,640
+that will make
+things a lot easier.
+
+294
+00:13:59,640 --> 00:14:02,420
+So for the thetas, we
+have a cosine, a sine,
+
+295
+00:14:02,420 --> 00:14:05,930
+and an unangled term
+that looks kind of messy.
+
+296
+00:14:05,930 --> 00:14:09,500
+Here we have a
+cosine and a sine.
+
+297
+00:14:09,500 --> 00:14:11,030
+Anyone have any
+idea where we could
+
+298
+00:14:11,030 --> 00:14:12,875
+go next to destroy
+one of these angles?
+
+299
+00:14:16,050 --> 00:14:19,110
+Anyone remember any handy
+cosine or sine trig identities?
+
+300
+00:14:19,110 --> 00:14:20,610
+AUDIENCE: If you
+squared both terms,
+
+301
+00:14:20,610 --> 00:14:23,010
+you could get square root of
+cosine squared, square root
+
+302
+00:14:23,010 --> 00:14:23,510
+of-- sorry.
+
+303
+00:14:23,510 --> 00:14:24,800
+You get cosine squared
+and sine squared
+
+304
+00:14:24,800 --> 00:14:27,050
+and then you factor out
+the square root of M4T4
+
+305
+00:14:27,050 --> 00:14:29,618
+and then cosine squared
+plus sine squared equals 1.
+
+306
+00:14:29,618 --> 00:14:30,410
+PROFESSOR: Exactly.
+
+307
+00:14:30,410 --> 00:14:32,270
+So we can rely on
+the fact that if we
+
+308
+00:14:32,270 --> 00:14:36,860
+can square both sides of both
+equations and add them up,
+
+309
+00:14:36,860 --> 00:14:40,310
+we would have a
+cosine squared of phi
+
+310
+00:14:40,310 --> 00:14:46,930
+plus a sine squared of
+phi, which also equals 1.
+
+311
+00:14:46,930 --> 00:14:51,180
+So we can destroy this phi angle
+and make things a lot simpler.
+
+312
+00:14:51,180 --> 00:14:54,150
+So we'll start by
+squaring both sides.
+
+313
+00:15:00,590 --> 00:15:03,020
+Let's start with the
+x momentum equation.
+
+314
+00:15:03,020 --> 00:15:05,170
+So if we have--
+
+315
+00:15:05,170 --> 00:15:08,520
+let's see-- root M1T1.
+
+316
+00:15:08,520 --> 00:15:12,000
+So we're going to take
+that stuff squared.
+
+317
+00:15:12,000 --> 00:15:14,490
+And that squared
+is not too hard.
+
+318
+00:15:17,090 --> 00:15:19,350
+Neither are those.
+
+319
+00:15:19,350 --> 00:15:22,360
+So we'll have root M1 T1
+squared, which just gives us
+
+320
+00:15:22,360 --> 00:15:31,690
+M1 T1, minus root M1 T1 times
+root M3 T3 cosine theta.
+
+321
+00:15:31,690 --> 00:15:38,470
+Let's just lump those terms
+together as root M1 M3 T1 T3
+
+322
+00:15:38,470 --> 00:15:41,170
+cosine theta.
+
+323
+00:15:41,170 --> 00:15:42,670
+Also, anyone, raise
+your hand or let
+
+324
+00:15:42,670 --> 00:15:44,180
+me know if I'm going too fast.
+
+325
+00:15:44,180 --> 00:15:46,060
+I'm trying to hit
+every single step.
+
+326
+00:15:46,060 --> 00:15:48,550
+But in case I skip one,
+please slow me down.
+
+327
+00:15:48,550 --> 00:15:50,940
+That's what class is for.
+
+328
+00:15:50,940 --> 00:15:52,080
+OK.
+
+329
+00:15:52,080 --> 00:15:53,740
+And then we've got another one.
+
+330
+00:15:53,740 --> 00:15:57,480
+Let's just stick a
+2 in front of there
+
+331
+00:15:57,480 --> 00:16:01,470
+and plus that term squared.
+
+332
+00:16:01,470 --> 00:16:06,120
+So we'll have M3 T3.
+
+333
+00:16:08,990 --> 00:16:09,670
+Let's see.
+
+334
+00:16:12,780 --> 00:16:13,590
+Yeah.
+
+335
+00:16:13,590 --> 00:16:17,960
+Looks like cosine
+squared of theta.
+
+336
+00:16:17,960 --> 00:16:20,010
+Yep.
+
+337
+00:16:20,010 --> 00:16:22,990
+Equals-- this one's easier--
+
+338
+00:16:22,990 --> 00:16:29,740
+M4 T4 cosine squared of phi.
+
+339
+00:16:29,740 --> 00:16:31,110
+OK.
+
+340
+00:16:31,110 --> 00:16:34,200
+Now we'll do the same thing
+for the y momentum equation.
+
+341
+00:16:34,200 --> 00:16:36,405
+Much easier because there's
+no addition anywhere.
+
+342
+00:16:36,405 --> 00:16:43,796
+And we have M3 sine
+squared theta--
+
+343
+00:16:43,796 --> 00:16:51,880
+over here-- equals M4
+T4 sine squared phi.
+
+344
+00:16:51,880 --> 00:16:53,060
+So this is quite nice.
+
+345
+00:16:53,060 --> 00:16:55,040
+Now if we add these
+equations together,
+
+346
+00:16:55,040 --> 00:16:58,820
+we get rid of all of the
+cosine and sine squared terms.
+
+347
+00:16:58,820 --> 00:17:00,310
+So let's add them up.
+
+348
+00:17:03,572 --> 00:17:05,510
+Let's see.
+
+349
+00:17:05,510 --> 00:17:06,950
+We'll add the two equations.
+
+350
+00:17:13,310 --> 00:17:15,762
+Add equations.
+
+351
+00:17:15,762 --> 00:17:17,720
+And let's try and group
+all the terms together.
+
+352
+00:17:17,720 --> 00:17:29,215
+So we have M1 T1
+minus 2 root M1 M3--
+
+353
+00:17:29,215 --> 00:17:32,270
+it's getting hard to write
+over the lip of the chalkboard
+
+354
+00:17:32,270 --> 00:17:32,770
+here--
+
+355
+00:17:37,890 --> 00:17:40,200
+cosine theta.
+
+356
+00:17:40,200 --> 00:17:47,910
+And we have M3 T3 cosine
+squared theta plus M3 T3
+
+357
+00:17:47,910 --> 00:17:48,860
+sine squared theta.
+
+358
+00:17:58,530 --> 00:18:06,340
+Equals M4 T4 cosine squared
+theta plus sine squared theta--
+
+359
+00:18:06,340 --> 00:18:06,960
+or phi.
+
+360
+00:18:06,960 --> 00:18:07,460
+I'm sorry.
+
+361
+00:18:07,460 --> 00:18:12,810
+Cosine squared phi
+plus sine squared phi.
+
+362
+00:18:12,810 --> 00:18:13,310
+OK.
+
+363
+00:18:13,310 --> 00:18:16,250
+Hopefully that's as low
+as I'll have to write.
+
+364
+00:18:16,250 --> 00:18:18,350
+And like we saw
+before, cosine squared
+
+365
+00:18:18,350 --> 00:18:20,150
+plus sine squared equals 1.
+
+366
+00:18:20,150 --> 00:18:24,150
+So that goes away.
+
+367
+00:18:24,150 --> 00:18:25,820
+That goes away.
+
+368
+00:18:25,820 --> 00:18:28,440
+And let's keep going over
+on this side of the board.
+
+369
+00:18:28,440 --> 00:18:31,290
+I told you this would
+be a fill-the-board day.
+
+370
+00:18:31,290 --> 00:18:32,790
+Let's see if we
+actually get all six
+
+371
+00:18:32,790 --> 00:18:34,170
+instead of just
+the four visible.
+
+372
+00:18:34,170 --> 00:18:38,190
+But I think we'll finish this
+derivation in four boards.
+
+373
+00:18:38,190 --> 00:18:40,130
+So let's write what
+we've got left.
+
+374
+00:18:40,130 --> 00:18:41,030
+Let's see.
+
+375
+00:18:41,030 --> 00:18:41,720
+Remaining.
+
+376
+00:18:46,030 --> 00:18:53,730
+So we have M1 T1
+minus 2 root M1 M3--
+
+377
+00:18:53,730 --> 00:18:55,680
+so much easier to
+write standing up--
+
+378
+00:18:58,310 --> 00:19:05,070
+cosine theta equals M4 T4.
+
+379
+00:19:05,070 --> 00:19:06,210
+Quite a bit simpler.
+
+380
+00:19:06,210 --> 00:19:07,192
+AUDIENCE: [INAUDIBLE]
+
+381
+00:19:07,192 --> 00:19:08,400
+PROFESSOR: Did I miss a term?
+
+382
+00:19:08,400 --> 00:19:09,092
+AUDIENCE: The M3 T3.
+
+383
+00:19:09,092 --> 00:19:09,720
+PROFESSOR: Ah.
+
+384
+00:19:09,720 --> 00:19:10,150
+Thank you.
+
+385
+00:19:10,150 --> 00:19:10,500
+You're right.
+
+386
+00:19:10,500 --> 00:19:11,042
+You're right.
+
+387
+00:19:13,930 --> 00:19:17,650
+And we had a plus M3 T3.
+
+388
+00:19:17,650 --> 00:19:18,900
+Yeah, that would be important.
+
+389
+00:19:18,900 --> 00:19:20,090
+Thank you.
+
+390
+00:19:20,090 --> 00:19:23,570
+Equals M4 T4.
+
+391
+00:19:23,570 --> 00:19:26,900
+So we now have a relation
+between the masses,
+
+392
+00:19:26,900 --> 00:19:30,410
+the energies, and one angle,
+which is getting a lot better.
+
+393
+00:19:30,410 --> 00:19:35,210
+We still have one more
+variable than we can deal with.
+
+394
+00:19:35,210 --> 00:19:36,830
+So let's say if we're--
+
+395
+00:19:36,830 --> 00:19:38,568
+let's see.
+
+396
+00:19:38,568 --> 00:19:40,110
+Which of these
+variables do you think
+
+397
+00:19:40,110 --> 00:19:43,027
+we can eliminate using any
+of the equations you see,
+
+398
+00:19:43,027 --> 00:19:44,860
+let's go with, on that
+top board over there?
+
+399
+00:19:52,280 --> 00:19:55,610
+Well, what other
+quantities are we
+
+400
+00:19:55,610 --> 00:19:59,195
+likely to know about
+this nuclear reaction?
+
+401
+00:19:59,195 --> 00:20:00,320
+Let's bring this back down.
+
+402
+00:20:02,900 --> 00:20:05,618
+Are we likely to
+know the Q value?
+
+403
+00:20:05,618 --> 00:20:06,470
+AUDIENCE: Yeah.
+
+404
+00:20:06,470 --> 00:20:08,138
+PROFESSOR: Probably.
+
+405
+00:20:08,138 --> 00:20:09,680
+Because like you
+guys have been doing
+
+406
+00:20:09,680 --> 00:20:12,380
+on problem sets one and
+two, if you know, let's say,
+
+407
+00:20:12,380 --> 00:20:15,500
+the binding energies, or the
+masses, or the excess masses,
+
+408
+00:20:15,500 --> 00:20:18,320
+or the kinetic energies
+of all your products,
+
+409
+00:20:18,320 --> 00:20:20,540
+any combination of
+those can get you
+
+410
+00:20:20,540 --> 00:20:23,150
+the Q value of that reaction.
+
+411
+00:20:23,150 --> 00:20:25,840
+And if you just look up those
+reactions like, let's say,
+
+412
+00:20:25,840 --> 00:20:28,660
+radioactive decay reactions,
+on the table of nuclides,
+
+413
+00:20:28,660 --> 00:20:30,370
+it just gives you the Q value.
+
+414
+00:20:30,370 --> 00:20:34,240
+So chances are we can express
+some of these kinetic energies
+
+415
+00:20:34,240 --> 00:20:36,230
+in terms of Q.
+
+416
+00:20:36,230 --> 00:20:40,680
+And all we've got left
+is T1, T3, and T4.
+
+417
+00:20:40,680 --> 00:20:42,530
+So which of these are
+we most likely to be
+
+418
+00:20:42,530 --> 00:20:44,720
+able to know or measure?
+
+419
+00:20:44,720 --> 00:20:49,530
+T1, we probably fixed it
+by cranking up our particle
+
+420
+00:20:49,530 --> 00:20:52,280
+accelerator to a certain energy.
+
+421
+00:20:52,280 --> 00:20:55,590
+T3 or T4, what do
+you guys think?
+
+422
+00:20:55,590 --> 00:20:57,450
+Let's say we had a
+very small nucleus
+
+423
+00:20:57,450 --> 00:20:59,520
+firing at a very big one.
+
+424
+00:20:59,520 --> 00:21:01,020
+Which one do you
+think would be more
+
+425
+00:21:01,020 --> 00:21:02,850
+likely to escape
+this system and get
+
+426
+00:21:02,850 --> 00:21:06,934
+detected by us standing a couple
+feet away with a detector?
+
+427
+00:21:06,934 --> 00:21:07,900
+Yep?
+
+428
+00:21:07,900 --> 00:21:08,890
+AUDIENCE: T3.
+
+429
+00:21:08,890 --> 00:21:11,320
+PROFESSOR: Probably T3,
+the smaller particle.
+
+430
+00:21:11,320 --> 00:21:13,570
+We've just arbitrarily
+chosen that.
+
+431
+00:21:13,570 --> 00:21:15,250
+But for intuitive
+sake, let's say, yeah.
+
+432
+00:21:15,250 --> 00:21:21,100
+Why don't we try and get
+T4 in terms of Q T1 and T3?
+
+433
+00:21:21,100 --> 00:21:25,300
+That's not too hard,
+since it's addition.
+
+434
+00:21:25,300 --> 00:21:27,040
+So our next step
+will be substitute.
+
+435
+00:21:32,240 --> 00:21:35,450
+And we'll say that Q equals--
+
+436
+00:21:35,450 --> 00:21:38,070
+I'm just going to copy
+it up from there--
+
+437
+00:21:38,070 --> 00:21:43,052
+T3 plus T4 minus T1.
+
+438
+00:21:43,052 --> 00:21:54,280
+So we can isolate T4 and say
+T4 equals Q plus T1 minus T3.
+
+439
+00:21:57,270 --> 00:21:59,190
+And continue substituting.
+
+440
+00:22:06,600 --> 00:22:09,800
+I usually don't like to have
+my back to the class this much.
+
+441
+00:22:09,800 --> 00:22:12,860
+But when you're writing this
+much, it can be a little hard.
+
+442
+00:22:12,860 --> 00:22:16,310
+So let's stick this T4 in right
+here and rewrite the equation
+
+443
+00:22:16,310 --> 00:22:18,270
+as we've got it.
+
+444
+00:22:18,270 --> 00:22:31,350
+M1 T1 minus 2 root M1 M3 T1 T3
+cosine theta plus M3 T3 equals
+
+445
+00:22:31,350 --> 00:22:37,050
+M4 times Q plus T1 minus T3.
+
+446
+00:22:37,050 --> 00:22:41,080
+I anticipate us needing to see
+this side of the board soon.
+
+447
+00:22:41,080 --> 00:22:43,020
+I also apologize for
+the amount of time
+
+448
+00:22:43,020 --> 00:22:44,410
+it takes to write these things.
+
+449
+00:22:44,410 --> 00:22:46,110
+There's another
+strategy one can use
+
+450
+00:22:46,110 --> 00:22:48,960
+at the board which is
+defining intermediate symbols.
+
+451
+00:22:48,960 --> 00:22:50,970
+And here's why I'm
+not doing that.
+
+452
+00:22:50,970 --> 00:22:53,245
+When I was a freshman, back in--
+
+453
+00:22:53,245 --> 00:22:55,650
+whoa-- 2001.
+
+454
+00:22:55,650 --> 00:22:58,150
+Who here was born after 2001?
+
+455
+00:22:58,150 --> 00:22:58,650
+Nobody.
+
+456
+00:22:58,650 --> 00:22:59,150
+OK.
+
+457
+00:22:59,150 --> 00:23:00,450
+Thank god.
+
+458
+00:23:00,450 --> 00:23:02,750
+I don't feel so old.
+
+459
+00:23:02,750 --> 00:23:06,000
+I was in 18023, which was
+math with applications,
+
+460
+00:23:06,000 --> 00:23:08,940
+which was better known as
+math with extra theory.
+
+461
+00:23:08,940 --> 00:23:11,920
+And in one class, not only
+did we fill nine boards,
+
+462
+00:23:11,920 --> 00:23:14,250
+but we ran out of
+English letters--
+
+463
+00:23:14,250 --> 00:23:17,040
+symbols-- and we ran out
+of Greek letter symbols,
+
+464
+00:23:17,040 --> 00:23:19,020
+and we moved on to Hebrew.
+
+465
+00:23:19,020 --> 00:23:21,420
+Because they were distinct
+enough from English and Greek.
+
+466
+00:23:21,420 --> 00:23:24,200
+And being, I think, the only
+Hebrew speaker in the class,
+
+467
+00:23:24,200 --> 00:23:26,242
+I was the only one that
+could follow the symbols,
+
+468
+00:23:26,242 --> 00:23:27,990
+but I couldn't follow
+the math anymore.
+
+469
+00:23:27,990 --> 00:23:30,780
+So I am not going to define
+intermediate symbols for this
+
+470
+00:23:30,780 --> 00:23:32,970
+and just keep it
+understandable, even
+
+471
+00:23:32,970 --> 00:23:36,050
+if it takes longer to write.
+
+472
+00:23:36,050 --> 00:23:37,140
+OK.
+
+473
+00:23:37,140 --> 00:23:40,110
+So let's start off
+by dividing by M4.
+
+474
+00:23:44,770 --> 00:23:47,200
+Our goal now is to
+try to isolate Q.
+
+475
+00:23:47,200 --> 00:23:49,900
+Because this is something
+that we would know or measure.
+
+476
+00:23:49,900 --> 00:23:52,690
+And it will relate all of the
+other quantities, only one
+
+477
+00:23:52,690 --> 00:23:55,150
+of which we won't
+really know yet.
+
+478
+00:23:55,150 --> 00:23:57,490
+So let's divide
+everything by M4.
+
+479
+00:23:57,490 --> 00:24:07,900
+So we have T1 times M1 over
+M4 minus 2 over M4 times root
+
+480
+00:24:07,900 --> 00:24:20,250
+of all that stuff plus
+T3 times M3 over M4
+
+481
+00:24:20,250 --> 00:24:24,970
+equals Q plus T1 minus T3.
+
+482
+00:24:24,970 --> 00:24:27,870
+And we've almost isolated
+Q. I'll call this step just
+
+483
+00:24:27,870 --> 00:24:30,990
+add and subtract.
+
+484
+00:24:30,990 --> 00:24:32,740
+And I'm going to group
+the terms together.
+
+485
+00:24:32,740 --> 00:24:35,650
+So let's, for example,
+group all the T1s together
+
+486
+00:24:35,650 --> 00:24:37,610
+and group all the T3s together.
+
+487
+00:24:37,610 --> 00:24:46,240
+So if I subtract T1, I get
+T1 times M1 over M4 minus 1,
+
+488
+00:24:46,240 --> 00:24:57,550
+minus 2 over M4 root M1 M3
+T1 T3 cosine theta, plus--
+
+489
+00:24:57,550 --> 00:25:09,140
+and if I add T3, then I would
+get M3 over M4 plus 1 equals Q.
+
+490
+00:25:09,140 --> 00:25:12,710
+So this is a good place to stop,
+turn around, and see you guys,
+
+491
+00:25:12,710 --> 00:25:15,230
+and now ask you, which of
+the remaining quantities
+
+492
+00:25:15,230 --> 00:25:16,880
+do we probably not know?
+
+493
+00:25:16,880 --> 00:25:21,628
+So let's just go
+through them one by one,
+
+494
+00:25:21,628 --> 00:25:22,670
+just to remind ourselves.
+
+495
+00:25:22,670 --> 00:25:25,960
+Are we likely to
+know what T1 is?
+
+496
+00:25:25,960 --> 00:25:27,380
+Probably.
+
+497
+00:25:27,380 --> 00:25:31,075
+How about the masses M1 and M4?
+
+498
+00:25:31,075 --> 00:25:32,700
+If we know what
+particles are reacting,
+
+499
+00:25:32,700 --> 00:25:35,660
+we can just look those up,
+or measure them, or whatever.
+
+500
+00:25:35,660 --> 00:25:36,600
+We know M4.
+
+501
+00:25:36,600 --> 00:25:37,650
+We know our masses.
+
+502
+00:25:37,650 --> 00:25:39,240
+We know T1.
+
+503
+00:25:39,240 --> 00:25:39,850
+What about T3?
+
+504
+00:25:43,260 --> 00:25:45,510
+We don't necessarily know yet.
+
+505
+00:25:45,510 --> 00:25:47,550
+So T3 is a question mark.
+
+506
+00:25:47,550 --> 00:25:49,710
+How about cosine theta or theta?
+
+507
+00:25:52,470 --> 00:25:55,170
+We haven't said yet.
+
+508
+00:25:55,170 --> 00:25:56,760
+And T3 we don't know.
+
+509
+00:25:56,760 --> 00:25:57,930
+And the masses we know.
+
+510
+00:25:57,930 --> 00:25:59,940
+And the Q we know.
+
+511
+00:25:59,940 --> 00:26:02,410
+So finally, to solve for--
+
+512
+00:26:02,410 --> 00:26:06,280
+well, we only have two
+variables left, T3 and theta.
+
+513
+00:26:06,280 --> 00:26:10,830
+So this here-- this is actually
+called the Q equation in its
+
+514
+00:26:10,830 --> 00:26:12,060
+most complete form--
+
+515
+00:26:16,260 --> 00:26:18,780
+describes the relationship
+between the kinetic energy
+
+516
+00:26:18,780 --> 00:26:23,650
+of the outgoing particle and
+the angle at which it comes off.
+
+517
+00:26:23,650 --> 00:26:24,710
+How do we solve this?
+
+518
+00:26:24,710 --> 00:26:26,377
+How do we get one in
+terms of the other?
+
+519
+00:26:29,330 --> 00:26:31,820
+Anyone recognize what kind
+of equation we have here?
+
+520
+00:26:36,500 --> 00:26:38,320
+It's a little obscure.
+
+521
+00:26:38,320 --> 00:26:39,290
+Well, it's not obscure.
+
+522
+00:26:39,290 --> 00:26:40,538
+But it's a little bit hiding.
+
+523
+00:26:40,538 --> 00:26:42,080
+But it should be a
+very familiar one.
+
+524
+00:26:42,080 --> 00:26:43,890
+Think back to high school again.
+
+525
+00:26:43,890 --> 00:26:44,390
+Yes.
+
+526
+00:26:44,390 --> 00:26:50,990
+AUDIENCE: Is it the cosine angle
+for the triangle [INAUDIBLE]
+
+527
+00:26:50,990 --> 00:26:53,580
+PROFESSOR: Let's see.
+
+528
+00:26:53,580 --> 00:26:56,160
+Certainly, there's probably
+some trig involved in here,
+
+529
+00:26:56,160 --> 00:26:58,050
+in terms of, yeah, if
+you know the cosine,
+
+530
+00:26:58,050 --> 00:27:00,240
+then you know, let's
+say, the x or the y
+
+531
+00:27:00,240 --> 00:27:02,710
+component of the momentum.
+
+532
+00:27:02,710 --> 00:27:04,630
+But there's something
+simpler, something that
+
+533
+00:27:04,630 --> 00:27:05,838
+doesn't require trigonometry.
+
+534
+00:27:05,838 --> 00:27:06,338
+Yep.
+
+535
+00:27:06,338 --> 00:27:07,450
+AUDIENCE: Is it quadratic?
+
+536
+00:27:07,450 --> 00:27:08,158
+PROFESSOR: It is.
+
+537
+00:27:08,158 --> 00:27:10,090
+It's a quadratic--
+so who saw that?
+
+538
+00:27:10,090 --> 00:27:15,110
+It's actually a quadratic
+equation, where the variable
+
+539
+00:27:15,110 --> 00:27:18,960
+is the square root of T3.
+
+540
+00:27:18,960 --> 00:27:23,040
+That's the trick here, is you
+have something without T3,
+
+541
+00:27:23,040 --> 00:27:25,267
+you have something
+with square root T3,
+
+542
+00:27:25,267 --> 00:27:26,850
+and you have something
+with T3, better
+
+543
+00:27:26,850 --> 00:27:31,000
+known as root T3 squared.
+
+544
+00:27:31,000 --> 00:27:32,830
+And there.
+
+545
+00:27:32,830 --> 00:27:34,760
+So this is actually
+a quadratic equation.
+
+546
+00:27:41,098 --> 00:27:42,640
+Despite the fact
+that it may not have
+
+547
+00:27:42,640 --> 00:27:45,210
+looked that way in the
+first place, there we go.
+
+548
+00:27:47,760 --> 00:27:50,210
+So now, someone who
+remembers from high school,
+
+549
+00:27:50,210 --> 00:27:54,890
+tell me, what are the roots
+of a quadratic equation?
+
+550
+00:27:54,890 --> 00:27:59,170
+Let's say if we have the form
+y equals ax squared plus bx
+
+551
+00:27:59,170 --> 00:28:03,842
+plus c, what does x equal?
+
+552
+00:28:03,842 --> 00:28:04,550
+Just call it out.
+
+553
+00:28:04,550 --> 00:28:05,960
+AUDIENCE: Negative b--
+
+554
+00:28:05,960 --> 00:28:06,962
+PROFESSOR: Yeah.
+
+555
+00:28:06,962 --> 00:28:09,330
+AUDIENCE: [INAUDIBLE]
+square root--
+
+556
+00:28:09,330 --> 00:28:10,040
+PROFESSOR: Yep.
+
+557
+00:28:10,040 --> 00:28:13,292
+AUDIENCE: --b
+squared minus 4ac--
+
+558
+00:28:13,292 --> 00:28:14,000
+PROFESSOR: Over--
+
+559
+00:28:14,000 --> 00:28:14,840
+AUDIENCE: 2a.
+
+560
+00:28:14,840 --> 00:28:16,040
+PROFESSOR: 2a.
+
+561
+00:28:16,040 --> 00:28:21,170
+And in this case,
+a is that stuff.
+
+562
+00:28:21,170 --> 00:28:24,500
+b is that stuff without the T3.
+
+563
+00:28:24,500 --> 00:28:26,600
+And c is that stuff.
+
+564
+00:28:26,600 --> 00:28:28,833
+Because we have,
+like, 15 minutes
+
+565
+00:28:28,833 --> 00:28:30,500
+before I want to open
+it up to questions
+
+566
+00:28:30,500 --> 00:28:33,380
+and I don't think we have to
+repeat the quadratic formula
+
+567
+00:28:33,380 --> 00:28:36,020
+stuff, I will skip ahead.
+
+568
+00:28:36,020 --> 00:28:37,160
+Skip ahead.
+
+569
+00:28:40,218 --> 00:28:42,760
+This is when I'd normally say
+it's an exercise to the reader.
+
+570
+00:28:42,760 --> 00:28:43,443
+But no.
+
+571
+00:28:43,443 --> 00:28:44,860
+It's not the phrase
+I like to use.
+
+572
+00:28:44,860 --> 00:28:45,670
+It's boring.
+
+573
+00:28:45,670 --> 00:28:49,420
+And I can just tell you
+guys what it ends up as.
+
+574
+00:28:49,420 --> 00:28:53,890
+It ends up with root T3 equals--
+and this is the one time I am
+
+575
+00:28:53,890 --> 00:28:56,470
+going to define new symbols
+because it's just easier
+
+576
+00:28:56,470 --> 00:28:58,000
+to parse--
+
+577
+00:28:58,000 --> 00:29:02,130
+ends up being, we'll call
+it s, plus or minus root
+
+578
+00:29:02,130 --> 00:29:08,500
+s squared plus t, where s--
+
+579
+00:29:08,500 --> 00:29:11,720
+let's see if I can remember
+this without looking it up.
+
+580
+00:29:11,720 --> 00:29:12,220
+No.
+
+581
+00:29:12,220 --> 00:29:14,270
+I have to look at my notes.
+
+582
+00:29:14,270 --> 00:29:17,380
+I don't want to get it wrong
+and have you all write it down
+
+583
+00:29:17,380 --> 00:29:19,300
+incorrectly because of me.
+
+584
+00:29:19,300 --> 00:29:21,730
+There we go.
+
+585
+00:29:21,730 --> 00:29:26,660
+The remaining stuff
+in the square root, E1
+
+586
+00:29:26,660 --> 00:29:31,520
+cosine theta over M3 plus M4.
+
+587
+00:29:31,520 --> 00:29:36,850
+And t equals M4 Q--
+
+588
+00:29:36,850 --> 00:29:38,030
+is it a minus?
+
+589
+00:29:38,030 --> 00:29:38,645
+It is a plus.
+
+590
+00:29:44,540 --> 00:29:49,290
+Over M3 plus M4.
+
+591
+00:29:49,290 --> 00:29:51,660
+So these are the roots
+of this equation.
+
+592
+00:29:51,660 --> 00:29:53,970
+This is how you
+can actually relate
+
+593
+00:29:53,970 --> 00:29:55,800
+the kinetic energy of
+the outgoing particle
+
+594
+00:29:55,800 --> 00:29:59,520
+directly to the angle.
+
+595
+00:29:59,520 --> 00:30:01,620
+So I want to let that
+sink in just for a minute,
+
+596
+00:30:01,620 --> 00:30:03,330
+stop here, and check
+to see if there's
+
+597
+00:30:03,330 --> 00:30:05,580
+any questions on the
+derivation before we
+
+598
+00:30:05,580 --> 00:30:08,340
+start to use it to do something
+a little more concrete.
+
+599
+00:30:08,340 --> 00:30:09,041
+Yep.
+
+600
+00:30:09,041 --> 00:30:10,885
+AUDIENCE: Where did
+the E come from?
+
+601
+00:30:10,885 --> 00:30:12,240
+PROFESSOR: The E. Oh, I'm sorry.
+
+602
+00:30:12,240 --> 00:30:14,760
+That's a T. Thank you.
+
+603
+00:30:14,760 --> 00:30:15,810
+Kinetic energy.
+
+604
+00:30:15,810 --> 00:30:17,790
+Again, we should be
+consistent with symbols.
+
+605
+00:30:17,790 --> 00:30:19,740
+And I think--
+
+606
+00:30:19,740 --> 00:30:21,670
+I don't see any
+other hanging Es.
+
+607
+00:30:21,670 --> 00:30:22,170
+Good.
+
+608
+00:30:22,170 --> 00:30:24,043
+Thank you.
+
+609
+00:30:24,043 --> 00:30:26,460
+So any other questions on the
+derivation as we've done it?
+
+610
+00:30:26,460 --> 00:30:28,430
+We managed to do it in
+less than four boards.
+
+611
+00:30:28,430 --> 00:30:31,190
+There we go.
+
+612
+00:30:31,190 --> 00:30:31,690
+OK.
+
+613
+00:30:31,690 --> 00:30:33,820
+Since I don't see
+any questions, let's
+
+614
+00:30:33,820 --> 00:30:36,820
+get into a couple of the
+implications of this.
+
+615
+00:30:36,820 --> 00:30:44,410
+So let's now look at what
+defines an exothermic reaction
+
+616
+00:30:44,410 --> 00:30:47,620
+where we say if Q
+is greater than 0--
+
+617
+00:30:47,620 --> 00:30:52,510
+which is to say that some of the
+mass becomes kinetic energy--
+
+618
+00:30:52,510 --> 00:30:56,770
+if an exothermic reaction is
+energetically possible, then
+
+619
+00:30:56,770 --> 00:30:59,600
+what is the minimum T1?
+
+620
+00:30:59,600 --> 00:31:00,400
+Ah.
+
+621
+00:31:00,400 --> 00:31:01,540
+That's why I brought it.
+
+622
+00:31:01,540 --> 00:31:04,510
+What's the minimum T1 up here
+to make that exothermic reaction
+
+623
+00:31:04,510 --> 00:31:05,010
+happen?
+
+624
+00:31:10,930 --> 00:31:12,430
+We'll put a condition on T1.
+
+625
+00:31:15,670 --> 00:31:17,260
+So if the reaction's
+exothermic, which
+
+626
+00:31:17,260 --> 00:31:18,790
+means it will happen
+spontaneously,
+
+627
+00:31:18,790 --> 00:31:22,063
+how much extra kinetic energy do
+you have to give to the system
+
+628
+00:31:22,063 --> 00:31:23,230
+to make the reaction happen?
+
+629
+00:31:29,840 --> 00:31:32,030
+Let's think of it in
+the chemical sense.
+
+630
+00:31:32,030 --> 00:31:35,150
+If you have an exothermic
+chemical reaction,
+
+631
+00:31:35,150 --> 00:31:38,220
+is it spontaneous or is it not?
+
+632
+00:31:38,220 --> 00:31:39,480
+It is spontaneous.
+
+633
+00:31:39,480 --> 00:31:41,340
+Same thing in the nuclear world.
+
+634
+00:31:41,340 --> 00:31:44,310
+If you have an exothermic
+nuclear reaction,
+
+635
+00:31:44,310 --> 00:31:46,530
+do you need any kinetic
+energy to start with
+
+636
+00:31:46,530 --> 00:31:48,340
+to make it happen?
+
+637
+00:31:48,340 --> 00:31:48,840
+No.
+
+638
+00:31:48,840 --> 00:31:49,080
+OK.
+
+639
+00:31:49,080 --> 00:31:49,630
+There we go.
+
+640
+00:31:49,630 --> 00:31:51,240
+So that's kind of the analogy.
+
+641
+00:31:51,240 --> 00:31:54,870
+So T1 has to be greater
+than or equal to 0.
+
+642
+00:31:54,870 --> 00:31:57,660
+It's pretty much not
+a condition, right?
+
+643
+00:31:57,660 --> 00:31:59,650
+It happens all the time.
+
+644
+00:31:59,650 --> 00:32:03,420
+So if we were to say
+T1 were to equal 0--
+
+645
+00:32:03,420 --> 00:32:07,410
+let me get my crossing
+out color again.
+
+646
+00:32:07,410 --> 00:32:10,950
+If T1 were to equal 0,
+then s could equals 0.
+
+647
+00:32:13,970 --> 00:32:17,000
+And T1 is 0 here.
+
+648
+00:32:17,000 --> 00:32:18,635
+And then you just get--
+
+649
+00:32:18,635 --> 00:32:27,530
+that's an s-- t equals
+M4 Q over M3 plus M4.
+
+650
+00:32:29,910 --> 00:32:31,660
+And this just kind of
+gives you a relation
+
+651
+00:32:31,660 --> 00:32:35,800
+between the relative kinetic
+energies of the two particles.
+
+652
+00:32:35,800 --> 00:32:37,900
+Another way of
+writing this relation
+
+653
+00:32:37,900 --> 00:32:43,120
+would just be that
+E3 plus E4 has to be
+
+654
+00:32:43,120 --> 00:32:46,530
+greater than or equal to E1.
+
+655
+00:32:46,530 --> 00:32:47,030
+AUDIENCE: T?
+
+656
+00:32:47,030 --> 00:32:48,113
+PROFESSOR: All this-- hmm?
+
+657
+00:32:48,113 --> 00:32:48,854
+AUDIENCE: T?
+
+658
+00:32:48,854 --> 00:32:49,710
+PROFESSOR: Ah.
+
+659
+00:32:49,710 --> 00:32:50,210
+Thank you.
+
+660
+00:32:52,958 --> 00:32:55,830
+Because Es will be used in a
+different point of this class.
+
+661
+00:32:55,830 --> 00:32:58,060
+So we'll stick with
+T for kinetic energy.
+
+662
+00:32:58,060 --> 00:32:59,560
+Thank you.
+
+663
+00:32:59,560 --> 00:33:02,140
+So all that this
+condition says is
+
+664
+00:33:02,140 --> 00:33:05,362
+that if mass has been
+converted to energy,
+
+665
+00:33:05,362 --> 00:33:06,820
+then that kinetic
+energy at the end
+
+666
+00:33:06,820 --> 00:33:09,940
+has to be greater
+than at the beginning.
+
+667
+00:33:09,940 --> 00:33:10,917
+And that's all it is.
+
+668
+00:33:10,917 --> 00:33:12,750
+So it makes this equation
+quite a lot easier
+
+669
+00:33:12,750 --> 00:33:15,810
+to solve for an
+exothermic reaction.
+
+670
+00:33:15,810 --> 00:33:18,240
+You can also start to look
+to say, well, what happens
+
+671
+00:33:18,240 --> 00:33:21,510
+as we vary this angle theta?
+
+672
+00:33:21,510 --> 00:33:22,980
+What does the kinetic energy do?
+
+673
+00:33:25,760 --> 00:33:29,362
+Let's take the case of
+an endothermic reaction.
+
+674
+00:33:29,362 --> 00:33:30,695
+Now we are running out of space.
+
+675
+00:33:35,220 --> 00:33:42,120
+For an endothermic reaction
+where Q is less than 0,
+
+676
+00:33:42,120 --> 00:33:45,160
+you would have to have
+T1 to be greater than 0.
+
+677
+00:33:48,980 --> 00:33:51,470
+Otherwise the
+reaction can't occur.
+
+678
+00:33:51,470 --> 00:33:54,500
+So you have to impart additional
+energy into the system
+
+679
+00:33:54,500 --> 00:33:55,910
+to get it going.
+
+680
+00:33:55,910 --> 00:34:01,218
+And it also means that not every
+angle of emission is possible.
+
+681
+00:34:01,218 --> 00:34:03,260
+You might wonder, why do
+we care about the angle,
+
+682
+00:34:03,260 --> 00:34:05,010
+because the reaction
+still happens anyway?
+
+683
+00:34:05,010 --> 00:34:07,130
+Well, it doesn't
+happen at every angle.
+
+684
+00:34:07,130 --> 00:34:09,320
+And reactions have
+different probabilities
+
+685
+00:34:09,320 --> 00:34:12,920
+of occurring depending on the
+angle at which the things come
+
+686
+00:34:12,920 --> 00:34:14,320
+out.
+
+687
+00:34:14,320 --> 00:34:17,980
+So you could see here
+that as you vary T1
+
+688
+00:34:17,980 --> 00:34:19,780
+and as you vary cosine
+theta, you still
+
+689
+00:34:19,780 --> 00:34:22,840
+have to make sure that this
+quantity on the inside here--
+
+690
+00:34:26,679 --> 00:34:28,690
+so, s squared plus t--
+
+691
+00:34:28,690 --> 00:34:33,100
+always has to be greater
+than or equal to zero or else
+
+692
+00:34:33,100 --> 00:34:36,370
+the roots of this are imaginary
+and you don't have a solution.
+
+693
+00:34:40,017 --> 00:34:42,100
+So it's kind of nice that
+this came out quadratic.
+
+694
+00:34:42,100 --> 00:34:44,725
+Because it lets you take some of
+the knowledge you already know
+
+695
+00:34:44,725 --> 00:34:48,100
+and now apply it to say, when or
+when are nuclear reactions not
+
+696
+00:34:48,100 --> 00:34:48,949
+or are they allowed?
+
+697
+00:34:48,949 --> 00:34:49,449
+Wait.
+
+698
+00:34:49,449 --> 00:34:50,679
+Let me rephrase that.
+
+699
+00:34:50,679 --> 00:34:53,560
+When are nuclear reactions
+allowed or not allowed?
+
+700
+00:34:53,560 --> 00:34:56,760
+You can now tell, depending
+on the angle of emission
+
+701
+00:34:56,760 --> 00:35:00,640
+and the incoming energy and the
+masses, which are all things
+
+702
+00:35:00,640 --> 00:35:03,546
+that you would tend to know.
+
+703
+00:35:03,546 --> 00:35:05,810
+So is everyone clear on
+the implications here?
+
+704
+00:35:08,357 --> 00:35:09,190
+If not, let me know.
+
+705
+00:35:09,190 --> 00:35:10,714
+Because that's what
+this class is for.
+
+706
+00:35:10,714 --> 00:35:11,158
+AUDIENCE: Yeah.
+
+707
+00:35:11,158 --> 00:35:12,741
+Can you just go over
+it one more time?
+
+708
+00:35:12,741 --> 00:35:13,600
+PROFESSOR: Yes.
+
+709
+00:35:13,600 --> 00:35:17,560
+So, for exothermic reactions
+where Q is greater than 0,
+
+710
+00:35:17,560 --> 00:35:20,590
+all that says from our initial
+part of the Q equation,
+
+711
+00:35:20,590 --> 00:35:24,010
+if Q is greater than 0, then
+we have this thing right here,
+
+712
+00:35:24,010 --> 00:35:27,190
+where the final kinetic
+energies have to be larger
+
+713
+00:35:27,190 --> 00:35:28,690
+than the initial one.
+
+714
+00:35:28,690 --> 00:35:30,940
+Which is to say that
+some mass has turned
+
+715
+00:35:30,940 --> 00:35:33,350
+into extra kinetic energy.
+
+716
+00:35:33,350 --> 00:35:36,260
+And the solution to
+these is pretty easy
+
+717
+00:35:36,260 --> 00:35:39,170
+because you don't need
+any kinetic energy to make
+
+718
+00:35:39,170 --> 00:35:41,330
+an exothermic reaction happen.
+
+719
+00:35:41,330 --> 00:35:45,530
+So you can just set T1 equal
+to 0, which makes s equal to 0,
+
+720
+00:35:45,530 --> 00:35:48,300
+because they're all
+multiplied here.
+
+721
+00:35:48,300 --> 00:35:51,750
+And then it
+simplifies lowercase t
+
+722
+00:35:51,750 --> 00:35:55,110
+as just a ratio of those
+masses times the Q equation,
+
+723
+00:35:55,110 --> 00:35:58,590
+which will tell you pretty
+much how much kinetic energy is
+
+724
+00:35:58,590 --> 00:36:04,480
+going to be sent off to
+particle 3 right here.
+
+725
+00:36:04,480 --> 00:36:05,200
+Up there.
+
+726
+00:36:05,200 --> 00:36:07,310
+Particle 3.
+
+727
+00:36:07,310 --> 00:36:12,560
+Because then we have this
+condition, if root T3 equals s
+
+728
+00:36:12,560 --> 00:36:16,610
+plus square root of
+s squared plus t,
+
+729
+00:36:16,610 --> 00:36:21,550
+and we've decided
+that s equals 0,
+
+730
+00:36:21,550 --> 00:36:30,420
+that just means that T3 equals
+lowercase t, which equals that.
+
+731
+00:36:30,420 --> 00:36:33,170
+So then you've uniquely
+defined the kinetic energy
+
+732
+00:36:33,170 --> 00:36:36,550
+for an exothermic
+reaction, as long
+
+733
+00:36:36,550 --> 00:36:39,010
+as you have no incoming
+kinetic energy.
+
+734
+00:36:39,010 --> 00:36:42,260
+For the case of an endothermic
+reaction, first of all,
+
+735
+00:36:42,260 --> 00:36:44,170
+we know that the
+incoming kinetic energy
+
+736
+00:36:44,170 --> 00:36:46,750
+has to be greater than 0.
+
+737
+00:36:46,750 --> 00:36:48,370
+It's like the excess
+energy that you
+
+738
+00:36:48,370 --> 00:36:50,430
+need to get a chemical
+reaction going.
+
+739
+00:36:50,430 --> 00:36:52,330
+Has anyone here
+ever played with--
+
+740
+00:36:52,330 --> 00:36:55,715
+what's the one, a
+striking one here?
+
+741
+00:36:55,715 --> 00:36:57,340
+Well, has anyone ever
+lit anything on--
+
+742
+00:36:57,340 --> 00:36:59,080
+no, that's-- yeah.
+
+743
+00:36:59,080 --> 00:36:59,890
+Of course you have.
+
+744
+00:36:59,890 --> 00:37:02,164
+And that's not a
+good explanation.
+
+745
+00:37:02,164 --> 00:37:03,120
+Hmm.
+
+746
+00:37:03,120 --> 00:37:07,552
+What's a good, striking
+endothermic chemical reaction?
+
+747
+00:37:07,552 --> 00:37:09,090
+Can anyone think of one?
+
+748
+00:37:09,090 --> 00:37:09,590
+Yeah?
+
+749
+00:37:09,590 --> 00:37:12,410
+AUDIENCE: When you put tin
+foil in Liquid-Plumr and it
+
+750
+00:37:12,410 --> 00:37:12,910
+releases--
+
+751
+00:37:12,910 --> 00:37:15,207
+PROFESSOR: And it's
+a hydrogen generator?
+
+752
+00:37:15,207 --> 00:37:16,040
+AUDIENCE: Let's see.
+
+753
+00:37:16,040 --> 00:37:17,060
+I guess that's an explosion.
+
+754
+00:37:17,060 --> 00:37:18,080
+PROFESSOR: I think
+that happen-- yeah.
+
+755
+00:37:18,080 --> 00:37:19,330
+That's more like an explosion.
+
+756
+00:37:19,330 --> 00:37:22,540
+That's, like, the intuitive
+definition of exothermic.
+
+757
+00:37:22,540 --> 00:37:23,040
+Yeah.
+
+758
+00:37:23,040 --> 00:37:24,730
+Actually, there's a fun
+one you can do, too.
+
+759
+00:37:24,730 --> 00:37:26,120
+This is great that
+it's on video.
+
+760
+00:37:26,120 --> 00:37:29,990
+You do that plus put manganese
+dioxide in hydrogen peroxide
+
+761
+00:37:29,990 --> 00:37:32,090
+and you have an
+oxygen generator.
+
+762
+00:37:32,090 --> 00:37:35,178
+And then you have the purest,
+beyond glacially pure,
+
+763
+00:37:35,178 --> 00:37:35,720
+spring water.
+
+764
+00:37:35,720 --> 00:37:37,850
+You just mix H and O directly.
+
+765
+00:37:37,850 --> 00:37:39,020
+Just don't get near it.
+
+766
+00:37:39,020 --> 00:37:41,390
+Because it tends
+to be pretty loud.
+
+767
+00:37:41,390 --> 00:37:44,150
+We do this for our RTC
+or reactor technology
+
+768
+00:37:44,150 --> 00:37:48,063
+course, where I've got to
+teach a bunch of CEOs enough
+
+769
+00:37:48,063 --> 00:37:50,480
+basic high school chemistry
+so they can understand reactor
+
+770
+00:37:50,480 --> 00:37:51,630
+water chemistry.
+
+771
+00:37:51,630 --> 00:37:54,140
+And the way I make sure that
+they're paying attention
+
+772
+00:37:54,140 --> 00:37:56,530
+is with a tremendous explosion.
+
+773
+00:37:56,530 --> 00:38:00,550
+So folks come here, pay
+about $25 grand apiece for me
+
+774
+00:38:00,550 --> 00:38:03,140
+to fire water-powered
+bottle rockets at them.
+
+775
+00:38:03,140 --> 00:38:04,750
+It's a pretty sweet job.
+
+776
+00:38:04,750 --> 00:38:06,787
+So if you guys are
+interested in academia,
+
+777
+00:38:06,787 --> 00:38:08,370
+you know, these
+things happen in life.
+
+778
+00:38:08,370 --> 00:38:10,100
+It's pretty cool.
+
+779
+00:38:10,100 --> 00:38:10,600
+Yeah.
+
+780
+00:38:10,600 --> 00:38:10,780
+All right.
+
+781
+00:38:10,780 --> 00:38:13,330
+Since I can't think of any
+endothermic chemical reactions
+
+782
+00:38:13,330 --> 00:38:14,705
+off the top of my
+head, I'll have
+
+783
+00:38:14,705 --> 00:38:16,450
+to keep it general
+and abstract and say,
+
+784
+00:38:16,450 --> 00:38:18,070
+if you have an
+endothermic reaction,
+
+785
+00:38:18,070 --> 00:38:20,770
+you have to add energy
+in the form of heat
+
+786
+00:38:20,770 --> 00:38:22,690
+to get the reaction going.
+
+787
+00:38:22,690 --> 00:38:24,910
+In an endothermic
+nuclear reaction,
+
+788
+00:38:24,910 --> 00:38:26,950
+heating up the material
+does not impart
+
+789
+00:38:26,950 --> 00:38:28,600
+very much kinetic energy.
+
+790
+00:38:28,600 --> 00:38:31,030
+You might raise it from
+a fraction of an electron
+
+791
+00:38:31,030 --> 00:38:33,495
+volt to maybe a couple
+of electron volts
+
+792
+00:38:33,495 --> 00:38:34,870
+if things are so
+hot that they're
+
+793
+00:38:34,870 --> 00:38:36,670
+glowing in the ultraviolet.
+
+794
+00:38:36,670 --> 00:38:38,620
+That doesn't cut it for nuclear.
+
+795
+00:38:38,620 --> 00:38:42,970
+So you have to impart kinetic
+energy to the incoming particle
+
+796
+00:38:42,970 --> 00:38:46,540
+such that the kinetic
+energy plus the rest masses
+
+797
+00:38:46,540 --> 00:38:50,920
+is enough to create the rest
+masses of the final particles.
+
+798
+00:38:50,920 --> 00:38:53,020
+And that's the general
+explanation I'd give.
+
+799
+00:38:55,870 --> 00:38:57,580
+I forget who had
+asked the question.
+
+800
+00:38:57,580 --> 00:38:59,830
+But does that help
+explain it a bit?
+
+801
+00:38:59,830 --> 00:39:00,810
+AUDIENCE: [INAUDIBLE]
+
+802
+00:39:00,810 --> 00:39:01,477
+PROFESSOR: Cool.
+
+803
+00:39:01,477 --> 00:39:02,380
+OK.
+
+804
+00:39:02,380 --> 00:39:04,190
+I'll take five minutes.
+
+805
+00:39:04,190 --> 00:39:06,970
+And let's do a
+severely reduced case
+
+806
+00:39:06,970 --> 00:39:09,940
+of this, the case of
+elastic neutron scattering.
+
+807
+00:39:09,940 --> 00:39:12,790
+It's kind of a flash
+forward to what we'll be
+
+808
+00:39:12,790 --> 00:39:14,470
+doing in the next month or so.
+
+809
+00:39:14,470 --> 00:39:16,953
+Does everyone have what's
+behind this board here?
+
+810
+00:39:16,953 --> 00:39:18,620
+I know that was, like,
+three boards ago.
+
+811
+00:39:18,620 --> 00:39:20,010
+So I hope so.
+
+812
+00:39:20,010 --> 00:39:23,073
+So let's take the case of
+elastic neutron scattering.
+
+813
+00:39:30,468 --> 00:39:33,760
+Remember I told you that
+after we developed this highly
+
+814
+00:39:33,760 --> 00:39:35,412
+general solution
+to the Q equation,
+
+815
+00:39:35,412 --> 00:39:37,120
+everything else that
+we're going to study
+
+816
+00:39:37,120 --> 00:39:39,040
+is just a reduction of that.
+
+817
+00:39:39,040 --> 00:39:41,560
+And this is about as
+reduced as it gets.
+
+818
+00:39:41,560 --> 00:39:44,080
+So in elastic
+neutron scattering,
+
+819
+00:39:44,080 --> 00:39:47,010
+we can say that M1--
+
+820
+00:39:47,010 --> 00:39:50,670
+well, what's the mass
+of a neutron in AMU?
+
+821
+00:39:50,670 --> 00:39:55,050
+And let's forgive our six
+decimal points' precision
+
+822
+00:39:55,050 --> 00:39:55,763
+for now.
+
+823
+00:39:55,763 --> 00:39:56,430
+What's it about?
+
+824
+00:39:56,430 --> 00:39:57,190
+AUDIENCE: 1.
+
+825
+00:39:57,190 --> 00:39:58,160
+PROFESSOR: 1.
+
+826
+00:39:58,160 --> 00:40:00,621
+So we can say that M1 equals 1.
+
+827
+00:40:00,621 --> 00:40:03,270
+And in the case of
+elastic scattering,
+
+828
+00:40:03,270 --> 00:40:05,670
+the particles bounce
+into each other
+
+829
+00:40:05,670 --> 00:40:08,790
+and leave with their
+original identities.
+
+830
+00:40:08,790 --> 00:40:10,290
+So that also equals M3.
+
+831
+00:40:13,710 --> 00:40:18,180
+If we're shooting neutrons at
+an arbitrary nucleus, what's M2?
+
+832
+00:40:22,720 --> 00:40:23,220
+Yep?
+
+833
+00:40:23,220 --> 00:40:23,850
+AUDIENCE: A?
+
+834
+00:40:23,850 --> 00:40:26,860
+PROFESSOR: Just A,
+the mass number.
+
+835
+00:40:26,860 --> 00:40:29,100
+Same as M4.
+
+836
+00:40:29,100 --> 00:40:32,470
+Now, we don't have
+M2 in this equation.
+
+837
+00:40:32,470 --> 00:40:34,910
+Whatever.
+
+838
+00:40:34,910 --> 00:40:36,590
+But the point is, yeah.
+
+839
+00:40:36,590 --> 00:40:38,740
+We're going to use these two.
+
+840
+00:40:38,740 --> 00:40:40,650
+We're going to use these two.
+
+841
+00:40:40,650 --> 00:40:42,000
+So let's substitute that in.
+
+842
+00:40:42,000 --> 00:40:44,790
+Oh, and one last other
+thing I mentioned.
+
+843
+00:40:44,790 --> 00:40:49,506
+What is the Q value
+for elastic scattering?
+
+844
+00:40:49,506 --> 00:40:50,622
+AUDIENCE: [INAUDIBLE]
+
+845
+00:40:50,622 --> 00:40:51,330
+PROFESSOR: Right.
+
+846
+00:40:51,330 --> 00:40:52,390
+0.
+
+847
+00:40:52,390 --> 00:40:55,060
+Because the Q value is
+the difference in the rest
+
+848
+00:40:55,060 --> 00:40:58,000
+masses of the ingoing
+and outgoing particles.
+
+849
+00:40:58,000 --> 00:41:00,540
+If the ingoing and outgoing
+particles are the same,
+
+850
+00:41:00,540 --> 00:41:06,010
+M1 equals M3, M2 equals
+M4, that sum equals 0.
+
+851
+00:41:06,010 --> 00:41:07,300
+Therefore, Q equals 0.
+
+852
+00:41:09,810 --> 00:41:11,610
+So let's use these
+three things right here
+
+853
+00:41:11,610 --> 00:41:15,930
+and rewrite the general Q
+equation in those terms.
+
+854
+00:41:15,930 --> 00:41:18,200
+Which board is it on?
+
+855
+00:41:18,200 --> 00:41:19,690
+Right there.
+
+856
+00:41:19,690 --> 00:41:22,010
+So let's copy that down.
+
+857
+00:41:22,010 --> 00:41:31,900
+So let's say we have T1 times
+M1 is 1 over M4 is A minus 1
+
+858
+00:41:31,900 --> 00:41:37,560
+minus 2 over M4 is A. This is
+where it gets nice and easy.
+
+859
+00:41:37,560 --> 00:41:41,640
+M1 and M3 are just 1.
+
+860
+00:41:41,640 --> 00:41:46,228
+So 1 times 1 times T1.
+
+861
+00:41:46,228 --> 00:41:47,520
+We don't know what that is yet.
+
+862
+00:41:47,520 --> 00:41:52,650
+So let's call it the Tn, T
+of the neutron coming in.
+
+863
+00:41:55,530 --> 00:41:56,160
+How about this?
+
+864
+00:41:56,160 --> 00:42:04,550
+We'll call it T in and T out
+for ease of understanding.
+
+865
+00:42:04,550 --> 00:42:05,750
+Cosine theta.
+
+866
+00:42:05,750 --> 00:42:08,040
+What do we have left?
+
+867
+00:42:08,040 --> 00:42:12,160
+Plus T out.
+
+868
+00:42:12,160 --> 00:42:16,740
+And let's make T1 into
+an in right there.
+
+869
+00:42:16,740 --> 00:42:19,680
+Times M3 over M4.
+
+870
+00:42:19,680 --> 00:42:20,955
+M3 was 1.
+
+871
+00:42:20,955 --> 00:42:27,150
+M4 is A. Plus 1
+equals Q, equals 0.
+
+872
+00:42:27,150 --> 00:42:29,920
+This is quite a simpler
+equation to solve.
+
+873
+00:42:29,920 --> 00:42:33,392
+So let's group
+this all together.
+
+874
+00:42:33,392 --> 00:42:34,850
+There's a couple
+of tricks that I'm
+
+875
+00:42:34,850 --> 00:42:36,392
+going to apply right
+now to make sure
+
+876
+00:42:36,392 --> 00:42:38,590
+that everything has
+A in the denominator
+
+877
+00:42:38,590 --> 00:42:40,180
+to make stuff easier.
+
+878
+00:42:40,180 --> 00:42:44,780
+We can call 1 A over A here.
+
+879
+00:42:44,780 --> 00:42:49,740
+We can call 1 A over A there.
+
+880
+00:42:49,740 --> 00:42:52,830
+That lets us combine
+our denominators
+
+881
+00:42:52,830 --> 00:42:55,370
+and stick the sine right there.
+
+882
+00:42:55,370 --> 00:42:58,430
+That becomes an A.
+Same thing here.
+
+883
+00:42:58,430 --> 00:43:02,930
+I'll just connect the dashes
+and stick the minus sign there,
+
+884
+00:43:02,930 --> 00:43:05,380
+leaving an A right there.
+
+885
+00:43:05,380 --> 00:43:07,150
+Now we can just
+multiply everything
+
+886
+00:43:07,150 --> 00:43:11,050
+by A, both sides
+of the equation.
+
+887
+00:43:11,050 --> 00:43:15,010
+So the As go away there.
+
+888
+00:43:15,010 --> 00:43:16,835
+We have a much simpler equation.
+
+889
+00:43:16,835 --> 00:43:20,440
+0 equals T in of--
+
+890
+00:43:20,440 --> 00:43:27,240
+let's see-- 1 minus A over 1.
+
+891
+00:43:27,240 --> 00:43:27,740
+OK.
+
+892
+00:43:27,740 --> 00:43:36,850
+We'll just call it 1 minus
+A. Minus 2 root T in T
+
+893
+00:43:36,850 --> 00:43:47,240
+out cosine theta
+plus T out A plus 1.
+
+894
+00:43:47,240 --> 00:43:50,300
+And, OK, it's 10 minutes
+of, or it's five minutes
+
+895
+00:43:50,300 --> 00:43:51,800
+of five minutes of.
+
+896
+00:43:51,800 --> 00:43:53,420
+So I'm going to
+stop this right here
+
+897
+00:43:53,420 --> 00:43:55,092
+at a fairly simple equation.
+
+898
+00:43:55,092 --> 00:43:56,300
+We'll pick it up on Thursday.
+
+899
+00:43:56,300 --> 00:43:58,430
+And I want to open the last
+five minutes to any questions
+
+900
+00:43:58,430 --> 00:43:59,180
+you guys may have.
+
+901
+00:44:02,370 --> 00:44:04,370
+Since that request came
+in on the anonymous rant
+
+902
+00:44:04,370 --> 00:44:06,700
+forum, which hopefully
+you all know now exists.
+
+903
+00:44:06,700 --> 00:44:07,435
+Yep.
+
+904
+00:44:07,435 --> 00:44:10,405
+AUDIENCE: So what exactly
+is forward scattering?
+
+905
+00:44:10,405 --> 00:44:12,890
+I didn't really get that before.
+
+906
+00:44:12,890 --> 00:44:14,900
+PROFESSOR: So let's look
+at elastic scattering
+
+907
+00:44:14,900 --> 00:44:15,720
+as an example.
+
+908
+00:44:15,720 --> 00:44:18,290
+So in elastic
+scattering, two particles
+
+909
+00:44:18,290 --> 00:44:20,450
+bounce off each other
+like billiard balls.
+
+910
+00:44:20,450 --> 00:44:23,390
+In forward elastic
+scattering, the neutron,
+
+911
+00:44:23,390 --> 00:44:27,560
+after interacting
+somehow with particle 2,
+
+912
+00:44:27,560 --> 00:44:30,840
+keeps moving forward unscathed.
+
+913
+00:44:30,840 --> 00:44:32,460
+So in the elastic
+scattering sense,
+
+914
+00:44:32,460 --> 00:44:36,422
+forward scattering is
+also known as missing.
+
+915
+00:44:36,422 --> 00:44:37,400
+AUDIENCE: [INAUDIBLE]
+
+916
+00:44:37,400 --> 00:44:38,940
+PROFESSOR: You can
+have other reactions,
+
+917
+00:44:38,940 --> 00:44:40,815
+let's say, where you
+have a particle at rest,
+
+918
+00:44:40,815 --> 00:44:45,320
+another particle slams into it,
+and the whole center of mass
+
+919
+00:44:45,320 --> 00:44:46,185
+moves together.
+
+920
+00:44:46,185 --> 00:44:47,810
+I don't know if you'd
+call that forward
+
+921
+00:44:47,810 --> 00:44:49,310
+scattering as much
+as, let's say,
+
+922
+00:44:49,310 --> 00:44:52,410
+capture or fusion or something.
+
+923
+00:44:52,410 --> 00:44:55,700
+But in this case, scattering
+means that two particles go in,
+
+924
+00:44:55,700 --> 00:44:57,710
+two particles leave.
+
+925
+00:44:57,710 --> 00:44:59,330
+Whether it's
+elastically, which means
+
+926
+00:44:59,330 --> 00:45:01,730
+with no transfer of
+energy into rest mass,
+
+927
+00:45:01,730 --> 00:45:03,770
+or inelastically,
+where, let's say,
+
+928
+00:45:03,770 --> 00:45:07,280
+a neutron is absorbed
+and then re-emitted
+
+929
+00:45:07,280 --> 00:45:08,690
+from a different energy level.
+
+930
+00:45:08,690 --> 00:45:11,260
+And that's something we'll
+get into in, like, a month.
+
+931
+00:45:11,260 --> 00:45:13,780
+So you can have forward elastic
+or inelastic scattering.
+
+932
+00:45:13,780 --> 00:45:16,810
+In this case, I'm talking
+about elastic scattering, which
+
+933
+00:45:16,810 --> 00:45:20,470
+is the simple case of, like, the
+billiard balls miss each other.
+
+934
+00:45:20,470 --> 00:45:23,080
+Which is technically a case
+that can be treated by this.
+
+935
+00:45:23,080 --> 00:45:25,930
+Because all you have to do
+is plug in theta equals 0
+
+936
+00:45:25,930 --> 00:45:28,600
+and you have the case
+for how much energy
+
+937
+00:45:28,600 --> 00:45:32,483
+do you think the neutron would
+lose if it misses particle 2.
+
+938
+00:45:32,483 --> 00:45:33,400
+AUDIENCE: [INAUDIBLE].
+
+939
+00:45:33,400 --> 00:45:33,850
+PROFESSOR: Yeah.
+
+940
+00:45:33,850 --> 00:45:34,770
+It wouldn't lose any energy.
+
+941
+00:45:34,770 --> 00:45:34,970
+Right?
+
+942
+00:45:34,970 --> 00:45:36,510
+It would have the same energy.
+
+943
+00:45:36,510 --> 00:45:38,380
+So that's the case for
+forward scattering.
+
+944
+00:45:38,380 --> 00:45:42,080
+A neutron, when it interacts
+somehow with another particle,
+
+945
+00:45:42,080 --> 00:45:45,320
+can lose as little as
+none of its energy.
+
+946
+00:45:45,320 --> 00:45:47,990
+If it misses, no one said
+it had to lose any energy.
+
+947
+00:45:47,990 --> 00:45:49,830
+And by solving
+this equation here,
+
+948
+00:45:49,830 --> 00:45:51,650
+which we'll do on
+Thursday, we'll
+
+949
+00:45:51,650 --> 00:45:54,500
+see what the maximum amount of
+energy that neutron can lose
+
+950
+00:45:54,500 --> 00:45:58,830
+is, which is the basis
+for neutrons slowing down
+
+951
+00:45:58,830 --> 00:46:02,350
+or moderation in reactors.
+
+952
+00:46:02,350 --> 00:46:03,330
+Yeah.
+
+953
+00:46:03,330 --> 00:46:07,130
+AUDIENCE: Are T in and T out
+equal there, in which case
+
+954
+00:46:07,130 --> 00:46:10,012
+that equation is used
+to solve for theta?
+
+955
+00:46:10,012 --> 00:46:13,660
+PROFESSOR: T in and T
+out are not always equal.
+
+956
+00:46:13,660 --> 00:46:17,590
+But in the case of forward
+elastic scattering,
+
+957
+00:46:17,590 --> 00:46:18,990
+they would be.
+
+958
+00:46:18,990 --> 00:46:21,540
+Because the neutron
+comes in with energy T in
+
+959
+00:46:21,540 --> 00:46:24,390
+and it leaves with energy T in.
+
+960
+00:46:24,390 --> 00:46:27,780
+For any other case in
+which the neutron comes off
+
+961
+00:46:27,780 --> 00:46:30,060
+of particle 2 at
+a different angle,
+
+962
+00:46:30,060 --> 00:46:34,290
+it will have bounced off of
+particle 2, moving particle 2
+
+963
+00:46:34,290 --> 00:46:36,180
+at some other angle
+phi, and giving it
+
+964
+00:46:36,180 --> 00:46:38,540
+some of its energy elastically.
+
+965
+00:46:38,540 --> 00:46:41,180
+The total amount of that kinetic
+energy will be conserved.
+
+966
+00:46:41,180 --> 00:46:46,000
+So let's say-- what
+did we call it?
+
+967
+00:46:46,000 --> 00:46:46,500
+What is it?
+
+968
+00:46:46,500 --> 00:46:47,000
+Yeah.
+
+969
+00:46:47,000 --> 00:46:51,320
+So T1 would have to be
+the same as T3 and T4
+
+970
+00:46:51,320 --> 00:46:53,520
+together for this
+Q equation where
+
+971
+00:46:53,520 --> 00:46:56,090
+Q equals 0 to be satisfied.
+
+972
+00:46:56,090 --> 00:46:58,500
+So what you said can happen.
+
+973
+00:46:58,500 --> 00:47:02,097
+But it's only the case
+for forward scattering.
+
+974
+00:47:02,097 --> 00:47:02,930
+Any other questions?
+
+975
+00:47:02,930 --> 00:47:04,780
+Yep.
+
+976
+00:47:04,780 --> 00:47:07,650
+AUDIENCE: In the case of
+an exothermic reaction,
+
+977
+00:47:07,650 --> 00:47:10,258
+we assume that T1 equals 0.
+
+978
+00:47:10,258 --> 00:47:13,103
+Can you re-explain why
+we made that assumption?
+
+979
+00:47:13,103 --> 00:47:15,520
+PROFESSOR: So the question
+was, in an exothermic reaction,
+
+980
+00:47:15,520 --> 00:47:17,710
+why did we say T1 equals 0?
+
+981
+00:47:17,710 --> 00:47:19,270
+It's not always the case.
+
+982
+00:47:19,270 --> 00:47:22,300
+But it provides the simplest
+case for us to analyze.
+
+983
+00:47:22,300 --> 00:47:26,560
+So an exothermic reaction
+can happen when T1 equals 0.
+
+984
+00:47:26,560 --> 00:47:29,790
+It can also happen when
+T1 is greater than 0.
+
+985
+00:47:29,790 --> 00:47:31,970
+So we're not putting any
+restrictions on that.
+
+986
+00:47:31,970 --> 00:47:36,650
+But in the case that T1
+equals 0, s is destroyed
+
+987
+00:47:36,650 --> 00:47:39,470
+and the harder part
+of T is destroyed,
+
+988
+00:47:39,470 --> 00:47:42,200
+making the solution
+to this equation very
+
+989
+00:47:42,200 --> 00:47:43,970
+simple and intuitive.
+
+990
+00:47:43,970 --> 00:47:47,120
+Which is to say that if you
+just have two particles that
+
+991
+00:47:47,120 --> 00:47:51,320
+are kind of at rest and
+they just merge and fire off
+
+992
+00:47:51,320 --> 00:47:53,930
+two different pieces
+in opposite directions,
+
+993
+00:47:53,930 --> 00:47:56,180
+their energies are
+proportional to the ratio
+
+994
+00:47:56,180 --> 00:47:59,583
+of their single mass
+to the total mass.
+
+995
+00:47:59,583 --> 00:48:01,250
+So that's like a
+center of mass problem.
+
+996
+00:48:01,250 --> 00:48:04,810
+You'll notice also I'm not using
+center of mass coordinates.
+
+997
+00:48:04,810 --> 00:48:08,626
+Center of mass coor-- who here
+has used those in 801 or 802?
+
+998
+00:48:08,626 --> 00:48:10,920
+And who here enjoyed
+the experience?
+
+999
+00:48:10,920 --> 00:48:11,460
+Oh.
+
+1000
+00:48:11,460 --> 00:48:11,960
+Wow.
+
+1001
+00:48:11,960 --> 00:48:13,860
+No hands whatsoever.
+
+1002
+00:48:13,860 --> 00:48:17,540
+So center of mass coordinates
+and laboratory coordinates
+
+1003
+00:48:17,540 --> 00:48:20,330
+are different ways of
+expressing the same thing.
+
+1004
+00:48:20,330 --> 00:48:22,460
+Usually you can write
+simpler equations
+
+1005
+00:48:22,460 --> 00:48:24,243
+in center of mass coordinates.
+
+1006
+00:48:24,243 --> 00:48:26,660
+But for most people-- and I'm
+going to go with all of you,
+
+1007
+00:48:26,660 --> 00:48:29,465
+since none of you raised your
+hand-- it's not that intuitive.
+
+1008
+00:48:29,465 --> 00:48:30,590
+That's the same way for me.
+
+1009
+00:48:30,590 --> 00:48:32,360
+So that's why I've
+made a decision
+
+1010
+00:48:32,360 --> 00:48:34,910
+to show things in
+laboratory coordinates,
+
+1011
+00:48:34,910 --> 00:48:37,250
+so you have a fixed
+frame of reference
+
+1012
+00:48:37,250 --> 00:48:39,650
+and not a moving frame of
+reference of the center of mass
+
+1013
+00:48:39,650 --> 00:48:41,240
+of the two particles.
+
+1014
+00:48:41,240 --> 00:48:44,480
+But the center of mass idea
+does kind of make sense here.
+
+1015
+00:48:44,480 --> 00:48:47,210
+If you have two particles
+that are almost touching
+
+1016
+00:48:47,210 --> 00:48:50,900
+and then they touch and they
+break into pieces and fly off,
+
+1017
+00:48:50,900 --> 00:48:54,650
+the total amount of momentum
+of that center of mass was 0.
+
+1018
+00:48:54,650 --> 00:48:56,540
+And it has to remain 0.
+
+1019
+00:48:56,540 --> 00:48:59,840
+And so each of these particles
+will take a differing ratio
+
+1020
+00:48:59,840 --> 00:49:01,700
+of their masses away.
+
+1021
+00:49:01,700 --> 00:49:04,720
+We already looked at this
+for the case of alpha decay,
+
+1022
+00:49:04,720 --> 00:49:07,450
+where if you have one nucleus
+just sitting here-- let's
+
+1023
+00:49:07,450 --> 00:49:09,190
+say there was no T1.
+
+1024
+00:49:09,190 --> 00:49:12,290
+There was just some unstable
+T2 that was about to explode
+
+1025
+00:49:12,290 --> 00:49:13,375
+and then it did.
+
+1026
+00:49:13,375 --> 00:49:15,130
+Remember how we
+talked about how the Q
+
+1027
+00:49:15,130 --> 00:49:18,400
+value of an alpha reaction is
+not the same energy that you
+
+1028
+00:49:18,400 --> 00:49:20,660
+see the alpha decay at?
+
+1029
+00:49:20,660 --> 00:49:22,010
+Same thing right here.
+
+1030
+00:49:22,010 --> 00:49:25,700
+So this Q equation describes
+that same situation.
+
+1031
+00:49:25,700 --> 00:49:28,290
+Notice there's no hint of M1.
+
+1032
+00:49:28,290 --> 00:49:30,720
+There was really
+no M1 in the end.
+
+1033
+00:49:30,720 --> 00:49:34,590
+We don't care what the initial
+mass of the particle that
+
+1034
+00:49:34,590 --> 00:49:35,640
+made alpha decay is.
+
+1035
+00:49:35,640 --> 00:49:39,990
+All we care about is what are
+the mass ratios and energy
+
+1036
+00:49:39,990 --> 00:49:44,470
+ratios of the alpha particle
+and its recoil nucleus.
+
+1037
+00:49:44,470 --> 00:49:46,590
+So it all does tie together.
+
+1038
+00:49:46,590 --> 00:49:48,340
+That's the neat thing,
+is this universal Q
+
+1039
+00:49:48,340 --> 00:49:51,910
+equation can be used to
+describe almost everything we're
+
+1040
+00:49:51,910 --> 00:49:54,550
+going to talk about.
+
+1041
+00:49:54,550 --> 00:49:57,040
+So this is as
+complex as it gets.
+
+1042
+00:49:57,040 --> 00:49:59,530
+And from now on, we'll be
+looking at simpler reductions
+
+1043
+00:49:59,530 --> 00:50:01,850
+and specific cases of each one.
+
+1044
+00:50:01,850 --> 00:50:02,760
+So it's five of.
+
+1045
+00:50:02,760 --> 00:50:05,177
+I want to actually make sure
+to get you to your next class
+
+1046
+00:50:05,177 --> 00:50:05,695
+on time.
+
+1047
+00:50:05,695 --> 00:50:08,790
+And I'll see you
+guys on Thursday.
