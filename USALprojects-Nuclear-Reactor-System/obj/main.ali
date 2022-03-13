@@ -1,0 +1,169 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatA
+P SS ZX
+R nnnnnnnvnvnnnnnnnnvnnvnvnvvnvvnvnnnnnnnnnnvnvnnnnvnvvnnnnnvnvvnnnnvnnnv3nv2nv1+nnnv1+nn
+
+U main%b		main.adb		5b8c7335 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W monitor%s		monitor.adb		monitor.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.random_numbers%s  s-rannum.adb		s-rannum.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-calend.ads		20110428140858 343c83dd
+D a-caldel.ads		20110428140858 9f20b83d
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-numeri.ads		20110428140902 bb51c45a
+D a-nudira.ads		20110428140902 2fef2912
+D a-nudira.adb		20110428140902 e57ce22b
+D a-reatim.ads		20110428140902 63f07669
+D a-rttiev.ads		20110428140902 22f35a33
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-c.ads		20110428140906 5421119b
+D i-cstrin.ads		20110428140906 341d0ddf
+D i-cstrea.ads		20110428140906 1bd72c32
+D main.adb		20161231174638 495c3f76
+D monitor.ads		20161231173852 94747276
+D system.ads		20110428140910 bc164b96
+D s-atacco.ads		20110428140906 1dc856ad
+D s-conca2.ads		20110428140906 fbd0f2fc
+D s-conca4.ads		20110428140906 025fe3be
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgint.ads		20110428140906 02dbe0c2
+D s-imguns.ads		20110428140906 9ff43cf7
+D s-multip.ads		20110428140908 38ac9f73
+D s-osinte.ads		20110428140908 ecf1fbfd
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-rannum.ads		20110428140908 5eb33f0a
+D s-rannum.adb		20110428140908 67756f39
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stausa.ads		20110428140908 017a0a05
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-tasinf.ads		20110428140908 859198ad
+D s-taspri.ads		20110428140908 196697f7
+D s-taprop.ads		20110428140908 07f79e46
+D s-taskin.ads		20110428140908 b2eaee08
+D s-taprob.ads		20110428140908 502249e3
+D s-tpoben.ads		20110428140908 e8374469
+D s-tasren.ads		20110428140908 86fa7427
+D s-tassta.ads		20110428140908 e88ef99e
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-valuns.ads		20110428140908 10a8ed3b
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D s-win32.ads		20110428140910 07238fa2
+D text_io.ads		20110428140910 45d626c9
+X 1 ada.ads
+16K9*Ada 19e8 21|4r6 5r6 6r6 7r6 8r5 12r29
+X 2 a-calend.ads
+36K13*Calendar 358e17 21|4w10 8r9
+38I9*Time 21|17r16 39r16 60r19 126r17 128r14
+52V13*Clock{38I9} 21|22s19 30s22 44s40 70s37 83s37 131s35 133s32 148s35
+94V13*"+"{38I9} 21|22s25 30s28 70s43 83s43
+95V13*"+"{38I9} 21|44s38 131s33 133s30 148s33
+X 8 a-numeri.ads
+16K13*Numerics 32e17 21|5w10 7r10 12r33
+X 9 a-nudira.ads
+44k22*Discrete_Random 73e33 21|7w19 12r42
+48R9 Generator 21|18r22[12]
+50V13 Random{integer} 21|25s28[12]
+53U14 Reset<37|91p14> 21|21s17[12]
+X 10 a-nudira.adb
+51V16 Random[37|74]{integer} 38|394b13[21|12]
+X 11 a-reatim.ads
+39K13*Real_Time 139e18 21|6w10
+X 15 a-textio.ads
+263U14*Put_Line 21|28s18 69s30 73s30 82s30 86s30 112s21 137s18 141s24
+X 17 interfac.ads
+57M9*Unsigned_32
+60M9*Unsigned_64
+X 21 main.adb
+9U11*Main 9b11 163l5 163t9
+10A9 Reactores(22|6W19)<integer> 14r37 153r20
+11I12 aleatorioReactor{integer} 12r58 19r12
+12K12 Aleatorio[9|44] 18r12 21r7 25r18
+14T14 Temperatura 14d27 15b14 32l8 32t19 154r10
+16o7 intervalo{duration} 22r27 30r30
+17i7 nextTime{2|38I9} 22m7 29r22 30m10
+18r7 seed{9|48R9[12]} 21r23 25r35
+19i7 temp{11I12} 25m10 26r12 28r61
+34T14 Sensor 34d21 36l8 36e14 37b14 52l8 52t14 122r11
+35Y13 leer 35<19 43b20 47l17 47t21 135s14
+35i19 result{integer} 45m23 45r23
+38o7 intervalo{duration} 44r28
+39i7 nextTime{2|38I9} 44m16 46r28
+43i25 result{integer}
+54T14 Actuador 54d23 54d42 57l8 57e16 58b14 96l8 96t16 123r11
+54i42 id{integer} 69r72 73r71 82r72 86r71
+55Y13 abrir 65b20 77l17 77t22 139s17
+56Y13 cerrar 79b20 91l17 91t23 144s17
+59o7 moverPuertaIntervalo{duration} 70r45 83r45
+60i7 movidaTimer{2|38I9} 70m22 71r34 83m22 84r34
+61b7 cerrado{boolean} 67r22 74m22 81r22 87m22
+99T14 Controlador 101l8 101e19 102b14 115l8 115t19 124r11
+100Y13 avisarme 106b20 110l17 110t25 146s14
+118T14 reactorTask 118d27 118d46 120l8 120e19 121b14 150t7 155r11 156r11
+. 157r11
+118i46 id{integer} 123r23 137r78 141r96
+122t7 sen{34T14} 135r10
+123t7 act{54T14} 139r13 144r13
+124t7 con{99T14} 146r10
+125o7 intervalo{duration} 133r20 148r23
+126i7 nextTimer{2|38I9} 133m7 147r22 148m10
+127o7 inicioIntervalo{duration} 131r17
+128i7 inicio{2|38I9} 131m7 132r19
+129i7 temperatura{integer} 135m19 135r19 137r45 138r13 140r16 141r63 143r16
+152U14 inicio 152b14 160t7 162s4
+153a7 rs{10A9} 154m22 154r22 155m23 155r23 156m23 156r23 157m23 157r23
+154t7 t{14T14}
+155t7 r1{118T14}
+156t7 r2{118T14}
+157t7 r3{118T14}
+X 22 monitor.ads
+5K9*Monitor 21|1w6 3r5 22|19e12
+6W19*Reactor 21|10r46 34r31 54r33 118r37 22|18e15
+7U17 leer 21|45s18
+8U17 incrementar 21|26s18
+10U17 abrirPuerta 21|72s24
+11U17 cerrarPuerta 21|85s24
+X 37 s-rannum.ads
+66V13*Random{17|57M9} 38|223i21
+67V13*Random{17|60M9} 38|223i21
+X 60 text_io.ads
+24K9*Text_IO=24:29 21|2w6 28r10 69r22 73r22 82r22 86r22 112r13 137r10 141r16
+
