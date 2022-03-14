@@ -1,0 +1,15 @@
+NUCLEAR * HISTORIC NUCLEAR COBOL
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. NUCLEAR.
+       PROCEDURE DIVISION.
+           DISPLAY "NUCLEAR".
+           STOP RUN.
+
+*> Nuclear
+identification division.
+program-id. nuclear.
+
+procedure division.
+display "Nuclear"
+goback.
+end program nuclear
