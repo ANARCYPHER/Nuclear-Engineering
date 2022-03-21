@@ -1,0 +1,12 @@
+*.egg-info/
+.ipynb_checkpoints/
+dist/
+build/
+*.py[cod]
+.pytest_cache
+_build
+_generate
+tmp
+
+# OS X
+.DS_Store
