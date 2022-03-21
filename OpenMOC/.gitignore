@@ -1,0 +1,166 @@
+# Installation
+*.o
+*.cxx
+*.h.gch
+*.so
+*.pyc
+*/*.o
+*/*.cxx
+*/*.h.gch
+*/*.so
+*~
+*/*~
+*/*.pyc
+build
+build/*
+*/build
+dist
+dist/*
+openmoc/__pycache__
+openmoc/openmoc.py
+openmoc/swig/openmoc_wrap.cpp
+
+openmoc/mic/openmoc_mic.py
+openmoc/mic/openmoc_mic_wrap.cpp
+
+openmoc/intel/single/openmoc_intel_single_wrap.cpp
+openmoc/intel/single/openmoc_intel_single.py
+openmoc/intel/double/openmoc_intel_double_wrap.cpp
+openmoc/intel/double/openmoc_intel_double.py
+
+openmoc/gnu/single/openmoc_gnu_single_wrap.cpp
+openmoc/gnu/single/openmoc_gnu_single.py
+openmoc/gnu/double/openmoc_gnu_double_wrap.cpp
+openmoc/gnu/double/openmoc_gnu_double.py
+
+openmoc/bgq/single/openmoc_bgq_single_wrap.cpp
+openmoc/bgq/single/openmoc_bgq_double.py
+openmoc/bgq/double/openmoc_bgq_double_wrap.cpp
+openmoc/bgq/double/openmoc_bgq_double.py
+
+openmoc/cuda/openmoc_cuda.py
+openmoc/cuda/openmoc_cuda_wrap.cpp
+openmoc/cuda/single/openmoc_cuda_single_wrap.cpp
+openmoc/cuda/single/openmoc_cuda_single.py
+openmoc/cuda/double/openmoc_cuda_double_wrap.cpp
+openmoc/cuda/double/openmoc_cuda_double.py
+
+# TORQUE log files
+*/*.pbs.e*
+*/*.pbs.o*
+*.pbs.e*
+*.pbs.o*
+
+# output files
+log
+log/*
+*/log
+*/log/*
+tracks
+tracks/*
+*/tracks
+*/tracks/*
+plots
+plots/*
+*/plots
+*/plots/*
+fission-rates
+fission-rates/*
+*/fission-rates
+*/fission-rates/*
+simulation-state*
+simulation-state/*
+*/simulation-state*
+*/simulation-state*/*
+pf_group_*_iter_*txt
+k_negative_sources_iter*
+*.data
+*/*.data
+*.png
+*.ppm
+*/*.png
+
+# Log files
+openmoc-*-.log
+*/openmoc-*-.log
+
+# Openmp info files
+Openmp
+*/openmp
+openmp-report
+*/openmp-report
+*.egg-info/*
+*/*.egg-info/
+
+# Tests generated files
+results_error.dat
+results_test.dat
+tests/test_geometry_dump/geometry_file.geo
+tests/test_geometry_dump/geometry_file_second.geo
+tests/test_geometry_load/geometry_file.geo
+tests/test_geometry_print/geometry.txt
+tests/*.coverage
+.pytest_cache/
+
+# Built C++ executables
+profile/models/run_time_standard/run_time_standard
+profile/models/c5g7/c5g7-3d-cmfd
+profile/models/c5g7/c5g7-3d
+profile/models/c5g7/c5g7-rodded-B-2x2
+profile/models/c5g7/c5g7-rodded-B
+profile/models/c5g7/c5g7-ws
+profile/models/fixed-source/pin-cell-fixed-3d
+profile/models/gradients/one-directional/one-directional-gradient
+profile/models/gradients/two-directional/two-directional-gradient
+profile/models/homogeneous/homogeneous
+profile/models/load-geometry/load-geometry
+profile/models/load-geometry/load-single-assembly
+profile/models/pin-cell/pin-cell-3d
+profile/models/simple-lattice/simple-lattice-3d
+profile/models/single-assembly/quarter-c5g7-assembly
+profile/models/single-assembly/single-c5g7-assembly
+profile/models/Takeda/Takeda-unrodded
+
+# Documentation
+sphinx/
+docs/build
+docs/build/*
+docs/doxygen/xml
+docs/doxygen/xml/*
+docs/doxygen/html/*
+docs/*zip
+
+# BGQ
+*.lst
+
+*.cobaltlog
+*/*.cobaltlog
+*.error
+*/*.error
+*.output
+*/*.output
+
+# core dumps for debugging seg faults
+*core*
+*/core*
+
+# VCS files
+.idea*
+.idea/*
+.idea/*.xml
+
+# macOS folder attributes
+*.DS_Store
+*/*.DS_Store
+
+# Use wildcards as well
+*~
+*.swp
+
+# IPython Notebook
+.ipynb_checkpoints/
+
+# OpenMC input/output files
+*.xml
+statepoint*
+summary*
