@@ -1,0 +1,42 @@
+Start/Stop 
+ simulation
+On/Off Sound
+
+Record all 
+ data
+Show recorded
+ data
+Change sim 
+ speed
+Graph value and
+ color picker
+Save current 
+ state
+Load from file
+
+Settings
+
+Help
+
+About
+
+Quit / False
+
+Save / True
+
+Cancle
+
+Back
+
+Show all elements
+ names
+Open link in
+ browser
+Anti aliasing
+
+Change volume
+
+Change graph
+ zoom on X axis
+Simulation 
+ language

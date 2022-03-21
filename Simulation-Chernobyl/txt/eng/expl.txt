@@ -1,0 +1,59 @@
+Emergency Power Line /// Power comming from other blocks in power plant. Used only to power systems in emergency.
+HV Power Output /// High voltage main output line from power plant sent to users by demand.
+HV Transformer /// Increases voltage by reducing current, outputed from turbo generator.
+Step Down Transformer /// Lowers voltage from emergency power line, to support plants main systems and pumps.
+Em. Power Switch /// Used to switch between various emergency power sources: emergency power line, turbo generator or emergency generators.
+Emergency Generator /// Powered by diesel motor, generates power in case of emergency, at full speed generates 5.5MW output, enough to power main coolant pump.
+Air flow in /// Needed for combustion in diesel motor.
+Em. Diesel Motor /// Powers emergency generator, needs 15 seconds to start up and 60 seconds to attain full speed.
+Diesel Fuel /// Needed for combustion in diesel motor.
+Turbo Generator /// Pair of TBB-500, 500MW hydrogen and water cooled turbo generators, are powered by turbines, and generates 20KV 50Hz electric current. Rotor nominal speed is 3000 rpm.
+Low Pressure Turbine /// Steam at low pressure, from superheater separator, rotates turbine blades at same speed as high pressure turbine. Output from turbine is highly saturated with moisture.
+Hihg Pressure Turbine /// Steam at high pressure rotates turbine blades. At output is moisted steam, that is sent to superheater separator.
+Chimney /// Used to eject decontaminated gases in atmosphere: combustion gases from diesel motor, nitrogen from core ventilation, air and other gases from deaerators.
+Turbine Water in /// Input service water, taken from lake, previously filtered, is used as coolant for turbine stator. 
+Turbine Water out /// Output coolant water from turbine, removing generated heat from it. Water is returned to lake.
+Elecrolyser Water in /// Filtered service water fed to electrolyser.
+Condenser Water in /// Input service water taken from lake, fed to condenser. 
+Condenser Water out /// Output coolant water from condenser, removing generated heat from it. Water is returned to lake.
+Electrolyser /// Breaks water molecules to hudrogen and oxygen. Hydrogen is used as coolant for turbogenerator rotor. Oxygen is used in contact catalysers.
+Condenser Pump /// Moves service water from lake through condenser.
+Condenser /// Cools down steam and liquifies it to water. Creates vacuum on input, that increases turbine efficiency. 
+Deaerators /// separates gasses from water and outputs them to chimney. Coolant water in system is not pure, air and other gasses are dissolved in it, they can lead to corrosion.
+Nitrogen Storage /// Storage tanks filled with nitrogen. Nitrogen is used for core ventilation among with helium.
+ECCS Water In /// Service water taken from lake, previously filtered, is refilling ECCS water tank if emptied.
+Long-Term ECCS tank /// Containing water that is pumped in core in case of pipe rupture. ECCS stands for Emergency Core Cooling System. Long-term system is secondary and provides coolant for long time period.
+ECCS Pump /// Emergency Core Cooling System pump is long-term system that pumps water in core to cool it down in case of pipe rupture. It needs 2 minutes to fully turn on.
+Condensate Pump /// Pumps condensates water further in system, preventing clogging of deaerators. 
+Pressurized Gas In /// Reffils and pressurizes short-term ECCS units.
+Short-Term ECCS Units /// Pressurized storage for boron mixed water. It is used to rapidly cool core in case of pipe rupture, without use of electric energy. Units have vents preventing gas from entering system.
+Aerosol Filters /// They are filtering all remaining microparticles from gasses that still can hold some amounts of radiation. 
+Radiation Removal Unit /// Gas is holded in this unit to lower its radiation to safe levels.
+CRC Water Reservoir /// Supplies water for Control Rod Cooling (CRC) system uing gravity. Without electric power to pump water back in, it can supply controll rods for 6 minutes.
+Fuel Loading Machine /// Pulls old uranium fuel rods out of reactor, transports them to storage pool nest to core, from there takes new and loads them in reactor core, with minimal radiation emission in atmosphere.
+Overhead Crane /// Fuel loading machine is moving in 4 directions on this crane, over core and storage pool. 
+Removable Floor Tiles /// Reactor top cover blocking radiation from escaping from core. Each tile can be individually removed by need. 
+Separators /// Separates steam and water. Steam outputed from reactor contains water that reduces turbine efficiency and may damage it. Water that will be inputed to reactor is passed through separators, and used to collect water from steam. Cleaned steam continues to turbines, and water to reactor input.
+Main Circulatory Pump /// Pumps water from separators to core at desired speed.
+ECCS /// Smart system picking which pipe should be pressurized, depending of readdings on pressure readdings on each pipe. Part of main coolant is fed to it and mixed with boronized water, than returned to ruptured pipe. 
+FCIMS /// Fuel Channel Integrity Monitoring System. It monitors what is being ejected with gasses from core, if there is high amount of moist, gas should be routed through intensified extraction system.
+Intensified Extraction /// Used to remove moisture only when there is high percentage of it in gas. High gas moisture percentage increases corrosion of metal structures in core.
+Contact Catalysers /// Removes hydrogen by hydrogenation at temperature ~160° from gas, converts CO to CO2 through combustion. For this is required oxygen atmosphere obtained by electrolyser.
+Refrigerator /// Freezes moist and dehumidifies gas.
+Scrubber /// Equiped with mechanical filters made of zeolite, to absorb remaining water CO2 and other impurities.
+Cryogenic Cooling Unit /// Cools gas to -185°, all othe remaining impurities are removed here by cold trap.
+Compressor /// Circulates helium and nitrogen gas mixture through core.
+VBS Water In /// Fresh service water, taken from lake, previously filtered, pumped in Verical biological shield tank to replace old water.
+VBS Storage Tank /// Verical biological shield tank. Water is periodically pumped to this tank to be cleaned, fresh water is pumped in tank and old one is drained out.
+VBS Pump /// Verical biological shield pump, circulates water through system. Water at input is supplied to heat exchangers.
+VBS Heat Exchangers /// Verical biological shield heat exchangers, they cools water from 60° to 40°. Water is then returned to lower part of 16 VBS compartments.
+Vertical Bio. Shield /// Second protective layer for cooling reactor casing. It is a tank filled with water. It is divided in 16 compartments around core. Water on outputed from the upper part is 60°.
+Sand /// Additional protective layer blocking small amounts of radiation block radiation. 
+Upper Biological Shield /// Blocks heat and radiation at top of reactor, allows rods to pass through. Nitrogen gas is flowing through it.
+Lower Biological Shield /// Blocks heat and radiation. Nitrogen gas is flowing through it.
+CRC Heat Exchangers /// Cools water from Control Rod Cooling (CRC) system.
+CRC Circulation Tank /// Tank storing cooled water from Control Rod Cooling (CRC) system.
+CRC Pump /// Pumps water from CRC (Control Rod Cooling) circulation tank to water supply reservoir.
+CRC Filter /// Filters water in CRC (Control Rod Cooling) system. Water is contaminated with corroded metals and fission products.
+Reactor Vessle Wall /// Through which flows nitrogen gas.
+VBS Water Drain /// Output of used water, filtered than returned to lake.

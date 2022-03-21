@@ -1,0 +1,7 @@
+317, 550, 328, 637, 322, 593, Upper Control Rods
+330, 550, 339, 707, 334, 608, Neutron Sources
+309, 550, 315, 707, 312, 618, Pressure Tubes
+297, 550, 306, 707, 301, 635, Uranium Fuel Rods
+317, 637, 328, 657, 322, 647, CRC Channel
+341, 550, 347, 707, 344, 660, Graphite Moderator
+317, 657, 328, 707, 322, 682, Lower Control Rods

@@ -1,0 +1,21 @@
+524, 11, 587, 172, 555, 91, Chimney
+400, 101, 456, 122, 428, 111, Diesel Fuel
+265, 93, 291, 127, 278, 110, Step Down Transformer
+183, 86, 206, 99, 194, 92, Emergency Power Line
+183, 109, 203, 125, 193, 117, HV Power Output
+338, 128, 415, 164, 376, 146, Em. Diesel Motor
+249, 144, 276, 168, 262, 156, Em. Power Switch
+189, 140, 233, 184, 211, 162, HV Transformer
+286, 142, 336, 166, 311, 154, Emergency Generator
+183, 196, 330, 264, 256, 230, Turbo Generator
+334, 188, 458, 272, 396, 230, Low Pressure Turbine
+467, 206, 535, 255, 501, 230, Hihg Pressure Turbine
+323, 294, 357, 336, 340, 315, Electrolyser
+396, 302, 428, 369, 412, 335, Condenser Pump
+454, 288, 506, 430, 480, 359, Condenser
+516, 440, 554, 516, 535, 478, Condensate Pump
+570, 460, 640, 572, 605, 516, Short-Term ECCS Units
+293, 459, 466, 507, 379, 483, Deaerators
+520, 567, 552, 634, 536, 600, ECCS Pump
+436, 555, 517, 638, 476, 596, Long-Term ECCS tank
+370, 569, 424, 637, 397, 603, Nitrogen Storage

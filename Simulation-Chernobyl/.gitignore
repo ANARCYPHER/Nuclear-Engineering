@@ -1,0 +1,8 @@
+
+*.pyc
+*.kate-swp
+*.kdev4
+data/settings.txt
+/records
+/screenshots
+/.kdev4

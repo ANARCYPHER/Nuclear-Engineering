@@ -1,0 +1,12 @@
+Welcome to Simulation Chernobyl! 
+This is help screen. 
+Click on back button to go to main GUI.
+Mouseover on each element to show explanation for it.
+Inside Core
+For changes to take effect, save changes and restart simulation.
+Select which values will be recorded, which will be shown on graph and which color will be line.
+Rec Plot Color Name Value
+Pick a record:
+Scroll with mouse to move graph
+Click on value name to focus it
+Record is empty!

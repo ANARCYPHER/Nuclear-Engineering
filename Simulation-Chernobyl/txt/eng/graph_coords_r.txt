@@ -1,0 +1,28 @@
+615, 138, 664, 177, 639, 157, Aerosol Filters
+695, 120, 750, 172, 722, 146, CRC Water Reservoir
+668, 135, 693, 186, 680, 160, Radiation Removal Unit
+786, 65, 842, 242, 814, 153, Fuel Loading Machine
+844, 141, 1069, 161, 956, 151, Overhead Crane
+578, 216, 714, 303, 646, 259, Separators
+843, 241, 995, 254, 919, 247, Removable Floor Tiles
+734, 337, 753, 354, 743, 345, FCIMS
+696, 368, 726, 388, 711, 378, Intensified Extraction
+646, 384, 684, 460, 665, 422, Main Circulatory Pump
+717, 397, 747, 417, 732, 407, Contact Catalysers
+839, 332, 999, 345, 919, 338, Upper Biological Shield
+722, 422, 742, 450, 732, 436, Refrigerator
+715, 457, 750, 484, 732, 470, Scrubber
+834, 349, 841, 524, 837, 436, Reactor Vessle Wall
+715, 491, 750, 531, 732, 511, Cryogenic Cooling Unit
+650, 591, 684, 625, 667, 608, ECCS
+1005, 335, 1019, 536, 1012, 435, Verical Bio. Shield
+1023, 335, 1061, 536, 1042, 435, Sand
+694, 575, 733, 609, 713, 592, Compressor
+839, 526, 999, 539, 919, 532, Lower Biological Shield
+738, 608, 808, 661, 773, 634, VBS Storage Tank
+850, 616, 882, 685, 866, 650, VBS Pump
+899, 620, 933, 708, 916, 664, VBS Heat Exchangers
+936, 620, 984, 667, 960, 643, CRC Heat Exchangers
+1055, 596, 1086, 614, 1070, 605, CRC Filter
+977, 669, 1039, 709, 1008, 689, CRC Circulation Tank
+1054, 629, 1086, 696, 1070, 662, CRC Pump
