@@ -1,0 +1,15 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+    "ClangFormat": {       
+        "style": "file",
+        "format_on_save": true,
+        "languages": [ "C", "C++", "C++11", "Protobuf" ],
+    }
+  }
+}
